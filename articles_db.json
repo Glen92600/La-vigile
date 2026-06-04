@@ -1,6 +1,58 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Une forêt nourricière au milieu des coquelicots",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/une-foret-nourriciere-au-milieu-des-coquelicots/?utm_source=rss&utm_medium=rss&utm_campaign=une-foret-nourriciere-au-milieu-des-coquelicots",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T16:00:42+00:00",
+    "resume": "La municipalité de Gargenville vient de finaliser l’aménagement de sa nouvelle forêt nourricière. Entre démarche pédagogique et refuge pour la biodiversité, cet espace de nature invite désormais les habitants à la promenade dans un cadre champêtre.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/ForetNourriciere.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "L’ambassadeur de la République Démocratique du Congo en visite sur le territoire",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/lambassadeur-de-la-republique-democratique-du-congo-en-visite-sur-le-territoire/?utm_source=rss&utm_medium=rss&utm_campaign=lambassadeur-de-la-republique-democratique-du-congo-en-visite-sur-le-territoire",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:30:21+00:00",
+    "resume": "Le Collectif Franco-Congolais du Mantois organisait un événement le 31 mai à destination de sa diaspora à Mantes-la-Ville afin de développer les investissements et la coopération entre la France et la République Démocratique du Congo. L’ambassadeur congolais, Émile Ngoy Kasongo, était présent.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/Mantes-la-Ville-Visite-Ambassadeur-Congo-Credit-Photo-Pierre-Bedier.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "« Je ne sais faire que ça » : dans la Vallée de la Seine, l’ouvrier de l’automobile vit ses dernières heures",
+    "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeXl5WE5NRUxud0dYSDNBSDl2bUFtcUVkZVRVc2FMYnp4ZlFvbmNOaVI2c3BCSWFoejhVWlJJekpvZEFSd2NvbzZkbHZJN1JwUXpERnFkTkhhTnRLQ3ZBOVFhMlNWTkdwcWVGeFN2YUNtM0k5NkhNVEtlbGQ1NzhvcGJwbmhHXy01WWtaRXlfempMT29xclROZUtwY1pjZ09YUWZZT2QyY3hXLWVOSTRIWFc2NTBWdmdBZEd0aVFVOHNnSmNhS0lRTGNCdmFFZ0pnbUl1MTBoMkR3S3FJRTBJQlduM3BwTWxFdkN6amV4d3ZoOE5mUXpNVVZQc18tMEJ5eXVLT0o2b0RidFU?oc=5",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:08:06+00:00",
+    "resume": "« Je ne sais faire que ça » : dans la Vallée de la Seine, l’ouvrier de l’automobile vit ses dernières heures  Le Parisien",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-leparisien",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Armoires fibre dégradées : la Ville met les opérateurs face à leurs responsabilités",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/armoires-fibre-degradees-la-ville-met-les-operateurs-face-a-leurs-responsabilites/?utm_source=rss&utm_medium=rss&utm_campaign=armoires-fibre-degradees-la-ville-met-les-operateurs-face-a-leurs-responsabilites",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:00:21+00:00",
+    "resume": "La Mairie de Poissy a réuni les opérateurs de fibre optique présents sur le territoire pour leur rappeler leurs obligations d’entretien. Si les manquements persistent, la municipalité interviendra elle-même et refacturera les coûts.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/ArmoiresFibres.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Brumisateurs, parcs et îlots de fraîcheur : quand les villes s’organisent face à la chaleur",
     "lien": "https://lagazette-yvelines.fr/2026/06/04/brumisateurs-parcs-et-ilots-de-fraicheur-quand-les-villes-sorganisent-face-a-la-chaleur/?utm_source=rss&utm_medium=rss&utm_campaign=brumisateurs-parcs-et-ilots-de-fraicheur-quand-les-villes-sorganisent-face-a-la-chaleur",
     "date": "2026-06-04",
@@ -1569,6 +1621,19 @@
     "categorie": "chanteloup",
     "sous_cat": "politique",
     "source_id": "presse-bfmtv",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Le Journal des Deux Rives",
+    "titre": "Echos de campagne : Claude Ney cherche à imposer son rythme pour mars 2026",
+    "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXNyQ3BGYlhMLWI3dThUSGk5cWRsSkZoSGdINWV1ZTJIdTFaMmcwMnlBRF9LLTVuT1JYQllBM2xzVTd1RERBQVdlR3ZCc19jWVBEanNrTVRrbEs1dF9FMkNIQnlpb195ekl3QUYzcFR3aEttVHUxbnN1QXkwczNCbU1uaFV3WE0tSnNTcGFIWDViWWNkZGxmT2IzamZtNmJwQU9semFWbXpSTlo4U3pzOXhB?oc=5",
+    "date": "2026-03-27",
+    "date_iso": "2026-03-27T07:00:00+00:00",
+    "resume": "Echos de campagne : Claude Ney cherche à imposer son rythme pour mars 2026  Le Journal des Deux Rives",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google2",
     "image": "",
     "img_checked": true
   },
