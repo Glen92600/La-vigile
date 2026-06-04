@@ -64,6 +64,17 @@ SITE_DIR    = os.path.join(BASE, "site")
 HTML_PATH   = os.path.join(SITE_DIR, "index.html")
 RETENTION   = 90   # jours conservés en base
 
+# ── Accès : mot de passe partagé à l'entrée du site ────────────────────────────
+# Pour changer le mot de passe : modifier cette ligne puis régénérer / committer.
+VIGIE_PASSWORD = "Chanteloup/vigie@78"
+def vhash(s):
+    """Petit hachage (djb2) répliqué à l'identique en JS — évite de mettre
+    le mot de passe en clair dans la page. Barrière dissuasive, non inviolable."""
+    h = 5381
+    for ch in s:
+        h = ((h * 33) + ord(ch)) & 0xFFFFFFFF
+    return format(h, "x")
+
 # ── Sources RSS étendues ───────────────────────────────────────────────────────
 SOURCES = [
     # ── Chanteloup direct ──
@@ -473,12 +484,14 @@ def generer_html(articles, stats, nb_nouveaux):
 
     # Sérialiser les articles en JSON pour le JS
     articles_json = json.dumps(articles, ensure_ascii=False)
+    pw_hash = vhash(VIGIE_PASSWORD)
 
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
 <title>La Vigie — Veille presse · Chanteloup-les-Vignes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;0,700;0,800;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -508,6 +521,28 @@ html {{ scroll-behavior:smooth; }}
 body {{ font-family:'DM Sans',sans-serif; background:var(--paper); color:var(--ink); min-height:100dvh; }}
 .skip-link {{ position:absolute; left:-9999px; top:0; z-index:300; background:var(--navy); color:#fff; padding:.7rem 1.2rem; border-radius:0 0 8px 0; font-size:.82rem; font-weight:600; }}
 .skip-link:focus {{ left:0; outline:2px solid var(--orange); outline-offset:-2px; }}
+
+/* ═══════════ PORTE D'ENTRÉE (mot de passe) ═══════════ */
+body.locked {{ overflow:hidden; }}
+.gate {{ position:fixed; inset:0; z-index:10000; background:var(--navy); display:flex; align-items:center; justify-content:center; padding:1.5rem; overflow:hidden; }}
+.gate::before {{ content:''; position:absolute; inset:-40%; z-index:0;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(232,100,10,.45), transparent 42%),
+    radial-gradient(circle at 80% 25%, rgba(3,105,161,.5), transparent 45%),
+    radial-gradient(circle at 60% 75%, rgba(124,58,237,.38), transparent 48%);
+  filter:blur(56px); animation:meshFlow 22s ease-in-out infinite alternate; }}
+.gate-card {{ position:relative; z-index:1; text-align:center; width:100%; max-width:340px; }}
+.gate-logo {{ font-family:'Newsreader',serif; font-size:2.5rem; font-weight:800; color:#fff; letter-spacing:-.03em; line-height:1; }}
+.gate-logo span {{ color:var(--orange); }}
+.gate-sub {{ font-size:.66rem; color:rgba(255,255,255,.5); text-transform:uppercase; letter-spacing:.14em; margin:.6rem 0 2.2rem; }}
+.gate-form {{ display:flex; flex-direction:column; gap:.7rem; }}
+.gate-label {{ font-size:.76rem; color:rgba(255,255,255,.7); margin-bottom:.3rem; }}
+.gate-input {{ background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.22); border-radius:9px; padding:.8rem 1rem; color:#fff; font-family:'DM Sans',sans-serif; font-size:.95rem; outline:none; text-align:center; transition:all .2s; }}
+.gate-input::placeholder {{ color:rgba(255,255,255,.4); }}
+.gate-input:focus {{ border-color:var(--orange); background:rgba(255,255,255,.15); box-shadow:0 0 0 3px rgba(232,100,10,.18); }}
+.gate-btn {{ background:var(--grad-warm); color:#fff; border:none; border-radius:9px; padding:.8rem; font-family:'DM Sans',sans-serif; font-size:.9rem; font-weight:600; cursor:pointer; transition:transform .15s, box-shadow .15s; box-shadow:var(--sh-md); }}
+.gate-btn:hover {{ transform:translateY(-2px); box-shadow:0 10px 24px rgba(232,100,10,.3); }}
+.gate-err {{ color:#FCA5A5; font-size:.78rem; min-height:1.1em; margin:.2rem 0 0; }}
 
 /* ── Grain texture ── */
 body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index:9999;
@@ -855,6 +890,37 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 </style>
 </head>
 <body>
+
+<!-- ══════════ PORTE D'ENTRÉE (mot de passe partagé) ══════════ -->
+<div id="gate" class="gate">
+  <div class="gate-card">
+    <div class="gate-logo">La <span>Vigie</span></div>
+    <p class="gate-sub">Revue de presse · Chanteloup-les-Vignes</p>
+    <form id="gate-form" class="gate-form" autocomplete="off">
+      <label for="gate-pw" class="gate-label">Accès réservé — saisissez le mot de passe</label>
+      <input id="gate-pw" type="password" class="gate-input" placeholder="Mot de passe" autocomplete="current-password" aria-label="Mot de passe">
+      <button type="submit" class="gate-btn">Entrer</button>
+      <p id="gate-err" class="gate-err" role="alert"></p>
+    </form>
+  </div>
+</div>
+<script>
+(function(){{
+  var H="{pw_hash}";
+  function vh(s){{var h=5381;for(var i=0;i<s.length;i++){{h=((h*33)+s.charCodeAt(i))>>>0;}}return h.toString(16);}}
+  var KEY="vigie_auth", gate=document.getElementById('gate');
+  function unlock(){{ gate.style.display='none'; document.body.classList.remove('locked'); }}
+  try{{ if(localStorage.getItem(KEY)===H){{ unlock(); return; }} }}catch(e){{}}
+  document.body.classList.add('locked');
+  document.getElementById('gate-form').addEventListener('submit',function(e){{
+    e.preventDefault();
+    var pw=document.getElementById('gate-pw').value;
+    if(vh(pw)===H){{ try{{localStorage.setItem(KEY,H);}}catch(e){{}} unlock(); }}
+    else {{ document.getElementById('gate-err').textContent="Mot de passe incorrect."; document.getElementById('gate-pw').value=''; document.getElementById('gate-pw').focus(); }}
+  }});
+  var inp=document.getElementById('gate-pw'); if(inp) inp.focus();
+}})();
+</script>
 
 <a class="skip-link" href="#view-home">Aller au contenu</a>
 <div id="progress-bar" role="progressbar" aria-hidden="true"></div>
