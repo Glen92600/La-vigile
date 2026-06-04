@@ -10,6 +10,11 @@ import feedparser, re, os, json
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+try:
+    from zoneinfo import ZoneInfo
+    TZ_PARIS = ZoneInfo("Europe/Paris")
+except Exception:                       # repli si zoneinfo indisponible
+    TZ_PARIS = timezone(timedelta(hours=2))
 
 # ── Extraction d'images ────────────────────────────────────────────────────────
 def extract_rss_image(entry):
@@ -460,7 +465,7 @@ def collecter():
 
 # ── Génération HTML — SPA "La Presse" avec Home + Feed ────────────────────────
 def generer_html(articles, stats, nb_nouveaux):
-    maintenant    = datetime.now()
+    maintenant    = datetime.now(TZ_PARIS)   # heure de Paris, même exécuté dans le cloud (UTC)
     today         = maintenant.strftime("%Y-%m-%d")
     date_hero     = f"{JOURS_FR[maintenant.weekday()].capitalize()} {maintenant.day} {MOIS_FR[maintenant.month]} {maintenant.year}"
     date_maj      = f"{date_hero} à {maintenant.strftime('%H:%M')}"
