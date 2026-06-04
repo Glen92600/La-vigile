@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "T13 : des travaux démarrent entre la RD30 et la rue Saint-Sébastien",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/t13-des-travaux-demarrent-entre-la-rd30-et-la-rue-saint-sebastien/?utm_source=rss&utm_medium=rss&utm_campaign=t13-des-travaux-demarrent-entre-la-rd30-et-la-rue-saint-sebastien",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T13:00:58+00:00",
+    "resume": "Ils dureront jusqu’en octobre 2026 et entraînent des modifications temporaires de circulation.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2025/03/1280-Poissy-Travaux-T13-panneau.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Fête de la ville et voitures de prestige au programme",
     "lien": "https://lagazette-yvelines.fr/2026/06/04/fete-de-la-ville-et-voitures-de-prestige-au-programme/?utm_source=rss&utm_medium=rss&utm_campaign=fete-de-la-ville-et-voitures-de-prestige-au-programme",
     "date": "2026-06-04",
@@ -585,6 +598,19 @@
     "img_checked": true
   },
   {
+    "source": "Ouest-France",
+    "titre": "ASM Chambourcy Football - Interfoot 78 en direct",
+    "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWDRONEVybDZtdGR2YmJlQ3Rfc2xsZFhlay1Ga3I0UV9BZjlxdjRfT1Zpa1pSZjVGRHpUOWNIWjVzdFlmYVUwU1FwNElKdERkWTFUR0NEYXU1M21rYVVPcE8zMko4R294TkI2ZENPQzJmNnpnNzZFWU15N2R3amg4TG4xcDVaR1VYd0JHYkExNEc5Z3Fkai1jRVlReFRLZXdSTkl2cE5POUdTYXQ0c0Jr?oc=5",
+    "date": "2026-05-30",
+    "date_iso": "2026-05-30T10:00:00+00:00",
+    "resume": "ASM Chambourcy Football - Interfoot 78 en direct  Ouest-France",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-ouestfrance",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "Le Parisien",
     "titre": "« T’as laissé ton talkie-walkie » : à Chanteloup-les-Vignes, la provocation des émeutiers sur la radio de la police",
     "lien": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOUpPOE55VEVweTdhdVRzSVR2emZtSEhkcjJxbEhkVFdvUkRwRXhnand6RlJUdURYeG8xd3psSEIySl9WY3RNNDc1QUFueU5OSkhxQUViSmhHS3o0a1hHQ2RJLVp4LWQtM0pNZnJOdVpoZVE3dERRTnE3RWk5MG9ZX0hHNmQzaVB1ZThLbzlEOGRsblYteGlMbmpyaTRreXVUZmU2bWp2LXpLOU52b0RlUW5KZVp0Z1ptenlFdXFoVEN4UzNHQUZuVGtQSmtPbTFybHBwbjRzd0NGVzdpdkhaQmNhZjhpU1d5bVF2OWtYYVRXQ29QWERBcFhKcE5qMzVteUVDT1VsS3U2dFMxUmZzM0I0QkJsQQ?oc=5",
@@ -607,6 +633,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "Dans les Yvelines, une fête foraine géante pour… les chiens",
+    "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWlYxbnNJY0ZaN29pRnFhSF9RTm5xVTRNdWgxOWYtVUtKdUtlZmgzb2NsbW1SNktJYlRUc2N3ZHg4cWsyUnJfN0RKT3Y4TnBibkJBd0pjZy02ZXJPNDlVWXAwSUVWS05BX1ZtekNHa3dDamxqRWg4NGZDS0NrYXNwRWk5N2dzam40VzhuNVEwdGl1UmRFaTkycXl3Q2ctdkJEVzBsTDJwS3FqUHlENndwMGlpQ0FZZlpXcEtoYTV3U1c2YVVPb2lVbmprSm5XeGEyWXNN?oc=5",
+    "date": "2026-05-30",
+    "date_iso": "2026-05-30T06:23:00+00:00",
+    "resume": "Dans les Yvelines, une fête foraine géante pour… les chiens  Le Parisien",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-leparisien",
     "image": "",
     "img_checked": true
   },
