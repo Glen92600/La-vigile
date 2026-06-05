@@ -215,12 +215,15 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
 /* Thèmes : pastilles élégantes (icône + libellé) */
 .theme-chips { display:flex; flex-wrap:wrap; gap:.6rem; }
 .theme-chip { display:inline-flex; align-items:center; gap:.5rem; font-family:'DM Sans',sans-serif; font-size:.8rem; font-weight:500; color:var(--ink); background:var(--card); border:1px solid var(--border); border-radius:30px; padding:.5rem .95rem .5rem .55rem; cursor:pointer; transition:border-color .2s cubic-bezier(.4,0,.2,1), transform .2s cubic-bezier(.4,0,.2,1), box-shadow .2s; box-shadow:var(--sh-sm); }
-.theme-chip img { width:24px; height:24px; border-radius:7px; }
+.theme-chip .ico { width:30px; height:30px; border-radius:9px; display:grid; place-items:center; background:color-mix(in srgb, var(--tc,#1B2A4A) 12%, transparent); flex-shrink:0; transition:background .2s cubic-bezier(.4,0,.2,1); }
+.theme-chip .ico svg { width:17px; height:17px; fill:none; stroke:var(--tc,#1B2A4A); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.theme-chip:hover .ico { background:color-mix(in srgb, var(--tc,#1B2A4A) 20%, transparent); }
 .theme-chip:hover { border-color:var(--navy); transform:translateY(-2px); box-shadow:var(--sh-md); }
 .theme-chip:active { transform:translateY(-1px) scale(.97); }
 
 /* Sources */
 /* Panneau « pouls de la veille » */
+.pouls-intro { font-size:.92rem; color:var(--muted); max-width:62ch; margin:-0.7rem 0 1.7rem; line-height:1.65; }
 .pulse-panel { display:grid; grid-template-columns:1.5fr 1px 1fr; gap:1.8rem; background:var(--card); border:1px solid var(--border); border-radius:var(--r); padding:1.5rem 1.7rem; box-shadow:var(--sh-sm); }
 .pulse-divider { background:var(--border); }
 .pulse-label { display:flex; align-items:baseline; justify-content:space-between; gap:.75rem; font-family:'DM Mono',monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin-bottom:1.1rem; padding-bottom:.6rem; border-bottom:1px solid var(--border); }
@@ -260,7 +263,10 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
 .fbtn-l { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .fbtn-c { font-family:'DM Mono',monospace; font-size:.62rem; opacity:.5; }
 .fbtn.active .fbtn-c { opacity:.85; }
-.fbtn img { width:18px; height:18px; border-radius:5px; flex-shrink:0; }
+.fbtn .ico { width:22px; height:22px; border-radius:6px; display:grid; place-items:center; background:color-mix(in srgb, var(--tc,#1B2A4A) 12%, transparent); flex-shrink:0; transition:background .16s; }
+.fbtn .ico svg { width:13px; height:13px; fill:none; stroke:var(--tc,#1B2A4A); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.fbtn.active .ico { background:rgba(255,255,255,.2); }
+.fbtn.active .ico svg { stroke:#fff; }
 .fdot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
 
 .feed-main { min-width:0; }
@@ -453,8 +459,9 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
       <span class="nav-logo-text">La <span>Vigie</span></span>
     </div>
     <div class="nav-links" role="list">
-      <button class="nav-link active" id="btn-home" onclick="goHome()" role="listitem">Accueil</button>
-      <button class="nav-link"        id="btn-feed" onclick="goFeed()"  role="listitem">Articles</button>
+      <button class="nav-link active" id="btn-home"  onclick="goHome()"  role="listitem">Accueil</button>
+      <button class="nav-link"        id="btn-feed"  onclick="goFeed()"  role="listitem">Articles</button>
+      <button class="nav-link"        id="btn-pouls" onclick="goPouls()" role="listitem">Le pouls</button>
     </div>
     <div class="nav-search" role="search">
       <input id="search" type="search" placeholder="Rechercher…" oninput="onSearch()" aria-label="Rechercher un article">
@@ -515,17 +522,42 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
   <section class="sec reveal" aria-labelledby="sec-themes" style="padding-top:0">
     <div class="sec-rule"><h2 id="sec-themes">Explorer par thème</h2></div>
     <div class="theme-chips" role="list">
-      <button class="theme-chip" role="listitem" onclick="goFeedFiltre('securite')"><img src="images/icon-securite.png" alt="" aria-hidden="true">Sécurité</button>
-      <button class="theme-chip" role="listitem" onclick="goFeedFiltre('politique')"><img src="images/icon-politique.png" alt="" aria-hidden="true">Politique</button>
-      <button class="theme-chip" role="listitem" onclick="goFeedFiltre('education')"><img src="images/icon-education.png" alt="" aria-hidden="true">Éducation</button>
-      <button class="theme-chip" role="listitem" onclick="goFeedFiltre('sante')"><img src="images/icon-sante.png" alt="" aria-hidden="true">Santé</button>
-      <button class="theme-chip" role="listitem" onclick="goFeedFiltre('cadredevie')"><img src="images/icon-cadredevie.png" alt="" aria-hidden="true">Cadre de vie</button>
-      <button class="theme-chip" role="listitem" onclick="goFeedFiltre('gpseo')"><img src="images/icon-gpseo.png" alt="" aria-hidden="true">GPSEO</button>
+      <button class="theme-chip" role="listitem" style="--tc:#DC2626" onclick="goFeedFiltre('securite')"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span>Sécurité</button>
+      <button class="theme-chip" role="listitem" style="--tc:#7C3AED" onclick="goFeedFiltre('politique')"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 22h18"/><path d="M6 18v-7M10 18v-7M14 18v-7M18 18v-7"/><path d="M12 2 21 7H3Z"/></svg></span>Politique</button>
+      <button class="theme-chip" role="listitem" style="--tc:#059669" onclick="goFeedFiltre('education')"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 9 12 5 2 9l10 4 10-4Z"/><path d="M6 11v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg></span>Éducation</button>
+      <button class="theme-chip" role="listitem" style="--tc:#0369A1" onclick="goFeedFiltre('sante')"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.5-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.5 4.04 3 5.5l7 7Z"/></svg></span>Santé</button>
+      <button class="theme-chip" role="listitem" style="--tc:#D97706" onclick="goFeedFiltre('cadredevie')"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></span>Cadre de vie</button>
+      <button class="theme-chip" role="listitem" style="--tc:#2563EB" onclick="goFeedFiltre('gpseo')"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-6-3-6 3v14l6-3 6 3 6-3V2z"/><path d="M9 2v14M15 5v14"/></svg></span>GPSEO</button>
     </div>
   </section>
 
-  <section class="sec reveal" aria-labelledby="sec-pouls" style="padding-top:0">
+  <div class="cta-wrap">
+    <button class="cta-btn" onclick="goFeed()" aria-label="Voir tous les articles">
+      Voir tous les articles
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+      </svg>
+    </button>
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <span class="footer-logo">La Vigie</span>
+      <div class="footer-links">
+        <a class="footer-link" href="https://chanteloup-les-vignes.fr" target="_blank" rel="noopener">chanteloup-les-vignes.fr</a>
+        <span class="footer-link">·</span>
+        <span class="footer-link">27 médias · Mémoire 90 jours</span>
+      </div>
+      <span class="footer-date">Mis à jour : Vendredi 5 juin 2026 à 17:03</span>
+    </div>
+  </footer>
+</div>
+
+<!-- ══════════ VUE POULS ══════════ -->
+<div id="view-pouls" class="view" role="main">
+  <section class="sec reveal" aria-labelledby="sec-pouls" style="padding-top:2.5rem">
     <div class="sec-rule"><h2 id="sec-pouls">Le pouls de la veille</h2></div>
+    <p class="pouls-intro">L'activité de la veille en un coup d'œil : le volume d'articles publiés sur 14 jours et les médias les plus actifs sur 90 jours.</p>
     <div class="pulse-panel">
       <div class="pulse-col">
         <div class="pulse-label">Activité<span><b id="trend-sum">0</b> articles · 14 j</span></div>
@@ -551,12 +583,8 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
   <footer class="site-footer" role="contentinfo">
     <div class="footer-inner">
       <span class="footer-logo">La Vigie</span>
-      <div class="footer-links">
-        <a class="footer-link" href="https://chanteloup-les-vignes.fr" target="_blank" rel="noopener">chanteloup-les-vignes.fr</a>
-        <span class="footer-link">·</span>
-        <span class="footer-link">27 médias · Mémoire 90 jours</span>
-      </div>
-      <span class="footer-date">Mis à jour : Vendredi 5 juin 2026 à 16:50</span>
+      <div class="footer-links"><span class="footer-link">27 médias surveillés · 90 jours de mémoire</span></div>
+      <span class="footer-date">Mis à jour : Vendredi 5 juin 2026 à 17:03</span>
     </div>
   </footer>
 </div>
@@ -575,11 +603,11 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
       </div>
       <div class="filter-group" role="group" aria-label="Thèmes">
         <div class="filter-group-label">Thèmes</div>
-        <button class="fbtn" id="f-securite" onclick="setFiltre('securite',this)"><img src="images/icon-securite.png" alt=""><span class="fbtn-l">Sécurité</span><span class="fbtn-c">7</span></button>
-        <button class="fbtn" id="f-politique" onclick="setFiltre('politique',this)"><img src="images/icon-politique.png" alt=""><span class="fbtn-l">Politique</span><span class="fbtn-c">20</span></button>
-        <button class="fbtn" id="f-education" onclick="setFiltre('education',this)"><img src="images/icon-education.png" alt=""><span class="fbtn-l">Éducation</span><span class="fbtn-c">10</span></button>
-        <button class="fbtn" id="f-sante" onclick="setFiltre('sante',this)"><img src="images/icon-sante.png" alt=""><span class="fbtn-l">Santé</span><span class="fbtn-c">2</span></button>
-        <button class="fbtn" id="f-cadredevie" onclick="setFiltre('cadredevie',this)"><img src="images/icon-cadredevie.png" alt=""><span class="fbtn-l">Cadre de vie</span><span class="fbtn-c">2</span></button>
+        <button class="fbtn" id="f-securite" style="--tc:#DC2626" onclick="setFiltre('securite',this)"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span><span class="fbtn-l">Sécurité</span><span class="fbtn-c">7</span></button>
+        <button class="fbtn" id="f-politique" style="--tc:#7C3AED" onclick="setFiltre('politique',this)"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 22h18"/><path d="M6 18v-7M10 18v-7M14 18v-7M18 18v-7"/><path d="M12 2 21 7H3Z"/></svg></span><span class="fbtn-l">Politique</span><span class="fbtn-c">20</span></button>
+        <button class="fbtn" id="f-education" style="--tc:#059669" onclick="setFiltre('education',this)"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 9 12 5 2 9l10 4 10-4Z"/><path d="M6 11v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg></span><span class="fbtn-l">Éducation</span><span class="fbtn-c">10</span></button>
+        <button class="fbtn" id="f-sante" style="--tc:#0369A1" onclick="setFiltre('sante',this)"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.5-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.5 4.04 3 5.5l7 7Z"/></svg></span><span class="fbtn-l">Santé</span><span class="fbtn-c">2</span></button>
+        <button class="fbtn" id="f-cadredevie" style="--tc:#D97706" onclick="setFiltre('cadredevie',this)"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></span><span class="fbtn-l">Cadre de vie</span><span class="fbtn-c">2</span></button>
       </div>
     </aside>
 
@@ -598,7 +626,7 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
       <div class="footer-links">
         <span class="footer-link">27 médias surveillés · 90 jours de mémoire</span>
       </div>
-      <span class="footer-date">Mis à jour : Vendredi 5 juin 2026 à 16:50</span>
+      <span class="footer-date">Mis à jour : Vendredi 5 juin 2026 à 17:03</span>
     </div>
   </footer>
 </div>
@@ -668,18 +696,25 @@ function activateView(id) {
   }
   window.scrollTo({top:0,behavior:'smooth'});
 }
+function setNav(id) {
+  ['btn-home','btn-feed','btn-pouls'].forEach(b=>{
+    const el=document.getElementById(b); if(el) el.classList.toggle('active', b===id);
+  });
+}
 function goHome() {
   activateView('view-home');
-  document.getElementById('btn-home').classList.add('active');
-  document.getElementById('btn-feed').classList.remove('active');
+  setNav('btn-home');
   document.getElementById('search').value=''; searchQ='';
   document.getElementById('search-clear').classList.remove('visible');
 }
 function goFeed() {
   activateView('view-feed');
-  document.getElementById('btn-feed').classList.add('active');
-  document.getElementById('btn-home').classList.remove('active');
+  setNav('btn-feed');
   filtrer();
+}
+function goPouls() {
+  activateView('view-pouls');
+  setNav('btn-pouls');
 }
 function goFeedFiltre(cat) {
   goFeed();
@@ -1032,7 +1067,7 @@ document.querySelector('.nav-logo').addEventListener('keydown',e=>{if(e.key==='E
 initHome();
 filtrer();
 initReveal();
-setTimeout(()=>showToast('Site mis à jour · Vendredi 5 juin 2026 à 16:50', 3000), 800);
+setTimeout(()=>showToast('Site mis à jour · Vendredi 5 juin 2026 à 17:03', 3000), 800);
 </script>
 <script type="module">
 (async () => {
