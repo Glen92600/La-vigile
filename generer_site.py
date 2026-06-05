@@ -504,6 +504,126 @@ def generer_html(articles, stats, nb_nouveaux):
     articles_json = json.dumps(articles, ensure_ascii=False)
     pw_hash = VIGIE_PASSWORD_HASH
 
+    # ── Touche 3D : champ de particules en fond du hero (Three.js, chargé en ESM) ──
+    # Défini comme chaîne normale (pas f-string) → les accolades JS restent littérales.
+    # Discret, dans la palette de la marque ; coupé si l'utilisateur préfère moins
+    # d'animations ; ne tourne que si le hero est visible et l'onglet actif.
+    bg3d_script = r'''<script type="module">
+(async () => {
+  try {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const canvas = document.getElementById('bg3d');
+    const hero = canvas && canvas.closest('.hero');
+    if (!canvas || !hero) return;
+
+    const THREE = await import('https://unpkg.com/three@0.161.0/build/three.module.js');
+
+    const scene  = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(60, 1, 0.1, 100);
+    camera.position.z = 26;
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'low-power' });
+    renderer.setClearColor(0x000000, 0);
+
+    // Particules
+    const COUNT = 95, SPREAD = 34, DEPTH = 18;
+    const pos = new Float32Array(COUNT * 3);
+    const col = new Float32Array(COUNT * 3);
+    const vel = new Float32Array(COUNT * 3);
+    const cOrange = new THREE.Color(0xE8640A);
+    const cBlue   = new THREE.Color(0x7FB2E8);
+    const cCream  = new THREE.Color(0xF3EFE6);
+    for (let i = 0; i < COUNT; i++) {
+      pos[i*3]   = (Math.random() - 0.5) * SPREAD;
+      pos[i*3+1] = (Math.random() - 0.5) * SPREAD * 0.62;
+      pos[i*3+2] = (Math.random() - 0.5) * DEPTH;
+      const r = Math.random();
+      const c = r < 0.34 ? cOrange : (r < 0.6 ? cBlue : cCream);
+      col[i*3] = c.r; col[i*3+1] = c.g; col[i*3+2] = c.b;
+      vel[i*3]   = (Math.random() - 0.5) * 0.012;
+      vel[i*3+1] = (Math.random() - 0.5) * 0.012;
+      vel[i*3+2] = (Math.random() - 0.5) * 0.012;
+    }
+    const pgeo = new THREE.BufferGeometry();
+    pgeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    pgeo.setAttribute('color',    new THREE.BufferAttribute(col, 3));
+    const pmat = new THREE.PointsMaterial({ size: 0.5, vertexColors: true, transparent: true, opacity: 0.95, depthWrite: false, sizeAttenuation: true });
+    scene.add(new THREE.Points(pgeo, pmat));
+
+    // Liens entre particules proches (réseau de veille)
+    const MAXSEG = COUNT * 6;
+    const linkPos = new Float32Array(MAXSEG * 6);
+    const lgeo = new THREE.BufferGeometry();
+    lgeo.setAttribute('position', new THREE.BufferAttribute(linkPos, 3));
+    const lmat = new THREE.LineBasicMaterial({ color: 0x6E89B8, transparent: true, opacity: 0.22 });
+    const lines = new THREE.LineSegments(lgeo, lmat);
+    scene.add(lines);
+    const points = scene.children[0];
+    const LINK2 = 6.2 * 6.2;
+
+    // Parallaxe souris (doux, façon ressort)
+    let tx = 0, ty = 0, cx = 0, cy = 0;
+    window.addEventListener('pointermove', (e) => {
+      tx = e.clientX / window.innerWidth - 0.5;
+      ty = e.clientY / window.innerHeight - 0.5;
+    }, { passive: true });
+
+    function resize() {
+      const w = hero.clientWidth, h = hero.clientHeight;
+      if (!w || !h) return;
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+    resize();
+    new ResizeObserver(resize).observe(hero);
+
+    let onScreen = true, tabVisible = true, raf = 0;
+    function loop() { cancelAnimationFrame(raf); if (onScreen && tabVisible) raf = requestAnimationFrame(tick); }
+    new IntersectionObserver((es) => { onScreen = es[0].isIntersecting; loop(); }, { threshold: 0 }).observe(hero);
+    document.addEventListener('visibilitychange', () => { tabVisible = !document.hidden; loop(); });
+
+    function tick() {
+      for (let i = 0; i < COUNT; i++) {
+        for (let k = 0; k < 3; k++) {
+          const idx = i*3 + k;
+          pos[idx] += vel[idx];
+          const lim = k === 2 ? DEPTH/2 : (k === 1 ? SPREAD*0.31 : SPREAD/2);
+          if (pos[idx] > lim || pos[idx] < -lim) vel[idx] *= -1;
+        }
+      }
+      pgeo.attributes.position.needsUpdate = true;
+
+      let p = 0;
+      for (let i = 0; i < COUNT && p < MAXSEG*6 - 6; i++) {
+        for (let j = i + 1; j < COUNT; j++) {
+          const dx = pos[i*3]-pos[j*3], dy = pos[i*3+1]-pos[j*3+1], dz = pos[i*3+2]-pos[j*3+2];
+          if (dx*dx + dy*dy + dz*dz < LINK2) {
+            linkPos[p++] = pos[i*3];   linkPos[p++] = pos[i*3+1]; linkPos[p++] = pos[i*3+2];
+            linkPos[p++] = pos[j*3];   linkPos[p++] = pos[j*3+1]; linkPos[p++] = pos[j*3+2];
+            if (p >= MAXSEG*6 - 6) break;
+          }
+        }
+      }
+      lgeo.attributes.position.needsUpdate = true;
+      lgeo.setDrawRange(0, p / 3);
+
+      cx += (tx - cx) * 0.04; cy += (ty - cy) * 0.04;
+      const spin = performance.now() * 0.00002;
+      points.rotation.y = lines.rotation.y = cx * 0.5 + spin;
+      points.rotation.x = lines.rotation.x = -cy * 0.4;
+      camera.position.x = cx * 4;
+      camera.position.y = -cy * 3;
+      camera.lookAt(0, 0, 0);
+
+      renderer.render(scene, camera);
+      raf = requestAnimationFrame(tick);
+    }
+    loop();
+  } catch (e) { /* WebGL indisponible : on garde le fond CSS, sans erreur visible */ }
+})();
+</script>'''
+
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -605,6 +725,8 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 
 /* ═══════════ HOME ═══════════ */
 .hero {{ background:var(--navy); position:relative; overflow:hidden; isolation:isolate; }}
+/* Champ de particules 3D (Three.js) — sous le voile, au-dessus du dégradé */
+#bg3d {{ position:absolute; inset:0; width:100%; height:100%; z-index:1; pointer-events:none; }}
 /* Dégradé animé fluide — signature Stripe adaptée à la palette navy/orange */
 .hero::before {{ content:''; position:absolute; inset:-40%; z-index:0;
   background:
@@ -621,14 +743,14 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
   100% {{ transform:translate(-2%,3%) rotate(-5deg) scale(1.18); }}
 }}
 /* Voile sombre pour la lisibilité du texte + grille éditoriale subtile */
-.hero-overlay {{ position:absolute; inset:0; z-index:1;
+.hero-overlay {{ position:absolute; inset:0; z-index:2;
   background:
     linear-gradient(105deg,rgba(15,23,42,.82) 0%,rgba(15,23,42,.55) 52%,rgba(15,23,42,.32) 100%),
     repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(255,255,255,.022) 39px,rgba(255,255,255,.022) 40px); }}
 /* Coupe diagonale vers le contenu (transition Stripe) */
-.hero::after {{ content:''; position:absolute; left:0; right:0; bottom:-1px; height:64px; z-index:2;
+.hero::after {{ content:''; position:absolute; left:0; right:0; bottom:-1px; height:64px; z-index:3;
   background:var(--paper); clip-path:polygon(0 100%, 100% 100%, 100% 32%); }}
-.hero-inner {{ max-width:1320px; margin:0 auto; padding:4.5rem 1.5rem 5rem; position:relative; z-index:3; }}
+.hero-inner {{ max-width:1320px; margin:0 auto; padding:4.5rem 1.5rem 5rem; position:relative; z-index:4; }}
 .hero-eyebrow {{ font-family:'DM Mono',monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.16em; color:var(--orange); margin-bottom:.85rem; }}
 .hero-title {{ font-family:'Newsreader',serif; font-size:clamp(2.8rem,7vw,6rem); font-weight:800; line-height:.92; letter-spacing:-.04em; color:#fff; margin-bottom:1.2rem; }}
 .hero-title em {{ font-style:italic; background:var(--grad-warm); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--orange); }}
@@ -975,6 +1097,7 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 <div id="view-home" class="view active" role="main" tabindex="-1">
 
   <section class="hero" aria-labelledby="hero-h1">
+    <canvas id="bg3d" aria-hidden="true"></canvas>
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-inner">
       <p class="hero-eyebrow" style="display:flex;align-items:center;gap:.5rem"><span class="live-dot" aria-hidden="true"></span> Veille active · {date_hero}</p>
@@ -1537,6 +1660,7 @@ filtrer();
 initReveal();
 setTimeout(()=>showToast('Site mis à jour · {date_maj}', 3000), 800);
 </script>
+{bg3d_script}
 </body>
 </html>"""
 
