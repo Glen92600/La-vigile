@@ -70,11 +70,14 @@ HTML_PATH   = os.path.join(SITE_DIR, "index.html")
 RETENTION   = 90   # jours conservés en base
 
 # ── Accès : mot de passe partagé à l'entrée du site ────────────────────────────
-# Pour changer le mot de passe : modifier cette ligne puis régénérer / committer.
-VIGIE_PASSWORD = "Chanteloup/vigie@78"
+# On ne stocke ici QUE l'empreinte (hash) du mot de passe, jamais le mot de passe
+# en clair — ainsi le dépôt peut être public sans révéler le mot de passe.
+# Pour changer le mot de passe : calculer la nouvelle empreinte avec vhash(...)
+# (même algo djb2 que côté JS) puis remplacer la valeur ci-dessous, et régénérer.
+VIGIE_PASSWORD_HASH = "ce307a88"   # empreinte djb2 du mot de passe d'accès
 def vhash(s):
-    """Petit hachage (djb2) répliqué à l'identique en JS — évite de mettre
-    le mot de passe en clair dans la page. Barrière dissuasive, non inviolable."""
+    """Petit hachage (djb2) répliqué à l'identique en JS — sert à calculer
+    l'empreinte d'un nouveau mot de passe. Barrière dissuasive, non inviolable."""
     h = 5381
     for ch in s:
         h = ((h * 33) + ord(ch)) & 0xFFFFFFFF
@@ -499,7 +502,7 @@ def generer_html(articles, stats, nb_nouveaux):
 
     # Sérialiser les articles en JSON pour le JS
     articles_json = json.dumps(articles, ensure_ascii=False)
-    pw_hash = vhash(VIGIE_PASSWORD)
+    pw_hash = VIGIE_PASSWORD_HASH
 
     html = f"""<!DOCTYPE html>
 <html lang="fr">
