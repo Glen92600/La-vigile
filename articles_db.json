@@ -1,5 +1,18 @@
 [
   {
+    "source": "Le Monde.fr",
+    "titre": "Météo Carrières-sous-Poissy (78955) gratuite : Prévisions météo aujourd'hui en direct",
+    "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE12dDFkbnFPQmtLQl9CUDUzNnVsLXBWYldwT3BQZm0wTFQ2TmR6U19aaDBRUjUxWU5TTXVwajJBeENuN21Yc2pfYS01LVppQVZNU0Rzc2MzQ0otLWRIdzF2S2hxckUxN2pKS0JkRHZvMk5NQQ?oc=5",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T21:43:39+00:00",
+    "resume": "Météo Carrières-sous-Poissy (78955) gratuite : Prévisions météo aujourd'hui en direct  Le Monde.fr",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-lemonde",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Une forêt nourricière au milieu des coquelicots",
     "lien": "https://lagazette-yvelines.fr/2026/06/04/une-foret-nourriciere-au-milieu-des-coquelicots/?utm_source=rss&utm_medium=rss&utm_campaign=une-foret-nourriciere-au-milieu-des-coquelicots",
@@ -841,6 +854,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "InfosYvelines",
+    "titre": "Trail de l'Hautil : les inscriptions sont ouvertes pour la 4ème édition le 14 juin",
+    "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkVfRGNfMDZCclA5dTk1YW5sb3FjdnEtOG9vUDBDY0Q5bXZvN1p5V0lfT21hc2VQTG85VW1aY1FabUFmOGpKQWQxbUdjSUlrdmV5RDIwZ0RVbFl3ZnVtWkF5SzdzUkdjV082R2k3MVNZT0xCVVhkVU1xSzdMWEJhWDhrNHc3Tms2bW8zenZTbkNMOXNZWGdreWktT19qVnZDRUtDN1k3THJubUc4SDZrSy10SE5CNy1N?oc=5",
+    "date": "2026-05-23",
+    "date_iso": "2026-05-23T06:45:20+00:00",
+    "resume": "Trail de l'Hautil : les inscriptions sont ouvertes pour la 4ème édition le 14 juin  InfosYvelines",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
   },
