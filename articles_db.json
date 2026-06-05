@@ -79,6 +79,58 @@
   },
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Une forêt nourricière au milieu des coquelicots",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/une-foret-nourriciere-au-milieu-des-coquelicots/?utm_source=rss&utm_medium=rss&utm_campaign=une-foret-nourriciere-au-milieu-des-coquelicots",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T16:00:42+00:00",
+    "resume": "La municipalité de Gargenville vient de finaliser l’aménagement de sa nouvelle forêt nourricière. Entre démarche pédagogique et refuge pour la biodiversité, cet espace de nature invite désormais les habitants à la promenade dans un cadre champêtre.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/ForetNourriciere.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "L’ambassadeur de la République Démocratique du Congo en visite sur le territoire",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/lambassadeur-de-la-republique-democratique-du-congo-en-visite-sur-le-territoire/?utm_source=rss&utm_medium=rss&utm_campaign=lambassadeur-de-la-republique-democratique-du-congo-en-visite-sur-le-territoire",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:30:21+00:00",
+    "resume": "Le Collectif Franco-Congolais du Mantois organisait un événement le 31 mai à destination de sa diaspora à Mantes-la-Ville afin de développer les investissements et la coopération entre la France et la République Démocratique du Congo. L’ambassadeur congolais, Émile Ngoy Kasongo, était présent.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/Mantes-la-Ville-Visite-Ambassadeur-Congo-Credit-Photo-Pierre-Bedier.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "Les sous-traitants, victimes collatérales de la fin de la production automobile en Île-de-France",
+    "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeXl5WE5NRUxud0dYSDNBSDl2bUFtcUVkZVRVc2FMYnp4ZlFvbmNOaVI2c3BCSWFoejhVWlJJekpvZEFSd2NvbzZkbHZJN1JwUXpERnFkTkhhTnRLQ3ZBOVFhMlNWTkdwcWVGeFN2YUNtM0k5NkhNVEtlbGQ1NzhvcGJwbmhHXy01WWtaRXlfempMT29xclROZUtwY1pjZ09YUWZZT2QyY3hXLWVOSTRIWFc2NTBWdmdBZEd0aVFVOHNnSmNhS0lRTGNCdmFFZ0pnbUl1MTBoMkR3S3FJRTBJQlduM3BwTWxFdkN6amV4d3ZoOE5mUXpNVVZQc18tMEJ5eXVLT0o2b0RidFU?oc=5",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:08:06+00:00",
+    "resume": "Les sous-traitants, victimes collatérales de la fin de la production automobile en Île-de-France  Le Parisien",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-leparisien",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Armoires fibre dégradées : la Ville met les opérateurs face à leurs responsabilités",
+    "lien": "https://lagazette-yvelines.fr/2026/06/04/armoires-fibre-degradees-la-ville-met-les-operateurs-face-a-leurs-responsabilites/?utm_source=rss&utm_medium=rss&utm_campaign=armoires-fibre-degradees-la-ville-met-les-operateurs-face-a-leurs-responsabilites",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:00:21+00:00",
+    "resume": "La Mairie de Poissy a réuni les opérateurs de fibre optique présents sur le territoire pour leur rappeler leurs obligations d’entretien. Si les manquements persistent, la municipalité interviendra elle-même et refacturera les coûts.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/ArmoiresFibres.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Brumisateurs, parcs et îlots de fraîcheur : quand les villes s’organisent face à la chaleur",
     "lien": "https://lagazette-yvelines.fr/2026/06/04/brumisateurs-parcs-et-ilots-de-fraicheur-quand-les-villes-sorganisent-face-a-la-chaleur/?utm_source=rss&utm_medium=rss&utm_campaign=brumisateurs-parcs-et-ilots-de-fraicheur-quand-les-villes-sorganisent-face-a-la-chaleur",
     "date": "2026-06-04",
@@ -546,19 +598,6 @@
     "img_checked": true
   },
   {
-    "source": "Le Figaro",
-    "titre": "Vente appartement 1 pièce 26.97 m² à Jouy-le-Moutier (95280), 149 000 € - Figaro Immobilier",
-    "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FQ1pyNXRrU3NMbkd2WGhxWEYtNHg3X2ZzaXp1aUZXOFl0ZUZWeXpBTVZ3MFFkRGk1Z2NxYlhqV242clgyOGhBaFUwa2RmS0Z0RXlpSThaVUQ4YUJxR2JTQm5BSmFtQ3VRTU9Hb0VUNA?oc=5",
-    "date": "2026-06-01",
-    "date_iso": "2026-06-01T22:04:42+00:00",
-    "resume": "Vente appartement 1 pièce 26.97 m² à Jouy-le-Moutier (95280), 149 000 €  Figaro Immobilier",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "Ouest-France",
     "titre": "Football Club d'Acheres 2 - Etang St Nom ES 2 5-6",
     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa0NsZ25GYi1BdmJ0dHFYTHluekRGaWcwYUdXZE9wQ2t6dVN4Wi1SWTM4ZDhpYWI5T3ZMS21Jdl9VNE1IRWJQampMVlZXdjRTV3NsdWxLUTRzbnZBdm5meVl6VlhSbVEyQm1pVEZtVmZCYk9pY0hzWWVrMWc1ZTZMODFJTjYxbHZuR2E1WjhSM25GbkR6cHV1VllrUG1EcXp2TGYxcVlTVFJRNGtnOVE?oc=5",
@@ -585,14 +624,15 @@
     "img_checked": true
   },
   {
-    "source": "Le Figaro",
-    "titre": "Vente appartement 1 pièce 30 m² à Jouy-le-Moutier (95280), 152 000 € - Figaro Immobilier",
-    "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95LXdRdWlZcDFDbTU2WlZnWE1FM3hEMV9LWWlBVTJCaWxZTkVGbk5TdmZKclNhY2szN1QxMDAtSnYxenljUFc1cnlQRnBLY3BaQy1IaXJ5QTFTNEVXdkpyT1lXTnZnN3FBVlJobHg3OA?oc=5",
+    "source": "La Gazette des Communes",
+    "titre": "Actualité politique de la ville",
+    "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SZ3o1NUpaOWhmSUJyY2JYQ21HWGxjWDBSQ1huZFpjR21mckp4Z2lmeExTTGlyd1Y5ejMyYjNPWG40MEs2MTN0c3pocTlud0pHOWhXQ09MaFkyLVM0eFB3VVNqRmJsUU0wMFM2ZnViWkdIYkwy?oc=5",
     "date": "2026-05-31",
-    "date_iso": "2026-05-31T14:08:51+00:00",
-    "resume": "Vente appartement 1 pièce 30 m² à Jouy-le-Moutier (95280), 152 000 €  Figaro Immobilier",
+    "date_iso": "2026-05-31T07:00:00+00:00",
+    "resume": "Actualité politique de la ville  La Gazette des Communes",
     "categorie": "chanteloup",
     "sous_cat": "autre",
+<<<<<<< Updated upstream
     "source_id": "presse-lefigaro",
     "image": "",
     "img_checked": true
@@ -620,6 +660,9 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "presse-lefigaro",
+=======
+    "source_id": "chanteloup-gazettecommunes",
+>>>>>>> Stashed changes
     "image": "",
     "img_checked": true
   },
@@ -884,19 +927,6 @@
     "img_checked": true
   },
   {
-    "source": "Le Figaro",
-    "titre": "Vente appartement 3 pièces 65 m² à Acheres (78260), 362 800 € - Figaro Immobilier",
-    "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40MHh1bnlFLUdUUFBNTUR0LVk4SmZOVnpaZGtmVGhpSWRyZnh5YVh3R2VnOG90WGNIZnZaNkZjeFpZT3pENEpkRTFCYW1KNnNRQXh1OTEwc29HOEJMelBHR1BvQjhUS1FLaW5fR1BHSQ?oc=5",
-    "date": "2026-05-28",
-    "date_iso": "2026-05-28T06:22:43+00:00",
-    "resume": "Vente appartement 3 pièces 65 m² à Acheres (78260), 362 800 €  Figaro Immobilier",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "La Gazette en Yvelines",
     "titre": "GPSEO consacre le mois de juin à la rénovation et aux économies d’énergie",
     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlg1cTh3bEpVMUVnUHRVUThJZDRRT2c1YTlGMkxKTlhBSVlydEk1TlZmQnpiQXVzbVg3NkFkY191SjQ3T3ZhUV8xOWVnOUR4U2p5OU5aZTJCWUhJS3N0N0U4QVhKYXg2Tm5pMjdVZV9Sd25Ma25Kc2NpMGNwcXd1R2xvdzdrYnpNbDk0anJzYWRRbS1qNld5RkdySFNCeTB1akdkZFpfRjhOQkFRV21lSDdGM2k?oc=5",
@@ -1157,19 +1187,6 @@
     "img_checked": true
   },
   {
-    "source": "Le Figaro",
-    "titre": "Prix m2 immobilier à Chanteloup-les-Vignes (78570) en mai 2026 - Figaro Immobilier",
-    "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZnItcTZnLVR6TnFqU1RCT0JRT08yaFlkQm5WeXY5bXpfOVJiaXZ1QkRFOTN6SkhVVzNRbVlmcUpaazJtSVN6U0tFSFpoVFBKZnFUb3Y5NkVwSkd2SGdfcG1BV3NrVzVvd3FrNDFKUU9jYlNYNVJmMVdiVVQ0dG1zaGt2Q2JMNU0?oc=5",
-    "date": "2026-05-02",
-    "date_iso": "2026-05-02T07:00:00+00:00",
-    "resume": "Prix m2 immobilier à Chanteloup-les-Vignes (78570) en mai 2026  Figaro Immobilier",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "La Gazette en Yvelines",
     "titre": "Un souffle vert sur la place des 4 Vents",
     "lien": "https://lagazette-yvelines.fr/2026/05/01/un-souffle-vert-sur-la-place-des-4-vents/?utm_source=rss&utm_medium=rss&utm_campaign=un-souffle-vert-sur-la-place-des-4-vents",
@@ -1339,19 +1356,6 @@
     "img_checked": true
   },
   {
-    "source": "Equidia",
-    "titre": "PRIX DE CHANTELOUP-LES-VIGNES",
-    "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YajlhYXY3T3NNSlVESnlucHhhLUNqZkpDcXJMMjJSejRORkEzVHJWeV9abThUb1V0Tmg0VktKOExOX0l4SEpTNnVtU2p2YWYxblBBVS00RVg1cEE?oc=5",
-    "date": "2026-04-17",
-    "date_iso": "2026-04-17T07:00:00+00:00",
-    "resume": "PRIX DE CHANTELOUP-LES-VIGNES  Equidia",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "Les Echos",
     "titre": "Immobilier : Nexity mise sur les primo-accédants pour grappiller des parts de marché en Ile-de-France",
     "lien": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZ0NHbzVYTGFrVzgzREZ0SVVEcTBuNHdrYmRBNDBkX2lUSVRzczhyMEJfN1NWSHJrWnZmRmlfYkJvVWg3d1lwVmRPWWpmUmpYNWdrNTFkRHY0MUlxQU9rTUhxRTNNa0tRYWt4ajRldnpMR25tSjllVk8zUjFTdE5YSm42NW5DOXNnVE5nZEdTcHFFdWt5cnl5eTdNVm9VdkRob1lzOEEyZlNsNUhhWVJJTG9TcFB4YWYyQlZfWDY4VDBUbXpwX19SSjR6ZzFlU3ZUZ09QUmZKRXZ1ZzVGbGJUZWU4Z2RoVmlLN1d5ZWNqQUJ1SVF5VklrTg?oc=5",
@@ -1374,19 +1378,6 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-gazettecommunes",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Paris-Turf",
-    "titre": "Saint-Cloud Prix de Chanteloup-les-Vignes",
-    "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDBNamxKUUFhZFNjZkF1YlNZbVVRWWpvN25KTHhWYTdCS2QtZGxVY25TUlNGVVlvZGtiM2hDWGN0Q2VuWGZmNlJtck1QVkFjWWlIa0QxSDFjNGRCSFB5Y3M5YkwweU9iZ051UlZGQUctcmo5N1B0Y0IxT0RYYlBzYm1yNm45Yno2YTBjWnpxSjJEUkRJV0ZEbHVTc1RWbEdQOC15MDI4dEltQlM5cmJhNEZR?oc=5",
-    "date": "2026-04-16",
-    "date_iso": "2026-04-16T00:15:28+00:00",
-    "resume": "Saint-Cloud Prix de Chanteloup-les-Vignes  Paris-Turf",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
   },

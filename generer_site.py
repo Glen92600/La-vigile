@@ -331,16 +331,26 @@ def clean_gnews_title(titre):
     """Retire le suffixe ' - Éditeur' que Google News ajoute en fin de titre."""
     return titre.rsplit(" - ", 1)[0].strip() if " - " in titre else titre
 
-# ── Filtrage du bruit (annonces d'emploi, etc.) ────────────────────────────────
+# ── Filtrage du bruit (annonces d'emploi, immobilier, courses hippiques…) ──────
 NOISE_RE = re.compile(
+    # Annonces d'emploi
     r"\b[HF]\s?/\s?[FH]\b|offre d['’ ]?emploi|figaro emploi|trouvez un emploi|"
-    r"\bcdi\b|\bcdd\b|recrutement en cours|petites annonces",
+    r"\bcdi\b|\bcdd\b|recrutement en cours|petites annonces|"
+    # Annonces immobilières (ventes / locations de biens)
+    r"\b(?:vente|location|achat|à\s+vendre|à\s+louer)\b[^|]*\b(?:maison|appartement|appart|studio|villa|duplex|loft|terrain|pavillon|garage|parking|local\s+commercial)\b|"
+    r"\bprix\s+(?:au\s+)?m2\b|\bprix\s+m²|figaro\s+immobilier",
     re.I,
 )
+# Sources purement « petites annonces » ou hors-sujet (immobilier, courses hippiques)
+SOURCES_BRUIT = {"figaro immobilier", "equidia", "paris-turf", "paris turf",
+                 "geny", "geny courses", "zeturf", "zone-turf"}
 def est_bruit(titre, source):
     if NOISE_RE.search(titre):
         return True
-    if "emploi" in source.lower():   # ex. « Figaro Emploi »
+    s = source.lower()
+    if "emploi" in s or "immobilier" in s:   # ex. « Figaro Emploi », « Figaro Immobilier »
+        return True
+    if s in SOURCES_BRUIT:
         return True
     return False
 
