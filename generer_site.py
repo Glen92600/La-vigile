@@ -525,7 +525,7 @@ def generer_html(articles, stats, nb_nouveaux):
     renderer.setClearColor(0x000000, 0);
 
     // Particules
-    const COUNT = 95, SPREAD = 34, DEPTH = 18;
+    const COUNT = 130, SPREAD = 34, DEPTH = 18;
     const pos = new Float32Array(COUNT * 3);
     const col = new Float32Array(COUNT * 3);
     const vel = new Float32Array(COUNT * 3);
@@ -567,6 +567,7 @@ def generer_html(articles, stats, nb_nouveaux):
       ty = e.clientY / window.innerHeight - 0.5;
     }, { passive: true });
 
+    const VFOV = 60 * Math.PI / 180;
     function resize() {
       const w = hero.clientWidth, h = hero.clientHeight;
       if (!w || !h) return;
@@ -574,6 +575,11 @@ def generer_html(articles, stats, nb_nouveaux):
       renderer.setSize(w, h, false);
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
+      // Étirer le réseau pour couvrir toute la largeur visible
+      // (sinon il reste concentré au centre sur les écrans larges)
+      const visW = 2 * camera.position.z * Math.tan(VFOV / 2) * camera.aspect;
+      const sx = Math.max(1, (visW * 1.08) / SPREAD);
+      points.scale.x = lines.scale.x = sx;
     }
     resize();
     new ResizeObserver(resize).observe(hero);
