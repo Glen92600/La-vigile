@@ -1,5 +1,18 @@
 [
   {
+    "source": "Figaro Immobilier",
+    "titre": "Vente maison 6 pièces 117 m² à Acheres (78260), 399 000 €",
+    "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CeFVLRFU3MGxFdDB2dkgwa1RDWDVLamVFdjNkaDhGYVAzME0ycmxrQ0xmVzFZbDB2dGctZWNIbU9rZXFnYi1hQmd2RWZEd2RpdUE4Wkx1OWo5emxXbGRpdmdPcU55ODl5SFVIZVhJbw?oc=5",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T16:32:37+00:00",
+    "resume": "Vente maison 6 pièces 117 m² à Acheres (78260), 399 000 €  Figaro Immobilier",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-lefigaro",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Une forêt nourricière au milieu des coquelicots",
     "lien": "https://lagazette-yvelines.fr/2026/06/04/une-foret-nourriciere-au-milieu-des-coquelicots/?utm_source=rss&utm_medium=rss&utm_campaign=une-foret-nourriciere-au-milieu-des-coquelicots",
@@ -23,6 +36,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/Mantes-la-Ville-Visite-Ambassadeur-Congo-Credit-Photo-Pierre-Bedier.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "Figaro Immobilier",
+    "titre": "Vente appartement 3 pièces 57 m² à Jouy-le-Moutier (95280), 234 000 €",
+    "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QTjYyQ2NFZFZwRFVnVml5bS1iZWdENGR4eUgtUlNuOFp1Z0VTQUNhT1pLS2VoZmszanZLS1dhZE1xNnd5dEk2T1BxMlh6U3BaWERnLWJZbXpSZ3FXUDktaDNEd2VtRVNJajZQdFZNdw?oc=5",
+    "date": "2026-06-04",
+    "date_iso": "2026-06-04T15:10:07+00:00",
+    "resume": "Vente appartement 3 pièces 57 m² à Jouy-le-Moutier (95280), 234 000 €  Figaro Immobilier",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-lefigaro",
+    "image": "",
     "img_checked": true
   },
   {
@@ -572,6 +598,19 @@
     "img_checked": true
   },
   {
+    "source": "La Gazette des Communes",
+    "titre": "Actualité politique de la ville",
+    "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SZ3o1NUpaOWhmSUJyY2JYQ21HWGxjWDBSQ1huZFpjR21mckp4Z2lmeExTTGlyd1Y5ejMyYjNPWG40MEs2MTN0c3pocTlud0pHOWhXQ09MaFkyLVM0eFB3VVNqRmJsUU0wMFM2ZnViWkdIYkwy?oc=5",
+    "date": "2026-05-31",
+    "date_iso": "2026-05-31T07:00:00+00:00",
+    "resume": "Actualité politique de la ville  La Gazette des Communes",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazettecommunes",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "Le Figaro",
     "titre": "Location appartement 2 pièces 53 m² à Andresy (78570), 950 € - Figaro Immobilier",
     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zbXpCRjQwbjRJS0M0SkU4ZlhYZzROb3duaDlUTUpYYW80ZE9hTkxSV0JNWlJ2a2hENkJqUGRMbEMyQjFELWJyYWtEc1R3RTBnMjBHOUNtVkFjaC1Ld3p1Wk9lSjdMX1B6Yk12SThNMA?oc=5",
@@ -594,6 +633,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "Les articles du samedi 30 mai 2026",
+    "lien": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nb3duMmFMck5IZGJnT3p3UGNTVDIyZXF0U0V3bkxoSVJFQzUyZjlVYmZJTkZfb0pwNjhjdUVQLXo5ZldVazhDdUYyQUdRajVkR1dDOWkzSEJwQ2NpX3lWZA?oc=5",
+    "date": "2026-05-30",
+    "date_iso": "2026-05-30T23:31:15+00:00",
+    "resume": "Les articles du samedi 30 mai 2026  Le Parisien",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-leparisien",
     "image": "",
     "img_checked": true
   },
@@ -1917,32 +1969,6 @@
     "date": "2026-03-07",
     "date_iso": "2026-03-07T08:00:00+00:00",
     "resume": "Paris-Nice 2026 🇫🇷 - Etape 1 : parcours, profil et favoris à Carrières-sous-Poissy  Vélofuté",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Parisien",
-    "titre": "« Un rêve qui se réalise » : Avec Paris-Nice, Chanteloup-les-Vignes (re) devient capitale du vélo",
-    "lien": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQOXlvWE9veDhrdk5YMlNrbEpyR18tZldHSmFMRkxnTHY1Qk9DS3VsZ3k1RWVxVFNpTWh0UGw4RlFyVll3TURtU0ZHR2VncE96U256ajZ4SGE4Sm5qemk0WnV1eG1CVTFTNENHcVFUbEdLNkYtQ3FnRHgwZGRIRTlYRUlhYW9PUmZYYnI0SmRlZkNrMVRUZ2JxSktLUE5idWY2MHV4X0ZOaGVFdnNVZ1A0Mi12LVRKdktLUVBaZVFMTnEyejRkT1o2czFsZzhDd084OGYyNmh5VThFeXpxd05raWJRb0NkdjZuNTJKbm55NHBKczg2R3d4OXhMTDQ?oc=5",
-    "date": "2026-03-06",
-    "date_iso": "2026-03-06T08:00:00+00:00",
-    "resume": "« Un rêve qui se réalise » : Avec Paris-Nice, Chanteloup-les-Vignes (re) devient capitale du vélo  Le Parisien",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "InfosYvelines",
-    "titre": "Paris-Nice 2026 dans les Yvelines : tout ce qu'il faut savoir sur les deux étapes yvelinoises",
-    "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSW9jVzZWLXFiWEhmU25rMTJZZjltQXVkaGZwdHFycVZsVzdQazhTRDJ2MERNeURyYURIV05jNjFoakxyNjBKRWhJTDNod1ozQThWbThPYXhfR19BSDZzU2lQRDNwZWpyeUFNWXp1c09zcHFmR2Z0T0p0dkxUNmROclZBVGxHdHZOaDNhZEpjMVNXVlY3V2pKellweDBpZHpPeE5rd1lldVBUWE80OXJOaHNELW5BNzVJNVJ4UkduVlQ3U25yTkI0?oc=5",
-    "date": "2026-03-06",
-    "date_iso": "2026-03-06T08:00:00+00:00",
-    "resume": "Paris-Nice 2026 dans les Yvelines : tout ce qu'il faut savoir sur les deux étapes yvelinoises  InfosYvelines",
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-google",
