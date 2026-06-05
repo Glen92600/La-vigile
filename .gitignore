@@ -12,6 +12,10 @@ __pycache__/
 .claude/
 .vscode/
 
+# Skills installées localement (outillage, pas le site)
+.agents/
+skills-lock.json
+
 # Anciens outils (génération PDF, non utilisés en ligne)
 veille_auto.py
 generate_veille_pdf.py
