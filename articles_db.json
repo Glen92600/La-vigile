@@ -1,6 +1,19 @@
 [
   {
     "source": "purepeople.com",
+    "titre": "Photo : Valérie Pécresse, présidente du conseil régional d'Ile de France, en visite à Chanteloup-les-Vignes après l'incendie criminel de l'Arche le 8 novembre 219. © Federico Pestellini / Panoramic / Bestimage",
+    "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeE12bHI2UmppeXlZMFliN0tYNk9TcUFjbmk0OUFiQkFrSkwtM1hEQzA0TmFlYmtXV2hoaklPSk1wdF92aVV4Y05hMDNfYlhjUXoyNk0walRpX2dxT1ZQcXZQcWVEcmhRWjdVQ2FZMVN2S0xqZWUwbDhlT0VpMlZRVjhJczM4di1neER0ZnVpS2F5YmFx?oc=5",
+    "date": "2026-06-06",
+    "date_iso": "2026-06-06T14:42:05+00:00",
+    "resume": "Photo : Valérie Pécresse, présidente du conseil régional d'Ile de France, en visite à Chanteloup-les-Vignes après l'incendie criminel de l'Arche le 8 novembre 219. © Federico Pestellini / Panoramic / Bestimage  purepeople.com",
+    "categorie": "chanteloup",
+    "sous_cat": "securite",
+    "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "purepeople.com",
     "titre": "Photo : Sinclair - Noël des enfants de Chanteloup-les-Vignes organisé par l'association CPCC. Le 22 décembre 2004.",
     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNG51ckxJRG5oaUhPcmRzc3hpT3c0dllRODV1ZkZXcWJZQ3ZRMUZjZU1ic2hDcUdkdGhuY000SzU2amZWcUswMTE0NGFLQ0V0T3JaTFNlbndNV3JVbHVQV2pldnpuVVIzc0RqU0hCYUFodUVhX1B6ZDJOeGlYT2VvY2YyY24xWElXWHJRNll5UnJZa0ZJ?oc=5",
     "date": "2026-06-06",
@@ -48,6 +61,19 @@
     "categorie": "chanteloup",
     "sous_cat": "politique",
     "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Le Monde.fr",
+    "titre": "Météo Chanteloup-les-Vignes (78570) gratuite : Prévisions météo aujourd'hui en direct",
+    "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE94RndhcHQ5QmY0RXlSaFo3NU91aTVDYUxQdTdsY2JCTUY1ZXI0UU1oVjNNZ3dlUXhVbHFUNlQtQnhoVGpUNGU0bUtOQUs0dEEzZjBpU2d3U2pCM0JKSjVnTGhOUFdYaEE5dXVUb2xUVEtFdw?oc=5",
+    "date": "2026-06-05",
+    "date_iso": "2026-06-05T15:39:19+00:00",
+    "resume": "Météo Chanteloup-les-Vignes (78570) gratuite : Prévisions météo aujourd'hui en direct  Le Monde.fr",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-lemonde",
     "image": "",
     "img_checked": true
   },
@@ -387,6 +413,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "TF1 Info",
+    "titre": "24h Pujadas, les indispensables : Actualités et info en direct",
+    "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WRVUyRkZxd2U0QWUxRUstUDM3SldjSjRObkxBMG51WHRmUU9kT1ZPWnA1cG1JamNpTlBUVG9IaUJWYUlZSjhpWkFVaW9pS0RHdnJyUURlcWR3c3NKYnY1VE1Nc1IwOUJ4bWZOUmd2WGZPcFJEYkFRMkJ2dkppZw?oc=5",
+    "date": "2026-06-03",
+    "date_iso": "2026-06-03T07:00:00+00:00",
+    "resume": "24h Pujadas, les indispensables : Actualités et info en direct  TF1 Info",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-tf1info",
+    "image": "",
     "img_checked": true
   },
   {
