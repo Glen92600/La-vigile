@@ -988,18 +988,32 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 /* Sources */
 /* Panneau « pouls de la veille » */
 .pouls-intro {{ font-size:.92rem; color:var(--muted); max-width:62ch; margin:-0.7rem 0 1.7rem; line-height:1.65; }}
+/* Indicateurs clés (KPI) */
+.pulse-kpis {{ display:grid; grid-template-columns:repeat(4,1fr); gap:.9rem; margin-bottom:1.5rem; }}
+.kpi {{ position:relative; background:var(--card); border:1px solid var(--border); border-radius:14px; padding:1rem 1.05rem 1rem 1.2rem; box-shadow:var(--sh-sm); overflow:hidden; transition:transform .25s cubic-bezier(.16,1,.3,1), box-shadow .25s; }}
+.kpi:hover {{ transform:translateY(-3px); box-shadow:var(--sh-md); }}
+.kpi::before {{ content:''; position:absolute; left:0; top:.85rem; bottom:.85rem; width:3px; border-radius:3px; background:var(--navy); opacity:.4; }}
+.kpi.hot::before {{ background:var(--grad-warm); opacity:1; }}
+.kpi-n {{ display:block; font-family:'Newsreader',serif; font-size:1.95rem; font-weight:800; line-height:1; color:var(--ink); font-variant-numeric:tabular-nums; }}
+.kpi.hot .kpi-n {{ color:var(--orange); }}
+.kpi-l {{ display:block; margin-top:.45rem; font-family:'DM Mono',monospace; font-size:.58rem; text-transform:uppercase; letter-spacing:.09em; color:var(--muted); }}
+.kpi-l b {{ color:var(--orange); font-weight:600; }}
+@media (max-width:560px) {{ .pulse-kpis {{ grid-template-columns:repeat(2,1fr); }} }}
 .pulse-panel {{ display:grid; grid-template-columns:1.5fr 1px 1fr; gap:1.8rem; background:var(--card); border:1px solid var(--border); border-radius:var(--r); padding:1.5rem 1.7rem; box-shadow:var(--sh-sm); }}
 .pulse-divider {{ background:var(--border); }}
 .pulse-label {{ display:flex; align-items:baseline; justify-content:space-between; gap:.75rem; font-family:'DM Mono',monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin-bottom:1.1rem; padding-bottom:.6rem; border-bottom:1px solid var(--border); }}
 .pulse-label span {{ font-size:.6rem; color:#94A3B8; letter-spacing:.06em; }}
 .pulse-label b {{ color:var(--orange); font-weight:600; }}
 /* Sources : liste classée avec barres fines */
-.src-list {{ display:flex; flex-direction:column; gap:.7rem; }}
-.src-row {{ display:grid; grid-template-columns:1fr 64px 26px; align-items:center; gap:.7rem; }}
+.src-list {{ display:flex; flex-direction:column; gap:.65rem; }}
+.src-row {{ display:grid; grid-template-columns:18px 1fr 72px 26px; align-items:center; gap:.65rem; }}
+.src-rank {{ font-family:'DM Mono',monospace; font-size:.62rem; color:#94A3B8; text-align:center; font-variant-numeric:tabular-nums; }}
+.src-row:nth-child(-n+3) .src-rank {{ color:var(--orange); font-weight:600; }}
 .src-row-name {{ font-size:.74rem; color:var(--ink); font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
 .src-row-bar {{ height:6px; background:#EEF1F5; border-radius:3px; overflow:hidden; }}
-.src-row-bar i {{ display:block; height:100%; background:linear-gradient(90deg,#2E6DB4,#0369A1); border-radius:3px; }}
-.src-row-n {{ font-family:'DM Mono',monospace; font-size:.72rem; color:var(--muted); text-align:right; }}
+.src-row-bar i {{ display:block; height:100%; width:0; background:linear-gradient(90deg,#3B7CC4,#0369A1); border-radius:3px; transition:width .9s cubic-bezier(.16,1,.3,1); }}
+.src-row:nth-child(-n+3) .src-row-bar i {{ background:var(--grad-warm); }}
+.src-row-n {{ font-family:'DM Mono',monospace; font-size:.72rem; color:var(--muted); text-align:right; font-variant-numeric:tabular-nums; }}
 .src-name {{ font-family:'DM Mono',monospace; font-size:.65rem; color:var(--ink); font-weight:500; }}
 .src-count {{ font-family:'Newsreader',serif; font-size:1.4rem; font-weight:700; color:var(--orange); }}
 .src-zero {{ color:var(--border); }}
@@ -1076,14 +1090,20 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .trend-total b {{ font-size:1.7rem; font-weight:800; color:var(--ink); }}
 .trend-total span {{ font-size:.78rem; color:var(--muted); margin-left:.4rem; }}
 .trend-legend {{ font-family:'DM Mono',monospace; font-size:.6rem; color:var(--muted); text-transform:uppercase; letter-spacing:.1em; }}
-.trend-bars {{ display:flex; align-items:flex-end; gap:.4rem; height:88px; }}
-.trend-col {{ flex:1; display:flex; flex-direction:column; align-items:center; gap:.4rem; min-width:0; }}
-.trend-bar {{ width:100%; max-width:26px; border-radius:5px 5px 2px 2px; background:linear-gradient(180deg,#2E6DB4,#0369A1); transition:height .8s cubic-bezier(.16,1,.3,1), background .2s; cursor:default; position:relative; }}
-.trend-bar.today {{ background:var(--grad-warm); }}
-.trend-bar:hover {{ filter:brightness(1.08); }}
+.trend-plot {{ position:relative; display:flex; align-items:flex-end; gap:.45rem; height:104px; }}
+.trend-col {{ flex:1; display:flex; align-items:flex-end; justify-content:center; min-width:0; height:100%; }}
+.trend-bar {{ width:100%; max-width:24px; height:0; border-radius:5px 5px 2px 2px; background:linear-gradient(180deg,#3B7CC4,#0369A1); transition:height .85s cubic-bezier(.16,1,.3,1), filter .2s; cursor:default; position:relative; z-index:2; }}
+.trend-bar.today {{ background:var(--grad-warm); box-shadow:0 0 0 1px rgba(232,100,10,.22); }}
+.trend-bar:hover {{ filter:brightness(1.07) saturate(1.08); }}
 .trend-bar:hover .trend-tip {{ opacity:1; transform:translate(-50%,-6px); }}
-.trend-tip {{ position:absolute; bottom:100%; left:50%; transform:translate(-50%,0); background:var(--navy); color:#fff; font-size:.6rem; font-family:'DM Mono',monospace; padding:.18rem .45rem; border-radius:4px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .2s, transform .2s; }}
-.trend-x {{ font-family:'DM Mono',monospace; font-size:.56rem; color:#64748B; }}
+.trend-tip {{ position:absolute; bottom:100%; left:50%; transform:translate(-50%,0); background:var(--navy); color:#fff; font-size:.6rem; font-family:'DM Mono',monospace; padding:.2rem .5rem; border-radius:5px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .18s, transform .18s; z-index:4; box-shadow:var(--sh-md); }}
+.trend-tip::after {{ content:''; position:absolute; top:100%; left:50%; transform:translateX(-50%); border:4px solid transparent; border-top-color:var(--navy); }}
+.trend-avg {{ position:absolute; left:0; right:0; border-top:1px dashed rgba(27,42,74,.28); pointer-events:none; z-index:1; }}
+.trend-avg b {{ position:absolute; right:0; top:-.58rem; background:var(--card); padding:0 .35rem; font-family:'DM Mono',monospace; font-size:.52rem; font-weight:500; letter-spacing:.03em; color:#64748B; }}
+.trend-axis {{ display:flex; gap:.45rem; margin-top:.5rem; }}
+.trend-axis span {{ flex:1; min-width:0; text-align:center; font-family:'DM Mono',monospace; font-size:.55rem; color:#94A3B8; font-variant-numeric:tabular-nums; }}
+.trend-axis span.tick-hl {{ color:var(--navy); font-weight:600; }}
+@media (prefers-reduced-motion: reduce) {{ .trend-bar, .src-row-bar i {{ transition:none; }} }}
 
 /* ═══════════ SUJETS DU MOMENT ═══════════ */
 .kw-row {{ display:flex; flex-wrap:wrap; gap:.5rem; }}
@@ -1322,10 +1342,17 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
   <section class="sec reveal" aria-labelledby="sec-pouls" style="padding-top:2.5rem">
     <div class="sec-rule"><h2 id="sec-pouls">Le pouls de la veille</h2></div>
     <p class="pouls-intro">L'activité de la veille en un coup d'œil : le volume d'articles publiés sur 14 jours et les médias les plus actifs sur 90 jours.</p>
+    <div class="pulse-kpis">
+      <div class="kpi"><span class="kpi-n" id="kpi-14j">0</span><span class="kpi-l">articles · 14 j</span></div>
+      <div class="kpi"><span class="kpi-n" id="kpi-avg">0</span><span class="kpi-l">moyenne / jour</span></div>
+      <div class="kpi hot"><span class="kpi-n" id="kpi-peak">0</span><span class="kpi-l">pic · <b id="kpi-peak-d">—</b></span></div>
+      <div class="kpi"><span class="kpi-n" id="kpi-src">0</span><span class="kpi-l">sources actives</span></div>
+    </div>
     <div class="pulse-panel">
       <div class="pulse-col">
-        <div class="pulse-label">Activité<span><b id="trend-sum">0</b> articles · 14 j</span></div>
-        <div class="trend-bars" id="trend-bars" role="img" aria-label="Graphe du volume d'articles sur 14 jours"></div>
+        <div class="pulse-label">Activité quotidienne<span>14 derniers jours</span></div>
+        <div class="trend-plot" id="trend-bars" role="img" aria-label="Graphe du volume d'articles sur 14 jours"></div>
+        <div class="trend-axis" id="trend-axis" aria-hidden="true"></div>
       </div>
       <div class="pulse-divider" aria-hidden="true"></div>
       <div class="pulse-col">
@@ -1723,7 +1750,7 @@ function countUp(id, target) {{
 
 /* ── Graphe de tendance (14 jours) ── */
 function renderTrend() {{
-  const bars=document.getElementById('trend-bars'); if(!bars) return;
+  const plot=document.getElementById('trend-bars'); if(!plot) return;
   const base=new Date(TODAY+'T00:00:00'); const days=[];
   for(let i=13;i>=0;i--) {{
     const d=new Date(base); d.setDate(d.getDate()-i);
@@ -1734,18 +1761,38 @@ function renderTrend() {{
   let sum=0;
   ARTICLES.forEach(a=>{{ if(a.date in idx) {{ days[idx[a.date]].count++; sum++; }} }});
   const max=Math.max(1, ...days.map(d=>d.count));
-  document.getElementById('trend-sum').textContent=sum;
-  bars.setAttribute('aria-label', sum+' articles publiés sur les 14 derniers jours');
-  bars.innerHTML=days.map(d=>{{
-    const h=Math.max(4, Math.round(d.count/max*70));
+  const avg=sum/14;
+  const peak=days.reduce((p,d)=>d.count>p.count?d:p, days[0]);
+  const SC=94;  // hauteur max des barres (% du tracé), laisse une marge en haut
+  const fmt=n=>n.toFixed(1).replace('.',',');
+
+  countUp('kpi-14j', sum);
+  const ea=document.getElementById('kpi-avg'); if(ea) ea.textContent=fmt(avg);
+  countUp('kpi-peak', peak.count);
+  const ep=document.getElementById('kpi-peak-d'); if(ep) ep.textContent = peak.count ? (peak.dom+'/'+peak.m) : '—';
+
+  plot.setAttribute('aria-label', sum+' articles sur 14 jours, pic de '+peak.count+' le '+peak.dom+'/'+peak.m+', moyenne '+fmt(avg)+' par jour');
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  plot.innerHTML=days.map(d=>{{
+    const h=d.count? Math.max(6, Math.round(d.count/max*SC)) : 2;
     const isT=d.iso===TODAY;
     return `<div class="trend-col">
-      <div class="trend-bar ${{isT?'today':''}}" style="height:${{h}}px">
+      <div class="trend-bar ${{isT?'today':''}}" data-h="${{h}}" style="height:${{reduce?h+'%':'0%'}}">
         <span class="trend-tip">${{d.count}} le ${{d.dom}}/${{d.m}}</span>
       </div>
-      <span class="trend-x">${{d.dom}}</span>
     </div>`;
-  }}).join('');
+  }}).join('') + `<div class="trend-avg" style="bottom:${{Math.round(avg/max*SC)}}%"><b>moy. ${{fmt(avg)}}</b></div>`;
+
+  const ax=document.getElementById('trend-axis');
+  if(ax) ax.innerHTML=days.map((d,i)=>`<span class="${{d.iso===TODAY?'tick-hl':''}}">${{(i%2===0||d.iso===TODAY)?d.dom:'·'}}</span>`).join('');
+
+  if(!reduce) {{
+    const bars=plot.querySelectorAll('.trend-bar');
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{{
+      bars.forEach((b,i)=>{{ b.style.transitionDelay=(i*28)+'ms'; b.style.height=b.dataset.h+'%'; }});
+    }}));
+  }}
 }}
 
 /* ── Sujets du moment (mots-clés des titres récents) ── */
@@ -1802,13 +1849,24 @@ function initHome() {{
   const sc={{}};
   ARTICLES.forEach(a=>{{sc[a.source]=(sc[a.source]||0)+1;}});
   const srcEl=document.getElementById('sources-grid');
+  countUp('kpi-src', Object.keys(sc).length);
   const ranked=Object.entries(sc).sort((a,b)=>b[1]-a[1]).slice(0,8);
   const maxSrc=ranked.length?ranked[0][1]:1;
-  srcEl.innerHTML=ranked.map(([n,c])=>`<div class="src-row" role="listitem">
+  const reduceS=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  srcEl.innerHTML=ranked.map(([n,c],i)=>{{
+    const w=Math.max(8,Math.round(c/maxSrc*100));
+    return `<div class="src-row" role="listitem">
+      <span class="src-rank" aria-hidden="true">${{i+1}}</span>
       <span class="src-row-name" title="${{esc(n)}}">${{esc(n)}}</span>
-      <span class="src-row-bar"><i style="width:${{Math.max(8,Math.round(c/maxSrc*100))}}%"></i></span>
+      <span class="src-row-bar"><i data-w="${{w}}" style="width:${{reduceS?w+'%':'0'}}"></i></span>
       <span class="src-row-n">${{c}}</span>
-    </div>`).join('');
+    </div>`;
+  }}).join('');
+  if(!reduceS) {{
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{{
+      srcEl.querySelectorAll('.src-row-bar i').forEach((el,i)=>{{ el.style.transitionDelay=(i*45)+'ms'; el.style.width=el.dataset.w+'%'; }});
+    }}));
+  }}
 
   // Carrousel
   renderCarousel();
@@ -1846,7 +1904,7 @@ def main():
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Vérification des sources...")
     articles, stats, nb_nouveaux = collecter()
 
-    if nb_nouveaux == 0:
+    if nb_nouveaux == 0 and os.environ.get("VIGIE_FORCE_HTML") != "1":
         print(f"[{datetime.now().strftime('%H:%M:%S')}] Aucun nouvel article — site inchangé.")
         return
 
