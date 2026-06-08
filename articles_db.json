@@ -1,18 +1,5 @@
 [
   {
-    "source": "Le Monde.fr",
-    "titre": "Résultats des élections législatives 2024 à Andrésy 78570",
-    "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Sbk1INmNVV0k5SFdwcmZTYnE1QnpEeWw4LWZsVlBVRlE5OEc3ejRTdGYwSVFSQVhYNHBxdTZWM0hkOGxCMVFXRi1IMkh3aV91S3dGeUxRMURiSmNBbzZSSnRjWTE2VVlEeVJJbHRrU2hTUEU?oc=5",
-    "date": "2026-06-06",
-    "date_iso": "2026-06-06T19:42:12+00:00",
-    "resume": "Résultats des élections législatives 2024 à Andrésy 78570  Le Monde.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-lemonde",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "InfosYvelines",
     "titre": "Motards des Yvelines : une journée de sécurité routière à Beynes ce samedi 6 juin",
     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGtzdFZPRzdnaGRORGYyeVAyUm9VS1ctZGFlV3M0azUxY2dhdjhQejEya2FVWWYzT1NfWFJORTlyNmdSZTVla0pENzNxbzBaTzJNU1lPa0hyZkg3SGxSVUlRdWNCLVp3THNEZ25BU2tXSDkzQjhiSHFGdGlRNVZGcWJQdW9TZV9UbktFX1d4N0FSWkNjZUE?oc=5",
@@ -32,19 +19,6 @@
     "date": "2026-06-05",
     "date_iso": "2026-06-05T15:39:19+00:00",
     "resume": "Météo Chanteloup-les-Vignes (78570) gratuite : Prévisions météo aujourd'hui en direct  Le Monde.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lemonde",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Monde.fr",
-    "titre": "Météo Carrières-sous-Poissy (78955) gratuite : Prévisions météo aujourd'hui en direct",
-    "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE12dDFkbnFPQmtLQl9CUDUzNnVsLXBWYldwT3BQZm0wTFQ2TmR6U19aaDBRUjUxWU5TTXVwajJBeENuN21Yc2pfYS01LVppQVZNU0Rzc2MzQ0otLWRIdzF2S2hxckUxN2pKS0JkRHZvMk5NQQ?oc=5",
-    "date": "2026-06-04",
-    "date_iso": "2026-06-04T21:43:39+00:00",
-    "resume": "Météo Carrières-sous-Poissy (78955) gratuite : Prévisions météo aujourd'hui en direct  Le Monde.fr",
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "presse-lemonde",
@@ -75,19 +49,6 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/Mantes-la-Ville-Visite-Ambassadeur-Congo-Credit-Photo-Pierre-Bedier.jpg",
-    "img_checked": true
-  },
-  {
-    "source": "Le Parisien",
-    "titre": "« Je ne sais faire que ça » : dans la Vallée de la Seine, l’ouvrier de l’automobile vit ses dernières heures",
-    "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeXl5WE5NRUxud0dYSDNBSDl2bUFtcUVkZVRVc2FMYnp4ZlFvbmNOaVI2c3BCSWFoejhVWlJJekpvZEFSd2NvbzZkbHZJN1JwUXpERnFkTkhhTnRLQ3ZBOVFhMlNWTkdwcWVGeFN2YUNtM0k5NkhNVEtlbGQ1NzhvcGJwbmhHXy01WWtaRXlfempMT29xclROZUtwY1pjZ09YUWZZT2QyY3hXLWVOSTRIWFc2NTBWdmdBZEd0aVFVOHNnSmNhS0lRTGNCdmFFZ0pnbUl1MTBoMkR3S3FJRTBJQlduM3BwTWxFdkN6amV4d3ZoOE5mUXpNVVZQc18tMEJ5eXVLT0o2b0RidFU?oc=5",
-    "date": "2026-06-04",
-    "date_iso": "2026-06-04T15:08:06+00:00",
-    "resume": "« Je ne sais faire que ça » : dans la Vallée de la Seine, l’ouvrier de l’automobile vit ses dernières heures  Le Parisien",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-leparisien",
-    "image": "",
     "img_checked": true
   },
   {
@@ -221,32 +182,6 @@
     "img_checked": true
   },
   {
-    "source": "Actu.fr",
-    "titre": "Votre agenda des brocantes et vide-greniers pour le week-end des 6 et 7 juin à Paris et en Île-de-France",
-    "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3VvakZjUnk5ZDhmVzBSZ29iNmlnN19CZXA5WVUyRmdtcVJabTlMdFJsMm8tR3lRLXhFYkhhZlRBajZGMVJ2V3g1cG82ckNlM2dBLUFyVzI5aEk5Rk1tTFZBX3R3U292YTd6MTVGbFA0Q0FhZElSRkY5ZlB2VW50TGtsamt0WmxHazIxckJmWnktNUo0eExGZjFEYW9SbUJOZDhVYTZ4Y0pJV19jYVlfd3cwamt3NFk0ZDRIaWNfTnFNSGFWdVBrZTFQUWVNdw?oc=5",
-    "date": "2026-06-04",
-    "date_iso": "2026-06-04T05:42:01+00:00",
-    "resume": "Votre agenda des brocantes et vide-greniers pour le week-end des 6 et 7 juin à Paris et en Île-de-France  Actu.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-actufr",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Programme TV Ouest-France",
-    "titre": "Cyclisme : Paris-Nice E03 : résumé",
-    "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWh1OEdxMkFHTkxDc0FHYUlqMnNjRFdlWGFBejBWcVpKSS1KT21MYnA3MkZCLWVwVkZGelRyc2dzeFhyOGFWY1g2LVhfa3JqTnVSVktDQkVIcENIMDkteTFId2VGWkdQM2t4VGtXd09CclZkUndPeDdLaENVdFhlcm9NeE96bnJkYlRTWk9XNnFfZHZabVRLQ1hCYXU0MUdiZng5TVNoM25KQ3FwTEZrSlVNcFlacnU0?oc=5",
-    "date": "2026-06-03",
-    "date_iso": "2026-06-03T16:36:49+00:00",
-    "resume": "Cyclisme : Paris-Nice E03 : résumé  Programme TV Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "La Gazette en Yvelines",
     "titre": "Les patients internés dans ces hôpitaux yvelinois pourront recevoir l’aide d’avocats",
     "lien": "https://lagazette-yvelines.fr/2026/06/03/les-patients-internes-dans-ces-hopitaux-yvelinois-pourront-recevoir-laide-davocats/?utm_source=rss&utm_medium=rss&utm_campaign=les-patients-internes-dans-ces-hopitaux-yvelinois-pourront-recevoir-laide-davocats",
@@ -377,19 +312,6 @@
     "img_checked": true
   },
   {
-    "source": "TF1 Info",
-    "titre": "24h Pujadas, les indispensables : Actualités et info en direct",
-    "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WRVUyRkZxd2U0QWUxRUstUDM3SldjSjRObkxBMG51WHRmUU9kT1ZPWnA1cG1JamNpTlBUVG9IaUJWYUlZSjhpWkFVaW9pS0RHdnJyUURlcWR3c3NKYnY1VE1Nc1IwOUJ4bWZOUmd2WGZPcFJEYkFRMkJ2dkppZw?oc=5",
-    "date": "2026-06-03",
-    "date_iso": "2026-06-03T07:00:00+00:00",
-    "resume": "24h Pujadas, les indispensables : Actualités et info en direct  TF1 Info",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-tf1info",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "La Gazette en Yvelines",
     "titre": "Coup d’envoi des CAN de quartier aux Mureaux et à Mantes-la-Jolie",
     "lien": "https://lagazette-yvelines.fr/2026/06/03/coup-denvoi-des-can-de-quartier-aux-mureaux-et-a-mantes-la-jolie/?utm_source=rss&utm_medium=rss&utm_campaign=coup-denvoi-des-can-de-quartier-aux-mureaux-et-a-mantes-la-jolie",
@@ -412,19 +334,6 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Figaro",
-    "titre": "Seine-Saint-Denis : interpellation de 19 receleurs d'or et de bijoux",
-    "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVkhfS3lLMUp3V0p1MXFXQUl4MU8weGRkY1FkVFB1Zy1IU3NpVjI2bS1hU3NNbS02MVlaWVdnb2VuaGplMU5aOFZqQXpld1k2SDFwMms1M3hzdFVhVlkzbmVVcnUyVUF3Wi1BeFZJS3pBZzVPdS02ZUxUc0d0VWZPUk9sOUhGeFgtdXVMclJwcTZuZWpFNWFEelVsakJpY1laNkVFQWdpVVhuc0RVUHEwYWhR?oc=5",
-    "date": "2026-06-02",
-    "date_iso": "2026-06-02T16:54:04+00:00",
-    "resume": "Seine-Saint-Denis : interpellation de 19 receleurs d'or et de bijoux  Le Figaro",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
     "image": "",
     "img_checked": true
   },
@@ -491,19 +400,6 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "AS Ovilloise - ES Sartrouville 78 4 en direct",
-    "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaVZndXg3Nk1zTHNVaEtEcVJiUTlScGhDVGFJVXpsVHVDVlJEWFNKb1NLYkx4d2daRE55N3ZkdjFDMWFmOTBqMGFMellBS0VlRkxYN0JjSlp5NWphUDVqRXdvbDI2cTJlQmt5c01kaUtQTEwzOEFIdUQtMnREVkN3ejJGQ3E5S0hWODYxY0JsWUFiVHF6MzZJcWdZNWdnbVk5?oc=5",
-    "date": "2026-06-02",
-    "date_iso": "2026-06-02T12:56:41+00:00",
-    "resume": "AS Ovilloise - ES Sartrouville 78 4 en direct  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
     "img_checked": true
   },
   {
@@ -585,19 +481,6 @@
     "img_checked": true
   },
   {
-    "source": "Ouest-France",
-    "titre": "Football Club d'Acheres 2 - Etang St Nom ES 2 5-6",
-    "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa0NsZ25GYi1BdmJ0dHFYTHluekRGaWcwYUdXZE9wQ2t6dVN4Wi1SWTM4ZDhpYWI5T3ZMS21Jdl9VNE1IRWJQampMVlZXdjRTV3NsdWxLUTRzbnZBdm5meVl6VlhSbVEyQm1pVEZtVmZCYk9pY0hzWWVrMWc1ZTZMODFJTjYxbHZuR2E1WjhSM25GbkR6cHV1VllrUG1EcXp2TGYxcVlTVFJRNGtnOVE?oc=5",
-    "date": "2026-06-01",
-    "date_iso": "2026-06-01T16:30:00+00:00",
-    "resume": "Football Club d'Acheres 2 - Etang St Nom ES 2 5-6  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "Sortir à Paris",
     "titre": "Fête de la Musique 2026 aux Clayes-sous-Bois : rock, électro et tribute The Police au programme - 78",
     "lien": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWFZmSFh4dzg0M2pMQU9Hal93eHR4WnV5VTc2ZVpZX21ZcVNMOWhzRGVpMWFfdHp0RFctZi1wRWYtZnpGdWZKUkhpUHF6bkxyUFRGZ2hBMUNheHJ4VThLYTNPdFZWdkN6RC12amVSODQ5U1haNmJHakZjWUxCTThHaDVaUUZmUmJtY3lRZFVsYm5GQ3c4Ry1xQUpaY0p0LWI1M2p6ajc5RllzT05OUVZheDRqNkEwakJ5X0V4TWhKUTV5MWhSQk5FNlNacmdVUXhZeW12ZFJOOFVXTEVYM0tPakl6anRPS21qQV9VQVI4UDhNbjRDNnZnZ3BwSkt0LVE?oc=5",
@@ -633,45 +516,6 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Parisien",
-    "titre": "Les articles du samedi 30 mai 2026",
-    "lien": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nb3duMmFMck5IZGJnT3p3UGNTVDIyZXF0U0V3bkxoSVJFQzUyZjlVYmZJTkZfb0pwNjhjdUVQLXo5ZldVazhDdUYyQUdRajVkR1dDOWkzSEJwQ2NpX3lWZA?oc=5",
-    "date": "2026-05-30",
-    "date_iso": "2026-05-30T23:31:15+00:00",
-    "resume": "Les articles du samedi 30 mai 2026  Le Parisien",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-leparisien",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "US Créteil Lusitanos - Couronnes O.F.C. 23-0",
-    "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTkhhZzNmc2Q5TU1xYVlHVTJiRDBpZmM2cTlncXdpcFpMclI4VzJTRGJsOEJhXy1mYXBJcGVJaDE3U0xKaERxVXRCV180VmlOb3FZZlJGWS1UeWxpT19BazNsUC1IUFVWZFdMWF9TdzZqUmZndGRaMldzUmxDUGVfVkppWlI4Smhfb1E0bjhPaWhUanhVQUtSZG1MaWxVa1U?oc=5",
-    "date": "2026-05-30",
-    "date_iso": "2026-05-30T23:23:06+00:00",
-    "resume": "US Créteil Lusitanos - Couronnes O.F.C. 23-0  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "- Ouest-France",
-    "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUVjVXlSOS05RTFkMXFPSTdaWDdmdFowVWMwNGhhTlpUT0ZBa0JWcGZSd0lmNl9QX0Y1VEVTZjhGSllzbHVQY0EwZVNyMVdqN1BIWk5zZlhMVUw3VG5zQWZ1azVsbExldWhqSW5mMm8yMVUyTGVlLUtWWlVDRzJqUVRTX2xjbWZTSkN2WTNuT3RSRUNzVVRPeGRMQzZJYk81azkyMDZRc0dYUklqZEF0ag?oc=5",
-    "date": "2026-05-30",
-    "date_iso": "2026-05-30T21:57:22+00:00",
-    "resume": "Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
     "image": "",
     "img_checked": true
   },
@@ -715,19 +559,6 @@
     "img_checked": true
   },
   {
-    "source": "Ouest-France",
-    "titre": "ASM Chambourcy Football - Interfoot 78 en direct",
-    "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWDRONEVybDZtdGR2YmJlQ3Rfc2xsZFhlay1Ga3I0UV9BZjlxdjRfT1Zpa1pSZjVGRHpUOWNIWjVzdFlmYVUwU1FwNElKdERkWTFUR0NEYXU1M21rYVVPcE8zMko4R294TkI2ZENPQzJmNnpnNzZFWU15N2R3amg4TG4xcDVaR1VYd0JHYkExNEc5Z3Fkai1jRVlReFRLZXdSTkl2cE5POUdTYXQ0c0Jr?oc=5",
-    "date": "2026-05-30",
-    "date_iso": "2026-05-30T10:00:00+00:00",
-    "resume": "ASM Chambourcy Football - Interfoot 78 en direct  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "Le Parisien",
     "titre": "« T’as laissé ton talkie-walkie » : à Chanteloup-les-Vignes, la provocation des émeutiers sur la radio de la police",
     "lien": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOUpPOE55VEVweTdhdVRzSVR2emZtSEhkcjJxbEhkVFdvUkRwRXhnand6RlJUdURYeG8xd3psSEIySl9WY3RNNDc1QUFueU5OSkhxQUViSmhHS3o0a1hHQ2RJLVp4LWQtM0pNZnJOdVpoZVE3dERRTnE3RWk5MG9ZX0hHNmQzaVB1ZThLbzlEOGRsblYteGlMbmpyaTRreXVUZmU2bWp2LXpLOU52b0RlUW5KZVp0Z1ptenlFdXFoVEN4UzNHQUZuVGtQSmtPbTFybHBwbjRzd0NGVzdpdkhaQmNhZjhpU1d5bVF2OWtYYVRXQ29QWERBcFhKcE5qMzVteUVDT1VsS3U2dFMxUmZzM0I0QkJsQQ?oc=5",
@@ -750,32 +581,6 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Parisien",
-    "titre": "Dans les Yvelines, une fête foraine géante pour… les chiens",
-    "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWlYxbnNJY0ZaN29pRnFhSF9RTm5xVTRNdWgxOWYtVUtKdUtlZmgzb2NsbW1SNktJYlRUc2N3ZHg4cWsyUnJfN0RKT3Y4TnBibkJBd0pjZy02ZXJPNDlVWXAwSUVWS05BX1ZtekNHa3dDamxqRWg4NGZDS0NrYXNwRWk5N2dzam40VzhuNVEwdGl1UmRFaTkycXl3Q2ctdkJEVzBsTDJwS3FqUHlENndwMGlpQ0FZZlpXcEtoYTV3U1c2YVVPb2lVbmprSm5XeGEyWXNN?oc=5",
-    "date": "2026-05-30",
-    "date_iso": "2026-05-30T06:23:00+00:00",
-    "resume": "Dans les Yvelines, une fête foraine géante pour… les chiens  Le Parisien",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-leparisien",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Parisien",
-    "titre": "C’est intolérable, pas seulement sur une élue »… A Sartrouville, l’homme qui harcelait Alexandra Dublanche condamné",
-    "lien": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQNWFsbE1UUWdzMWNBNmNMUGRGd3NIZmFrVzYwNUU3Z2VSQ2hmZS1sT2h4b1N0THNYRG15NHRDTWxNOFJSVFRFUjIzQmhaX2x5TDNaREZGTWYxZzhwZ0QwZE9GMFN4ZkFpTTZjdUZUQWNZUkRyYmoyc3RnNTdqMkIzWkhybl9fUTFobGRlZVN5SENkQ21Cdy1CbHJ0M1M3Z0lmQUFaeVJJYWtvcU1hdktZUjktYWVHclFrVEZmam9ZSDJrSGpiTnh1dERqZHlhLVczUjl1b09aYmZmeXVhVlpCU1lSYkJKYlhhTTA2VlBPZ2FJc203UnZwN2RkVmlPR1RlQS1iSTFBa0V0bjcydVJ4UWt4M0c1WTA?oc=5",
-    "date": "2026-05-29",
-    "date_iso": "2026-05-29T10:27:36+00:00",
-    "resume": "C’est intolérable, pas seulement sur une élue »… A Sartrouville, l’homme qui harcelait Alexandra Dublanche condamné  Le Parisien",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-leparisien",
     "image": "",
     "img_checked": true
   },
@@ -871,19 +676,6 @@
     "img_checked": true
   },
   {
-    "source": "Le Parisien",
-    "titre": "Invasion de chenilles urticantes : pas d’action coordonnée en Île-de-France ni dans l’Oise",
-    "lien": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZG5pZHdxUWxpRFpJYmF0QWZndEtNeEN4ZVhXRUJnTnl1ODNjSm9nTmdaSGdfLUd0clU3UkRNUmtQYjVuNjluSmtodDBnb0gtT053U2dSSzV6dmsyRks0WG85MGtwRUhlUkNMME9BSXB1MnJrdlE2X0M2Zkp2MUFqRmIxdHo0aGVxUnIwaWlaM3p6Mi1PREs4aldEYzNEalR1WEtDQ2VpSHFCTGwxRWVJU244SzlHWlNFY1hyOENlRmpoSnRoWkpTaGZIQlZRM1RxUmNta0RhWnZ5YVJITlVhRkhkRzEzbTE4SE5TbnRvLURVXzlSRjV1WWp3?oc=5",
-    "date": "2026-05-28",
-    "date_iso": "2026-05-28T06:26:00+00:00",
-    "resume": "Invasion de chenilles urticantes : pas d’action coordonnée en Île-de-France ni dans l’Oise  Le Parisien",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-leparisien",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "La Gazette en Yvelines",
     "titre": "GPSEO consacre le mois de juin à la rénovation et aux économies d’énergie",
     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlg1cTh3bEpVMUVnUHRVUThJZDRRT2c1YTlGMkxKTlhBSVlydEk1TlZmQnpiQXVzbVg3NkFkY191SjQ3T3ZhUV8xOWVnOUR4U2p5OU5aZTJCWUhJS3N0N0U4QVhKYXg2Tm5pMjdVZV9Sd25Ma25Kc2NpMGNwcXd1R2xvdzdrYnpNbDk0anJzYWRRbS1qNld5RkdySFNCeTB1akdkZFpfRjhOQkFRV21lSDdGM2k?oc=5",
@@ -923,19 +715,6 @@
     "img_checked": true
   },
   {
-    "source": "Le Figaro",
-    "titre": "HD Carottage (78570) : siret, siren, TVA, adresse... - Figaro Entreprises",
-    "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPMWY2R1JpNms3MTQtd1p6UGRzdmZOdDM5ZlUtMDFKdkFpWld6UWtFR3gzbkY2WEtlXzZXV29uZW0zSk5ScU9lNnVrRUxsMjlvc1ZCY09vZWFPQW1sMHRwbW5TaTg1TUhpZzBrOEZhTERmaVFkYVpv?oc=5",
-    "date": "2026-05-21",
-    "date_iso": "2026-05-21T07:00:00+00:00",
-    "resume": "HD Carottage (78570) : siret, siren, TVA, adresse...  Figaro Entreprises",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "L’Écho Républicain",
     "titre": "Chanteloup-les-Vignes - Prix du carburant : les stations essence les moins chères - (Màj : 20/05/2026)",
     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNY0NKWVRsMVF3Qy04MlVzZkRVZm1xdDVMQVR4RUVKM2NxSm5GeUotMGI4TjhnRXotM09zMUlHR2otN3Q0VWhrT05SMGhUMU9Hb3hFQlJuNk44bmVOMk9pd3poeVpfMzkyRkpKdG1TeFctMWo2b01uNE5QNGl3OF9kbFQyNXFUMnVmMy1wS1luSE1OZ2ZvMGp6bm5zQWxaczJlSFZpRTdZaGxKV2NOZFRqV0ZfQkNRM0l2N1RZTi1tR2VKbjAyb05iY2ZnVnN0bmVYU1VSR0FpU0dyUXJsWVVfVFJLRlR6RENVRS16a2NDM2JxN1h6MXZ5R2QyZW0yVXQ0SW8w?oc=5",
@@ -945,32 +724,6 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "CELLOIS CS - Football Olympique Plaisir 3-4",
-    "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmV1Sm5jUFhrZHBfb29GZy1VdHZSYmhGd18xN2ZkcS1xX0NpZko0RTRWS0pMMEluNkEtOFBpaTFGNzUzMGVLWWtKSHRPdEN5VGFhQUVneDFDUlM2NzRkb015RUZKZ0gzS3NEcThQeW5qbW5acGhpZ1FWQTVIV3NuT2wxUzZxd29rQnN3Vk56QjlpVHRNS3ZkZnJxZXlFaHVuVUE0UGtsUHlVaXRac09CS1FxZFg5cmota1VncDk1V3VQLXJGR1BILXZwQ2lQNnNLdGZJOXM3S0Y?oc=5",
-    "date": "2026-05-20",
-    "date_iso": "2026-05-20T07:00:00+00:00",
-    "resume": "CELLOIS CS - Football Olympique Plaisir 3-4  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "AS Maurepas (Yvelines) 3 - CROISSY U.S. 6-2",
-    "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTTVLTEk4TDh3UHhTb2U3eWNHVFlOTHpQSU9DdGpXVkx4VmRwSVVZelZLTHA0UGJIRGV3dkhvMVo5ZjBZcElWajVzeDh5TFVmN0U2UWNPZkpJbkE5RTdjSVlPUDFHTHRrU2tTVjdEWmVUclpTbDkxc0w0cHlOamk5eTlWSXlyTkdMUmhLUlQtTDJWYjVGbk1ILVI4N29oaG4ycVpJ?oc=5",
-    "date": "2026-05-18",
-    "date_iso": "2026-05-18T07:00:00+00:00",
-    "resume": "AS Maurepas (Yvelines) 3 - CROISSY U.S. 6-2  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
     "image": "",
     "img_checked": true
   },
@@ -1001,19 +754,6 @@
     "img_checked": true
   },
   {
-    "source": "Le Figaro",
-    "titre": "Delice Et Creation Distribution (92160) : siret, siren, TVA, bilan gratuit... - Figaro Entreprises",
-    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY05UUmpoMXJUdnRsRlBHbHc1WGg5U2pnN1pVU2JKajB5Vk52YUQ0OVM4ZDFDcFp5UnJmeWwzd3M5SnFMa2FPamlQZjU2aUk2c3ZNVVNaS3kyWGQ4N3NkTklDcDI2VGhyb09sSWttb0pvNU02OWplZHZQQkd1N1BFbWw1eTZCQWdpU3NZQnQyNjU?oc=5",
-    "date": "2026-05-13",
-    "date_iso": "2026-05-13T06:49:30+00:00",
-    "resume": "Delice Et Creation Distribution (92160) : siret, siren, TVA, bilan gratuit...  Figaro Entreprises",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "Le Parisien",
     "titre": "Chanteloup-les-Vignes - Sartrouville : quand des restaurants s’installent dans des locaux municipaux",
     "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOMEsyVjIxZkJWRmlXUy15Qkh4dEstZDZuNUtYbkQySE5sa1RDaXdIbFlPcWltaWJJUU0wd0tWbmtBZVJVdEN2aVVVbkJtOC1sX1JsV3VKTFB6UUxpWTB5Sm9HQ2ZDRVRwYnNTZFNhT1RpRlJmRFVxWDhKU2YtNzVJQ0ZSelVZNmFPWWE0dXJhRW8wUnc0eUstdTB3MGhMdV9zMmNDSGFRQmVHOW1ybnd4RElWbER2MnNkbkJyYUZ1WjI3c2pXUHZwUjFvR1pQcmdLeElfZWRwNnhSUUJYNncyY1RWUXpjX0hzajRYdzdDTDFZTFZyM25zSlFkUkxSY0pobTJWQXJn?oc=5",
@@ -1036,19 +776,6 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Figaro",
-    "titre": "Monsieur Seyfedine Azhari (78570) : siret, siren, TVA, adresse... - Figaro Entreprises",
-    "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREN5VU1CXzY3S2g1NWsxZDhCd0FURlR1aGFFblVMSzBjZzZJTHYyMThPVDFMSmpkRnBGTGg3Q3p3QU1ZelA4Slp3R2hLRUt4WmY2NDBES1NKZDREU3lNQU1ka0FYUHRkUjNpM28welEyRTQ5YUNVU0dwWkJXZFdnSWFlWXljcFVl?oc=5",
-    "date": "2026-05-10",
-    "date_iso": "2026-05-10T06:10:59+00:00",
-    "resume": "Monsieur Seyfedine Azhari (78570) : siret, siren, TVA, adresse...  Figaro Entreprises",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
     "image": "",
     "img_checked": true
   },
@@ -1140,19 +867,6 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Europe 1",
-    "titre": "«Il y en a vraiment partout en France» : après Paris, le scandale des violences sexuelles dans le périscolaire prend une ampleur nationale",
-    "lien": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQlUyd2lpNjBLWElUVDlPVnhHY3Nrcy1MMG5LMUowVUdRTlNuSmZ5clpvTXhPUWpuRWt5OFhmUEE4ZGJRRWdjZENlb1lGVzFvRU1LU0prdnFLOXkwM1pDYjhnWnpjY3RnSnlDZjB1N0llS0F5NFptZ3lDaG51S2FJS2tKaWM0SHNSUXBKYmx1a3RYMTFhS19RSFdUUU5fOEg0amhPbHhBTUluS3d3TkJtY2JzdTVGQzRUaFh6ZmpsS2xwTmJyUVJ3NlZaQXJrcXZkX3p0bFZNRWNCMTQ0WHIxUHpHRFhTOUthdzJOY3Z0eU5NUkFsM1hwMTVwcEEydEda0gGGAkFVX3lxTFBrNTY3VjhsWU0xNVhHZDJsYzZKcHlsQlhJY3Y5ZUhGVEw5eDBfNDNRM1pha1Nkb1R0azZ2Wm5vT1ZnaGdaZ1RUdzBwZk9XWkNFdTEwdzJLR3FsZ2NJVnV2Zmt3d3FTaTdOSUhGcnc2THZYWC1sWERvaml0MDFyelpvWnJNblllWXcyZEE4VUJjVVBXRk5HUEtFckVqMG5zVkFqX2NlZktfb3hpOERoR1JBOFZ6bVlVMjFaV3c2WV9ZN2kwR29lZF90Zkt1UzZac3kzem1vUE5idWdNX3JGQTdQeDFYRGJUa1hqRkZzNmh3ZkNielFtVGN6VHJkODdxUElKcGNVekE?oc=5",
-    "date": "2026-05-04",
-    "date_iso": "2026-05-04T07:00:00+00:00",
-    "resume": "«Il y en a vraiment partout en France» : après Paris, le scandale des violences sexuelles dans le périscolaire prend une ampleur nationale  Europe 1",
-    "categorie": "chanteloup",
-    "sous_cat": "securite",
-    "source_id": "presse-europe1",
     "image": "",
     "img_checked": true
   },
@@ -1296,19 +1010,6 @@
     "categorie": "chanteloup",
     "sous_cat": "education",
     "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Monde",
-    "titre": "A Stellantis, à Poissy, peu de salariés en grève et des sous-traitants inquiets - Le Monde.fr",
-    "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZUZuSk9QY2ZSRER3dkY0YXA4VzZDYjY1cDBWNlBHRU9xVnFmXzR0OE4tTDhWUnV5U1hiSjRXT2ZkWWFLeDQ3bHM2R1BZTEN3UTRvVGlMNmIwV21NN20yc0J6c1VON2pCVlJZamFzSzd6YUJfcmZjZ2JTOEJJNWVKQWx3NkxoR3Zsb21zcUFEeDBPX0t0N3NwdENtekx1UndtNmdDLUhETzJLdElCSXhmQWNmSUFfVUJOLU4tMWlTbjRjWFpQeDFMQkZqVFRqQ2d1RU9pczdSUkVLRmp0RFBFWDN0TQ?oc=5",
-    "date": "2026-04-23",
-    "date_iso": "2026-04-23T07:00:00+00:00",
-    "resume": "A Stellantis, à Poissy, peu de salariés en grève et des sous-traitants inquiets  Le Monde.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lemonde",
     "image": "",
     "img_checked": true
   },
@@ -1495,149 +1196,6 @@
     "img_checked": true
   },
   {
-    "source": "BFM TV",
-    "titre": "Résultats élections municipales 2026 à Neuville-sur-Oise (95) - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVkJqU1pvQUg0ZWU2RGswWjJaUDZBNDFiNFBkUHJLLXpyMWZGeXc2Nzl2MGJacVZmV1N3OEZxd2VpU2lCZE9MYWtGUnlNSU1scHZoSjdMTVliVk9aSV9YWjBoc3N5NzRieG1lSlF0enQtd2tlLTlRMUdmYzA3c1ZYMEZOa0RlQWRYbHc?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats élections municipales 2026 à Neuville-sur-Oise (95)  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats élections municipales 2026 à Saint-Germain-en-Laye (78) - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbjZtS1hfUF9TSGUtQVhmM3FmYjQ2TFdpMnd5VlJRd1d6ektVUEcyVXJLMERDYlpUM0ZrdHQ0cHAxTldmRVBSRjY4bThfYWpENDJHZGVZMndBSW84UVliVVh4akhvLTh5eEhxc1U2UjVQUzVxTlMyNjFlSVdPSWtSTGpibUs0X1VZTy1rWg?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats élections municipales 2026 à Saint-Germain-en-Laye (78)  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats élections municipales 2026 à Villennes-sur-Seine (78) - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcjFEY1R1eU1xVEhZWVFtY1VIaE5jTG5EVEVMMU9PTEhwODRUVGRLbmxKM3BZNE5uSHhQQnNfQ0FjWHp6d3QyYVBkN29yTlBiRmRKWlM1UzVlU1lHckUyU0JwTzlVMFViLVdBMERQQ3laVnlhQ1BZYTJkSVdOc00wVFRLR0E4RUp2Unc?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats élections municipales 2026 à Villennes-sur-Seine (78)  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats Élections Municipales 2026 : les résultats dans la commune de Triel-sur-Seine (78 Yvelines) en temps réel - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMXB0d0VudWcwSkljUWNXZXBkdVI3WVFxWC11emJrRVVjTEdkX2hoUWtSSDVUSGh6d3NCSHBUOWNkOXlDMUdfSTBTUkFzaHppUzVGQXFJT21jOEtXWVFUT0hRZURkQ1VOVVhDeWUyRDhvOGhzT3p2UUhVMzVRbzVucExWU1Y?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats Élections Municipales 2026 : les résultats dans la commune de Triel-sur-Seine (78 Yvelines) en temps réel  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats élections municipales 2026 à Carrières-sous-Poissy (78) - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOEwwVUJBY2JWRFNKU3RQRjNXLUl1NkdnSm1UcVNYTG1lTnRzLVJzbG13aXpVTFlqQVNSTlR0MGJwOG9SQVZSVmQyVHMwOXB1RURmbGZEN3J2WTFSN19GUmlWR3J3eGx4QlZ3c1RBYS1kUENNbUU2VGk5bktVNldCNmQ0cFgzQ0V1MmoxdQ?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats élections municipales 2026 à Carrières-sous-Poissy (78)  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats élections municipales 2026 à Conflans-Sainte-Honorine (78) - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSmN4RVloSEFiTGctR1Z1YlplalBCYkxtSWp0bG1tczhzVjFXU2RMOWZiVWVOTE1OZm5Nek9vMUtoclRyUld4X2NUOFR5dlhOTWtKWTFWcVVrN3lhRHAxZUFkYWQzdEpvMTUtWGpGM0VxUlVTMXFCU181QzdoMUx4Uk0xTTJHTmJlSndWcDlobHM?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats élections municipales 2026 à Conflans-Sainte-Honorine (78)  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats Élections Municipales 2026 : les résultats dans la commune d'Achères (78 Yvelines) en temps réel - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTUUt3aGlqRlBjX2RfNXhqOGRpRFpPTEVpMlQ4N3djX3dYWUt1bUI2eUlMZ29ySVpqM3p1MGpRdDZScGt6dmhIUm9jam80UjdTczJ0WndubEQ5S1VPTGlfUThXNTNqSXNwbk1wLThTU3ljS3pNT2RQTkFR?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats Élections Municipales 2026 : les résultats dans la commune d'Achères (78 Yvelines) en temps réel  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats élections municipales 2026 à Verneuil-sur-Seine (78) - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUjJqRXMzRmY1aGdRNFhVX3dDOXlQcUMweHU2enpfaENrMnF0dzJLdS1BUFRmTXFqa2Q5N014dUM4WDJMNGZ0VUplZ0FzemZ2TkFFX3hNd2FBRnNaUXAtalZaN1ZqeUJ0a0ZRa3RzVlVOZktJYy1TeG9iMm53S01WblNCdXBVa1Nn?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats élections municipales 2026 à Verneuil-sur-Seine (78)  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats Élections Municipales 2026 : les résultats dans la commune de Boisemont (95 Val-d'Oise) en temps réel - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLdHkyVFpadDFqU3lQX05FWElHeU5VdmJGamtHX3FsU0pSdW9UQzZGTDYtNy1VVFg3Vk9NOWlSSmNKdWt1WGlwems1eS1OckxPVXRkMzlaY1JlaGFnTEQ0MXI3ck1hdEdHOEtNaFR5MWI2ajRZcnA2VC1ZMll2anM?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats Élections Municipales 2026 : les résultats dans la commune de Boisemont (95 Val-d'Oise) en temps réel  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats Élections Municipales 2026 : les résultats dans la commune de Maurecourt (78 Yvelines) en temps réel - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yNXVlaUd2cXluTk9UWlQtZ0Y3emRibFZQWjBxYnRSTGlSNzRnNlg0WVZTSGV3U3Q0WWQxTDhjRzJmWkpLaHNzQXhQYzVYeDBmMGlPV1hfRFZMOTIzSVk2THJRV3VaQXFNV0ZEVFlwcklVcUNaVjJ5LVYyWFJZZw?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats Élections Municipales 2026 : les résultats dans la commune de Maurecourt (78 Yvelines) en temps réel  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "BFM TV",
-    "titre": "Résultats Élections Municipales 2026 : les résultats dans la commune de Jouy-le-Moutier (95 Val-d'Oise) en temps réel - BFM",
-    "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRFo2NTlqclM3TDFsekFhMVVSeTRmVzhINEdaTmliMDZRZDNMal9fRnlmYXVVZ0NOT0NQQTRKX1ZPVzR4RFBfbkp6bVVjdW5BM3QwRmNuRXNnRTIxdFNObjc0OWltTUd0cWhaOS1qRzNuSEN5VDBiZjFUSHlNZkVXa0dOcGpaMFU?oc=5",
-    "date": "2026-03-27",
-    "date_iso": "2026-03-27T07:00:00+00:00",
-    "resume": "Résultats Élections Municipales 2026 : les résultats dans la commune de Jouy-le-Moutier (95 Val-d'Oise) en temps réel  BFM",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-bfmtv",
-    "image": "",
-    "img_checked": true
-  },
-  {
     "source": "Le Journal des Deux Rives",
     "titre": "Echos de campagne : Claude Ney cherche à imposer son rythme pour mars 2026",
     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXNyQ3BGYlhMLWI3dThUSGk5cWRsSkZoSGdINWV1ZTJIdTFaMmcwMnlBRF9LLTVuT1JYQllBM2xzVTd1RERBQVdlR3ZCc19jWVBEanNrTVRrbEs1dF9FMkNIQnlpb195ekl3QUYzcFR3aEttVHUxbnN1QXkwczNCbU1uaFV3WE0tSnNTcGFIWDViWWNkZGxmT2IzamZtNmJwQU9semFWbXpSTlo4U3pzOXhB?oc=5",
@@ -1647,19 +1205,6 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-google2",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Figaro",
-    "titre": "SCI Bataille (78570) : siret, siren, TVA, adresse... - Figaro Entreprises",
-    "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UdndNYnpMUEhhWEtOcG9ES3dPN1UtbzAwSmJReWpJTXBic2pyVzJzZE9kb0R0UW9OZlJwT001NzJ5RlpuLXVLM0FKTVdmSWdYS0doMmt2bVJ6LU1ISmpfVHBJNnJodzh3MnZqU1dlUzhxQTdSb3Q4?oc=5",
-    "date": "2026-03-25",
-    "date_iso": "2026-03-25T07:00:00+00:00",
-    "resume": "SCI Bataille (78570) : siret, siren, TVA, adresse...  Figaro Entreprises",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lefigaro",
     "image": "",
     "img_checked": true
   },
@@ -1699,32 +1244,6 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "Les Mureaux O.F.C. 3 - Voisins FC 0-2",
-    "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbmZ2ZU1fcTBoNUE1aTNadnE3aGk1SVBfdGE5bjBNcXhSUFpsSnIyX3o0OG9hSWgxV1VaOFdOLTAwWGNPTjdSZ3BaX1F3ZFMwM1F6Q0JhQTk5b3VPXzhDQTdKTGhPRENqZmJIeXBxQlhfcmZkV2tUUENsdk16RVBUdkFYMGNVYjVodG1FZlNaVmVkellKNktvTXpwYTM?oc=5",
-    "date": "2026-03-22",
-    "date_iso": "2026-03-22T07:00:00+00:00",
-    "resume": "Les Mureaux O.F.C. 3 - Voisins FC 0-2  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Monde.fr",
-    "titre": "Les ravages des bonbonnes de protoxyde d’azote dans les incinérateurs réévalués à au moins 35 millions d’euros",
-    "lien": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPQWgxU09DQTJtQjY3M2o3VmhEaDdHcHNGc05YTEhXN01qM3QwamM5bERjWGZMa1pDZ3JMbEpmeV9WQ1g1a0dpTDZQM1RkTUxXOTZSRWgwTHExNUJiUTJuaG9wcE5odjNrMU1NMVZqQjdkNC1CbE5LR1pWeUdIRHhpRkxpT1hCX1NXazdlWVVmeEFtZ3VUNUFSN2wyYnREY0FRMUdqaDN4VDVjUXIwZ2pFWHJTMlNTS0FwTTNTSnpDbzBIZGtwYUFyOC04UHRvelFocXhydmFIOG9tSFVTcnVaNUlLaUR4ZmY0VGctcG1vSFh6WFQzbnlrSHJCY19OS3FNZGlhcFNFTjkyUkVjZGx6R2NwVVNGQQ?oc=5",
-    "date": "2026-03-21",
-    "date_iso": "2026-03-21T07:00:00+00:00",
-    "resume": "Les ravages des bonbonnes de protoxyde d’azote dans les incinérateurs réévalués à au moins 35 millions d’euros  Le Monde.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lemonde",
     "image": "",
     "img_checked": true
   },

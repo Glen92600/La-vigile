@@ -6,8 +6,8 @@ Collecte les RSS, maintient une base d'articles (90 jours),
 génère site/index.html automatiquement chaque matin.
 """
 
-import feedparser, re, os, json
-import urllib.request
+import feedparser, re, os, json, time
+import urllib.request, urllib.parse
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 try:
@@ -61,13 +61,67 @@ def fetch_og_image(url, timeout=6):
         pass
     return ""
 
+# ── Résolution des liens Google News + lecture du corps d'article ───────────────
+# Les liens Google News sont des redirections chiffrées (format « CBMi… ») : l'URL
+# réelle n'est pas dans le flux. On la reconstitue via l'API interne « batchexecute »
+# (uniquement la lib standard, aucune dépendance ajoutée). Sert à vérifier qu'un
+# article de presse nationale mentionne bien « Chanteloup » dans son CORPS, et pas
+# seulement dans le titre — sinon on perdrait de vrais articles.
+def _http(url, data=None, timeout=8):
+    req = urllib.request.Request(url, data=data,
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read(300000).decode("utf-8", "ignore")
+
+def resoudre_gnews(lien, timeout=8):
+    """Renvoie l'URL réelle d'un lien de redirection Google News, ou '' si échec."""
+    if "news.google.com" not in lien:
+        return lien
+    try:
+        page = _http(lien, timeout=timeout)
+        sig = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts  = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not (sig and ts):
+            return ""
+        art_id = lien.rstrip("/").split("/")[-1].split("?")[0]
+        inner = ["garturlreq",
+                 [["X","X",["X","X"],None,None,1,1,"US:en",None,1,None,None,None,None,None,0,1],
+                  "X","X",1,[1,1,1],1,1,None,0,0,None,0],
+                 art_id, int(ts.group(1)), sig.group(1)]
+        rpc  = [["Fbv4je", json.dumps(inner), None, "generic"]]
+        body = "f.req=" + urllib.parse.quote(json.dumps([rpc]))
+        out  = _http("https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+                     data=body.encode(), timeout=timeout + 4)
+        m = re.search(r'\[\\"garturlres\\",\\"(.*?)\\"', out)
+        return m.group(1).encode().decode("unicode_escape") if m else ""
+    except Exception:
+        return ""
+
+def corps_mentionne(lien, mot, timeout=8):
+    """True si le corps de l'article contient le mot-clé, False si absent,
+       None si on n'a pas pu vérifier (réseau/format inattendu → bénéfice du doute)."""
+    real = resoudre_gnews(lien, timeout=timeout)
+    if not real or "news.google.com" in real:
+        return None
+    try:
+        html = _http(real, timeout=timeout)
+    except Exception:
+        return None
+    texte = re.sub(r"<[^>]+>", " ", html).lower()
+    return mot in texte
+
 # ── Chemins ────────────────────────────────────────────────────────────────────
 # Dérivé de l'emplacement du script → fonctionne en local ET dans le cloud (CI).
 BASE        = os.path.dirname(os.path.abspath(__file__))
 DB_PATH     = os.path.join(BASE, "articles_db.json")
+REJETS_PATH = os.path.join(BASE, "liens_rejetes.json")  # cache : liens vérifiés hors-sujet
 SITE_DIR    = os.path.join(BASE, "site")
 HTML_PATH   = os.path.join(SITE_DIR, "index.html")
 RETENTION   = 90   # jours conservés en base
+# Nb max de vérifications « corps d'article » par exécution (réglable via env pour
+# un backfill ponctuel). Google limite vite la résolution des liens → on reste bas.
+CORPS_BUDGET = int(os.environ.get("VIGIE_CORPS_BUDGET", "8"))
+CORPS_PAUSE  = float(os.environ.get("VIGIE_CORPS_PAUSE", "1.5"))  # secondes entre 2 vérifs
 
 # ── Accès : mot de passe partagé à l'entrée du site ────────────────────────────
 # On ne stocke ici QUE l'empreinte (hash) du mot de passe, jamais le mot de passe
@@ -233,7 +287,14 @@ for _sid, _nom, _dom in _PRESSE_NATIONALE:
         "nom": _nom,
         "url": f"https://news.google.com/rss/search?q=%22Chanteloup-les-Vignes%22+site:{_dom}&hl=fr&gl=FR&ceid=FR:fr",
         "categorie": "chanteloup",
-        "filtre": False,   # requête déjà ciblée (domaine + phrase exacte)
+        # Google News « site: » ratisse trop large (faits divers d'autres communes,
+        # foot, météo, fiches SIRET du 78570…). On exige donc que « chanteloup »
+        # soit réellement mentionné. Si absent du titre/résumé, on vérifie dans le
+        # CORPS de l'article (verif_corps) avant d'écarter — pour ne pas perdre un
+        # vrai article qui ne nomme la ville que dans son texte.
+        "filtre": True,
+        "mot_cle": "chanteloup",
+        "verif_corps": True,
     })
 
 # ── Catégories ────────────────────────────────────────────────────────────────
@@ -305,6 +366,24 @@ def sauvegarder_db(articles):
         json.dump(articles, f, ensure_ascii=False, indent=2)
     return articles
 
+def charger_rejets():
+    """Liens Google News déjà vérifiés comme hors-sujet (corps sans « chanteloup »)."""
+    if os.path.exists(REJETS_PATH):
+        try:
+            with open(REJETS_PATH, "r", encoding="utf-8") as f:
+                return set(json.load(f))
+        except Exception:
+            return set()
+    return set()
+
+def sauver_rejets(liens):
+    # On ne garde que les liens encore en circulation (passés en argument) → fichier stable.
+    try:
+        with open(REJETS_PATH, "w", encoding="utf-8") as f:
+            json.dump(sorted(liens), f, ensure_ascii=False, indent=0)
+    except Exception:
+        pass
+
 # ── Normalisation de titre (déduplication inter-sources) ──────────────────────
 def norm_titre(titre):
     """Normalise un titre pour repérer les doublons entre sources.
@@ -342,6 +421,8 @@ NOISE_RE = re.compile(
     # Annonces immobilières (ventes / locations de biens)
     r"\b(?:vente|location|achat|à\s+vendre|à\s+louer)\b[^|]*\b(?:maison|appartement|appart|studio|villa|duplex|loft|terrain|pavillon|garage|parking|local\s+commercial)\b|"
     r"\bprix\s+(?:au\s+)?m2\b|\bprix\s+m²|figaro\s+immobilier|"
+    # Fiches annuaire d'entreprises (SIRET/SIREN) — pur bruit (ex. « Figaro Entreprises »)
+    r"figaro\s+entreprises|\bsiret\b|\bsiren\b|"
     # Galeries photos / people (ressortent souvent de vieux clichés avec une date récente)
     r"^\s*photos?\s*:",
     re.I,
@@ -380,6 +461,10 @@ def collecter():
     titres_connus = {norm_titre(a.get("titre","")) for a in db}
     nouveaux   = []
     stats      = {}
+    rejets_old   = charger_rejets()   # liens déjà vérifiés hors-sujet (runs précédents)
+    rejets       = set()              # liens hors-sujet encore en circulation (à re-persister)
+    corps_budget = CORPS_BUDGET       # nb de lectures de corps autorisées ce run
+    corps_echecs = 0                  # échecs consécutifs de résolution (détection rate-limit)
 
     for src in SOURCES:
         sid  = src["id"]
@@ -410,10 +495,18 @@ def collecter():
                     continue
 
                 # Filtre mot-clé
+                besoin_corps = False   # faut-il vérifier le CORPS de l'article ?
                 if src.get("filtre"):
                     if "mot_cle" in src:
                         if src["mot_cle"] not in texte:
-                            continue
+                            # Mot-clé absent du titre/résumé.
+                            if not src.get("verif_corps"):
+                                continue
+                            # Déjà vérifié hors-sujet lors d'un run précédent → on saute
+                            if lien in rejets_old:
+                                rejets.add(lien)   # toujours valable, on conserve l'info
+                                continue
+                            besoin_corps = True    # à confirmer plus bas (après date + dédup)
                     elif "mot_cle_liste" in src:
                         if not any(m in texte for m in src["mot_cle_liste"]):
                             continue
@@ -433,6 +526,29 @@ def collecter():
                 nt = norm_titre(titre)
                 if nt and nt in titres_connus:
                     continue
+
+                # Vérification du corps EN DERNIER (coûteux : 1 résolution + 1 fetch).
+                # On ne la fait que pour un article récent, nouveau et non doublon.
+                if besoin_corps:
+                    # Budget épuisé OU Google nous limite (échecs répétés) → on n'insiste pas :
+                    # on écarte (retour au filtre titre) sans cacher → réessai au prochain run.
+                    if corps_budget <= 0 or corps_echecs >= 2:
+                        continue
+                    corps_budget -= 1
+                    if CORPS_PAUSE: time.sleep(CORPS_PAUSE)   # cadence douce (anti rate-limit)
+                    presence = corps_mentionne(lien, src["mot_cle"])
+                    if presence is True:
+                        corps_echecs = 0         # résolution OK
+                    else:
+                        # False = corps lu, « chanteloup » absent → hors-sujet confirmé (on cache).
+                        # None  = résolution/fetch impossible → on écarte sans cacher (réessai plus tard).
+                        if presence is False:
+                            rejets.add(lien)
+                            corps_echecs = 0
+                        else:
+                            corps_echecs += 1    # échec technique : compte vers l'arrêt anti rate-limit
+                        continue
+
                 liens_connus.add(lien)
                 titres_connus.add(nt)
 
@@ -460,6 +576,8 @@ def collecter():
 
         except Exception as e:
             stats[sid]["erreur"] = str(e)
+
+    sauver_rejets(rejets)   # ne persiste que les liens hors-sujet encore en circulation
 
     db_maj = db + nouveaux
     db_maj.sort(key=lambda a: a["date_iso"], reverse=True)
