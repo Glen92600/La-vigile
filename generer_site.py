@@ -999,6 +999,22 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .kpi-l {{ display:block; margin-top:.45rem; font-family:'DM Mono',monospace; font-size:.58rem; text-transform:uppercase; letter-spacing:.09em; color:var(--muted); }}
 .kpi-l b {{ color:var(--orange); font-weight:600; }}
 @media (max-width:560px) {{ .pulse-kpis {{ grid-template-columns:repeat(2,1fr); }} }}
+/* Répartition par périmètre (anneau) */
+.rep-card {{ background:var(--card); border:1px solid var(--border); border-radius:var(--r); padding:1.5rem 1.7rem; box-shadow:var(--sh-sm); margin-top:1.3rem; }}
+.repartition {{ display:grid; grid-template-columns:auto 1fr; gap:2.2rem; align-items:center; }}
+.donut-wrap {{ position:relative; width:148px; height:148px; flex-shrink:0; }}
+.donut {{ width:100%; height:100%; display:block; }}
+.donut-seg {{ transition:stroke-dasharray .95s cubic-bezier(.16,1,.3,1); }}
+.donut-center {{ position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; pointer-events:none; }}
+.donut-center b {{ font-family:'Newsreader',serif; font-size:2rem; font-weight:800; line-height:1; color:var(--ink); font-variant-numeric:tabular-nums; }}
+.donut-center span {{ font-family:'DM Mono',monospace; font-size:.5rem; text-transform:uppercase; letter-spacing:.11em; color:var(--muted); margin-top:.28rem; }}
+.rep-legend {{ display:flex; flex-direction:column; gap:.85rem; min-width:0; }}
+.rep-row {{ display:grid; grid-template-columns:11px 1fr auto auto; align-items:center; gap:.7rem; }}
+.rep-dot {{ width:11px; height:11px; border-radius:3px; flex-shrink:0; }}
+.rep-name {{ font-size:.84rem; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
+.rep-pct {{ font-family:'DM Mono',monospace; font-size:.78rem; font-weight:600; color:var(--ink); font-variant-numeric:tabular-nums; }}
+.rep-n {{ font-family:'DM Mono',monospace; font-size:.64rem; color:var(--muted); font-variant-numeric:tabular-nums; min-width:46px; text-align:right; }}
+@media (max-width:560px) {{ .repartition {{ grid-template-columns:1fr; justify-items:center; gap:1.4rem; }} .rep-legend {{ width:100%; }} }}
 .pulse-panel {{ display:grid; grid-template-columns:1.5fr 1px 1fr; gap:1.8rem; background:var(--card); border:1px solid var(--border); border-radius:var(--r); padding:1.5rem 1.7rem; box-shadow:var(--sh-sm); }}
 .pulse-divider {{ background:var(--border); }}
 .pulse-label {{ display:flex; align-items:baseline; justify-content:space-between; gap:.75rem; font-family:'DM Mono',monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin-bottom:1.1rem; padding-bottom:.6rem; border-bottom:1px solid var(--border); }}
@@ -1129,6 +1145,12 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .card-link {{ font-size:.7rem; font-weight:600; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:.22rem; transition:color .15s; flex-shrink:0; }}
 .card-link:hover {{ color:var(--navy); }}
 .card-link svg {{ width:10px; height:10px; }}
+/* Vignette + titre cliquables (ouvrent l'article) */
+.card-thumb-link {{ display:block; cursor:pointer; }}
+.card:hover .thumb img {{ transform:scale(1.05); }}
+.card-title-link {{ color:inherit; text-decoration:none; transition:color .15s; }}
+.card-title-link:hover {{ color:var(--accent); }}
+.card-title-link:focus-visible {{ outline:2px solid var(--orange); outline-offset:2px; border-radius:3px; }}
 
 /* Empty state */
 .empty-state {{ grid-column:1/-1; text-align:center; padding:5rem 2rem; display:flex; flex-direction:column; align-items:center; }}
@@ -1360,6 +1382,20 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
         <div id="sources-grid" class="src-list" role="list" aria-label="Sources les plus actives"></div>
       </div>
     </div>
+
+    <div class="rep-card reveal">
+      <div class="pulse-label">Répartition par périmètre<span>90 j · 3 zones</span></div>
+      <div class="repartition">
+        <div class="donut-wrap">
+          <svg class="donut" viewBox="0 0 42 42" role="img" aria-label="Répartition des articles par périmètre géographique">
+            <circle cx="21" cy="21" r="15.915" fill="none" stroke="#EEF1F5" stroke-width="5.5"></circle>
+            <g id="donut-segs"></g>
+          </svg>
+          <div class="donut-center" aria-hidden="true"><b id="donut-total">0</b><span>articles</span></div>
+        </div>
+        <div class="rep-legend" id="rep-legend" role="list" aria-label="Détail par périmètre"></div>
+      </div>
+    </div>
   </section>
 
   <div class="cta-wrap">
@@ -1545,7 +1581,7 @@ function renderCard(art, idx) {{
   const isNew=art.date===TODAY, delay=Math.min(idx*30,400), tagBg=col+'14';
   return `
 <article class="card" style="animation-delay:${{delay}}ms" role="listitem">
-  ${{thumbHTML(art, true)}}
+  <a class="card-thumb-link" href="${{art.lien}}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${{thumbHTML(art, true)}}</a>
   <div class="card-body">
     <div class="card-byline">
       <span class="card-byline-dot" style="background:${{col}}"></span>
@@ -1553,7 +1589,7 @@ function renderCard(art, idx) {{
       <span class="card-byline-sep">·</span>
       <span class="card-byline-date" title="${{fmtD(art.date)}}">${{relD(art.date_iso, art.date)}}</span>
     </div>
-    <h3 class="card-title">${{esc(art.titre)}}</h3>
+    <h3 class="card-title"><a class="card-title-link" href="${{art.lien}}" target="_blank" rel="noopener">${{esc(art.titre)}}</a></h3>
     ${{art.resume?`<p class="card-excerpt">${{esc(art.resume)}}</p>`:''}}
   </div>
   <div class="card-bottom">
@@ -1795,6 +1831,43 @@ function renderTrend() {{
   }}
 }}
 
+/* ── Répartition par périmètre (anneau) ── */
+function renderRepartition() {{
+  const geo=['chanteloup','gpseo','yvelines'];
+  const cnt={{}}; geo.forEach(g=>cnt[g]=0);
+  ARTICLES.forEach(a=>{{ if(a.categorie in cnt) cnt[a.categorie]++; }});
+  const total=geo.reduce((s,g)=>s+cnt[g],0);
+  countUp('donut-total', total);
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const segEl=document.getElementById('donut-segs');
+  let acc=0;
+  if(segEl) segEl.innerHTML=geo.map(g=>{{
+    const pct = total ? cnt[g]/total*100 : 0;
+    const off = (25 - acc + 100) % 100; acc += pct;
+    if(pct<=0) return '';
+    const da = pct.toFixed(2)+' '+(100-pct).toFixed(2);
+    return `<circle class="donut-seg" cx="21" cy="21" r="15.915" fill="none" stroke="${{COULEURS[g]}}" stroke-width="5.5" stroke-dasharray="${{reduce?da:'0 100'}}" data-da="${{da}}" stroke-dashoffset="${{off.toFixed(2)}}"><title>${{LABELS[g]}} : ${{cnt[g]}}</title></circle>`;
+  }}).join('');
+
+  const leg=document.getElementById('rep-legend');
+  if(leg) leg.innerHTML=geo.map(g=>{{
+    const pct = total ? Math.round(cnt[g]/total*100) : 0;
+    return `<div class="rep-row" role="listitem">
+      <span class="rep-dot" style="background:${{COULEURS[g]}}"></span>
+      <span class="rep-name">${{LABELS[g]}}</span>
+      <span class="rep-pct">${{pct}} %</span>
+      <span class="rep-n">${{cnt[g]}} art.</span>
+    </div>`;
+  }}).join('');
+
+  if(!reduce && segEl) {{
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{{
+      segEl.querySelectorAll('.donut-seg').forEach(c=>c.setAttribute('stroke-dasharray', c.dataset.da));
+    }}));
+  }}
+}}
+
 /* ── Sujets du moment (mots-clés des titres récents) ── */
 const STOP=new Set("le la les un une de des du et en au aux pour par sur dans avec sans sous entre vers chez ce cet cette ces son sa ses leur leurs notre nos votre vos qui que quoi dont est sont été être avoir fait plus moins tres bien aussi comme mais donc car ne pas rien tout tous toute toutes nous vous ils elles elle après avant pendant contre selon ainsi alors depuis encore deux trois cela ceux celle vont face lors près chanteloup vignes yvelines cette plus elle leur dont fait sera vers chez".split(' '));
 function capit(w) {{ return w.charAt(0).toUpperCase()+w.slice(1); }}
@@ -1837,6 +1910,7 @@ function initHome() {{
   countUp('cnt-gpseo',ARTICLES.filter(a=>a.categorie==='gpseo').length);
   countUp('cnt-yv',   ARTICLES.filter(a=>a.categorie==='yvelines').length);
   renderTrend();
+  renderRepartition();
   renderKeywords();
 
   const sorted=[...ARTICLES].sort((a,b)=>b.date_iso.localeCompare(a.date_iso));
