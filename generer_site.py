@@ -97,9 +97,11 @@ def resoudre_gnews(lien, timeout=8):
     except Exception:
         return ""
 
-def corps_mentionne(lien, mot, timeout=8):
-    """True si le corps de l'article contient le mot-clé, False si absent,
-       None si on n'a pas pu vérifier (réseau/format inattendu → bénéfice du doute)."""
+def corps_mentionne(lien, mots, timeout=8):
+    """True si le corps de l'article contient AU MOINS UN des mots-clés, False si
+       aucun, None si on n'a pas pu vérifier (réseau/format inattendu → réessai)."""
+    if isinstance(mots, str):
+        mots = [mots]
     real = resoudre_gnews(lien, timeout=timeout)
     if not real or "news.google.com" in real:
         return None
@@ -108,7 +110,7 @@ def corps_mentionne(lien, mot, timeout=8):
     except Exception:
         return None
     texte = re.sub(r"<[^>]+>", " ", html).lower()
-    return mot in texte
+    return any(m in texte for m in mots)
 
 # ── Chemins ────────────────────────────────────────────────────────────────────
 # Dérivé de l'emplacement du script → fonctionne en local ET dans le cloud (CI).
@@ -288,12 +290,12 @@ for _sid, _nom, _dom in _PRESSE_NATIONALE:
         "url": f"https://news.google.com/rss/search?q=%22Chanteloup-les-Vignes%22+site:{_dom}&hl=fr&gl=FR&ceid=FR:fr",
         "categorie": "chanteloup",
         # Google News « site: » ratisse trop large (faits divers d'autres communes,
-        # foot, météo, fiches SIRET du 78570…). On exige donc que « chanteloup »
-        # soit réellement mentionné. Si absent du titre/résumé, on vérifie dans le
-        # CORPS de l'article (verif_corps) avant d'écarter — pour ne pas perdre un
-        # vrai article qui ne nomme la ville que dans son texte.
+        # foot, météo, fiches SIRET du 78570…). On exige donc que « chanteloup » OU
+        # « arenou » (la maire) soit réellement mentionné. Si absent du titre/résumé,
+        # on vérifie dans le CORPS de l'article (verif_corps) avant d'écarter — pour
+        # ne pas perdre un vrai article qui ne nomme la ville ou la maire que dans son texte.
         "filtre": True,
-        "mot_cle": "chanteloup",
+        "mot_cle_liste": ["chanteloup", "arenou"],
         "verif_corps": True,
     })
 
@@ -494,22 +496,19 @@ def collecter():
                 if est_bruit(titre, nom_aff):
                     continue
 
-                # Filtre mot-clé
+                # Filtre mot-clé (mot_cle = un seul ; mot_cle_liste = au moins un)
                 besoin_corps = False   # faut-il vérifier le CORPS de l'article ?
                 if src.get("filtre"):
-                    if "mot_cle" in src:
-                        if src["mot_cle"] not in texte:
-                            # Mot-clé absent du titre/résumé.
-                            if not src.get("verif_corps"):
-                                continue
-                            # Déjà vérifié hors-sujet lors d'un run précédent → on saute
-                            if lien in rejets_old:
-                                rejets.add(lien)   # toujours valable, on conserve l'info
-                                continue
-                            besoin_corps = True    # à confirmer plus bas (après date + dédup)
-                    elif "mot_cle_liste" in src:
-                        if not any(m in texte for m in src["mot_cle_liste"]):
+                    mots_titre = src.get("mot_cle_liste") or ([src["mot_cle"]] if "mot_cle" in src else [])
+                    if mots_titre and not any(m in texte for m in mots_titre):
+                        # Aucun mot-clé dans le titre/résumé.
+                        if not src.get("verif_corps"):
                             continue
+                        # Déjà vérifié hors-sujet lors d'un run précédent → on saute
+                        if lien in rejets_old:
+                            rejets.add(lien)   # toujours valable, on conserve l'info
+                            continue
+                        besoin_corps = True    # à confirmer plus bas (après date + dédup)
 
                 # Filtre date
                 pub = None
@@ -536,11 +535,12 @@ def collecter():
                         continue
                     corps_budget -= 1
                     if CORPS_PAUSE: time.sleep(CORPS_PAUSE)   # cadence douce (anti rate-limit)
-                    presence = corps_mentionne(lien, src["mot_cle"])
+                    mots_corps = src.get("mot_cle_liste") or ([src["mot_cle"]] if "mot_cle" in src else [])
+                    presence = corps_mentionne(lien, mots_corps)
                     if presence is True:
                         corps_echecs = 0         # résolution OK
                     else:
-                        # False = corps lu, « chanteloup » absent → hors-sujet confirmé (on cache).
+                        # False = corps lu, aucun mot-clé (ni « chanteloup » ni « arenou ») → hors-sujet (on cache).
                         # None  = résolution/fetch impossible → on écarte sans cacher (réessai plus tard).
                         if presence is False:
                             rejets.add(lien)
