@@ -1191,6 +1191,7 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .revue-open:active {{ transform:scale(.97); }}
 
 /* Modale revue de presse */
+.revue-overlay[hidden] {{ display:none !important; }}
 .revue-overlay {{ position:fixed; inset:0; z-index:1000; display:flex; align-items:flex-start; justify-content:center; padding:4vh 1rem; background:rgba(15,23,42,.5); -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); opacity:0; transition:opacity .2s ease; overflow:auto; }}
 .revue-overlay.open {{ opacity:1; }}
 .revue-modal {{ background:var(--card); width:100%; max-width:680px; border-radius:16px; box-shadow:0 24px 60px rgba(15,23,42,.3); display:flex; flex-direction:column; max-height:92vh; transform:scale(.96) translateY(8px); opacity:0; transition:transform .22s cubic-bezier(.16,1,.3,1), opacity .22s; }}
