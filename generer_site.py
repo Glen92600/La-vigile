@@ -1152,6 +1152,108 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .card-title-link:hover {{ color:var(--accent); }}
 .card-title-link:focus-visible {{ outline:2px solid var(--orange); outline-offset:2px; border-radius:3px; }}
 
+/* ═══════════ NOUVEAUTÉS · FAVORIS · REVUE DE PRESSE ═══════════ */
+/* Pastille « nouveautés » sur l'onglet Articles */
+.tab-badge {{ display:none; margin-left:.35rem; min-width:16px; height:16px; padding:0 .3rem; border-radius:8px; background:var(--orange); color:#fff; font-family:'DM Mono',monospace; font-size:.55rem; font-weight:700; line-height:16px; text-align:center; vertical-align:middle; }}
+.tab-badge.show {{ display:inline-block; }}
+
+/* Bouton favori (★) sur les cartes */
+.card {{ position:relative; }}
+.card.is-new-visit::before {{ content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--orange); z-index:4; }}
+.fav-btn {{ position:absolute; top:.55rem; right:.55rem; z-index:5; width:30px; height:30px; border-radius:8px; border:none; background:rgba(15,23,42,.5); -webkit-backdrop-filter:blur(4px); backdrop-filter:blur(4px); display:grid; place-items:center; cursor:pointer; transition:background .16s, transform .14s ease-out; }}
+.fav-btn svg {{ width:15px; height:15px; fill:none; stroke:#fff; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; transition:fill .16s, transform .25s cubic-bezier(.34,1.56,.64,1); }}
+.fav-btn:hover {{ background:rgba(15,23,42,.78); }}
+.fav-btn:active {{ transform:scale(.88); }}
+.fav-btn.on {{ background:rgba(232,100,10,.95); }}
+.fav-btn.on svg {{ fill:#fff; transform:scale(1.1); }}
+.fav-btn:focus-visible {{ outline:2px solid var(--orange); outline-offset:2px; }}
+
+/* Barre de contrôles du fil */
+.feed-toolbar {{ flex-wrap:wrap; }}
+.feed-controls {{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }}
+.seg {{ display:inline-flex; background:#EEF1F6; border-radius:9px; padding:3px; gap:2px; }}
+.seg-btn {{ display:inline-flex; align-items:center; gap:.32rem; border:none; background:transparent; font-family:'DM Sans',sans-serif; font-size:.74rem; font-weight:600; color:#475569; padding:.32rem .62rem; border-radius:7px; cursor:pointer; transition:background .16s, color .16s, transform .12s; white-space:nowrap; }}
+.seg-btn:hover {{ color:var(--navy); }}
+.seg-btn:active {{ transform:scale(.97); }}
+.seg-btn.active {{ background:#fff; color:var(--navy); box-shadow:var(--sh-sm); }}
+.seg-btn svg {{ width:13px; height:13px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }}
+.seg-btn#vue-fav.active svg {{ fill:var(--orange); stroke:var(--orange); }}
+.seg-n {{ font-family:'DM Mono',monospace; font-size:.6rem; opacity:.6; }}
+.seg-btn.active .seg-n {{ opacity:.9; }}
+.ctrl {{ display:inline-flex; align-items:center; gap:.4rem; }}
+.ctrl-l {{ font-family:'DM Mono',monospace; font-size:.56rem; text-transform:uppercase; letter-spacing:.1em; color:#94A3B8; }}
+.ctrl-sel {{ font-family:'DM Sans',sans-serif; font-size:.74rem; font-weight:500; color:var(--navy); background-color:#fff; border:1px solid var(--border); border-radius:8px; padding:.34rem 1.5rem .34rem .55rem; cursor:pointer; -webkit-appearance:none; appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right .4rem center; background-size:12px; transition:border-color .15s; }}
+.ctrl-sel:hover {{ border-color:var(--navy); }}
+.ctrl-sel:focus-visible {{ outline:2px solid var(--orange); outline-offset:1px; }}
+.revue-open {{ display:inline-flex; align-items:center; gap:.4rem; background:var(--navy); color:#fff; font-family:'DM Sans',sans-serif; font-size:.74rem; font-weight:600; padding:.42rem .8rem; border:none; border-radius:8px; cursor:pointer; transition:background .16s, transform .12s, box-shadow .16s; box-shadow:var(--sh-sm); }}
+.revue-open svg {{ width:14px; height:14px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }}
+.revue-open:hover {{ background:#142036; box-shadow:var(--sh-md); }}
+.revue-open:active {{ transform:scale(.97); }}
+
+/* Modale revue de presse */
+.revue-overlay {{ position:fixed; inset:0; z-index:1000; display:flex; align-items:flex-start; justify-content:center; padding:4vh 1rem; background:rgba(15,23,42,.5); -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); opacity:0; transition:opacity .2s ease; overflow:auto; }}
+.revue-overlay.open {{ opacity:1; }}
+.revue-modal {{ background:var(--card); width:100%; max-width:680px; border-radius:16px; box-shadow:0 24px 60px rgba(15,23,42,.3); display:flex; flex-direction:column; max-height:92vh; transform:scale(.96) translateY(8px); opacity:0; transition:transform .22s cubic-bezier(.16,1,.3,1), opacity .22s; }}
+.revue-overlay.open .revue-modal {{ transform:none; opacity:1; }}
+.revue-head {{ display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; padding:1.4rem 1.6rem 1rem; border-bottom:1px solid var(--border); }}
+.revue-head h2 {{ font-family:'Newsreader',serif; font-size:1.4rem; font-weight:800; color:var(--ink); margin:0; }}
+.revue-sub {{ font-family:'DM Mono',monospace; font-size:.6rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:.3rem 0 0; }}
+.revue-close {{ flex-shrink:0; width:32px; height:32px; border-radius:8px; border:none; background:#EEF1F6; color:var(--navy); font-size:1rem; cursor:pointer; transition:background .15s, transform .12s; }}
+.revue-close:hover {{ background:#E2E6EC; }}
+.revue-close:active {{ transform:scale(.92); }}
+.revue-body {{ padding:.4rem 1.6rem 1rem; overflow-y:auto; flex:1; }}
+.revue-item {{ position:relative; padding:1rem 0; border-bottom:1px solid var(--border); }}
+.revue-item:last-child {{ border-bottom:none; }}
+.revue-meta {{ font-family:'DM Mono',monospace; font-size:.57rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin-bottom:.3rem; }}
+.revue-it-title {{ font-family:'Newsreader',serif; font-size:1.02rem; font-weight:700; line-height:1.4; margin:0 5rem .25rem 0; }}
+.revue-it-title a {{ color:var(--ink); text-decoration:none; }}
+.revue-it-title a:hover {{ color:var(--accent); }}
+.revue-it-ex {{ font-size:.78rem; color:#64748B; line-height:1.55; margin:.2rem 5rem 0 0; }}
+.revue-del {{ position:absolute; top:1rem; right:0; font-size:.65rem; font-weight:600; color:var(--muted); background:none; border:1px solid var(--border); border-radius:6px; padding:.2rem .5rem; cursor:pointer; transition:color .15s, border-color .15s; }}
+.revue-del:hover {{ color:#DC2626; border-color:#DC2626; }}
+.revue-empty {{ text-align:center; padding:2.5rem 1rem; }}
+.revue-empty-t {{ font-family:'Newsreader',serif; font-size:1.1rem; font-weight:700; color:var(--ink); margin-bottom:.4rem; }}
+.revue-empty-s {{ font-size:.82rem; color:var(--muted); line-height:1.6; }}
+.revue-foot {{ display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 1.6rem; border-top:1px solid var(--border); flex-wrap:wrap; }}
+.revue-hint {{ font-size:.67rem; color:var(--muted); }}
+.revue-actions {{ display:flex; gap:.6rem; }}
+.rv-btn {{ display:inline-flex; align-items:center; gap:.4rem; font-family:'DM Sans',sans-serif; font-size:.78rem; font-weight:600; padding:.52rem 1rem; border-radius:9px; border:1px solid var(--border); background:#fff; color:var(--navy); cursor:pointer; transition:border-color .15s, background .15s, transform .12s; }}
+.rv-btn svg {{ width:14px; height:14px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }}
+.rv-btn:hover {{ border-color:var(--navy); }}
+.rv-btn:active {{ transform:scale(.97); }}
+.rv-btn.primary {{ background:var(--navy); color:#fff; border-color:var(--navy); }}
+.rv-btn.primary:hover {{ background:#142036; }}
+
+/* KPI évolution (Le pouls) */
+.kpi-nrow {{ display:flex; align-items:baseline; gap:.5rem; flex-wrap:wrap; }}
+.kpi-delta {{ font-family:'DM Mono',monospace; font-size:.57rem; font-weight:700; padding:.1rem .4rem; border-radius:6px; letter-spacing:.02em; white-space:nowrap; }}
+.kpi-delta.up {{ color:#059669; background:rgba(5,150,105,.12); }}
+.kpi-delta.down {{ color:#DC2626; background:rgba(220,38,38,.1); }}
+.kpi-delta.flat {{ color:var(--muted); background:#EEF1F5; }}
+
+@media (max-width:680px) {{
+  .ctrl-l {{ display:none; }}
+  .revue-it-title, .revue-it-ex {{ margin-right:0; }}
+  .revue-del {{ position:static; margin-top:.5rem; }}
+}}
+@media (prefers-reduced-motion: reduce) {{
+  .revue-overlay, .revue-modal {{ transition:opacity .15s; }}
+  .revue-modal {{ transform:none; }}
+}}
+
+/* Impression : la revue de presse seule */
+@media print {{
+  body.print-revue {{ background:#fff; }}
+  body.print-revue > *:not(.revue-overlay) {{ display:none !important; }}
+  body.print-revue .revue-overlay {{ position:static !important; inset:auto; padding:0; background:none !important; -webkit-backdrop-filter:none; backdrop-filter:none; opacity:1 !important; display:block; overflow:visible; }}
+  body.print-revue .revue-modal {{ max-width:none; max-height:none; box-shadow:none; border-radius:0; transform:none !important; opacity:1 !important; }}
+  body.print-revue .revue-close, body.print-revue .revue-foot, body.print-revue .revue-del {{ display:none !important; }}
+  body.print-revue .revue-item {{ break-inside:avoid; page-break-inside:avoid; }}
+  body.print-revue .revue-it-title, body.print-revue .revue-it-ex {{ margin-right:0; }}
+  body.print-revue .revue-it-title a {{ color:#000; }}
+  body.print-revue .revue-it-title a::after {{ content:' — ' attr(href); font-family:'DM Mono',monospace; font-size:.6rem; font-weight:400; color:#555; word-break:break-all; }}
+}}
+
 /* Empty state */
 .empty-state {{ grid-column:1/-1; text-align:center; padding:5rem 2rem; display:flex; flex-direction:column; align-items:center; }}
 .empty-line {{ width:32px; height:3px; background:var(--orange); margin-bottom:1.4rem; border-radius:2px; }}
@@ -1266,7 +1368,7 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
     </div>
     <div class="nav-links" role="list">
       <button class="nav-link active" id="btn-home"  onclick="goHome()"  role="listitem">Accueil</button>
-      <button class="nav-link"        id="btn-feed"  onclick="goFeed()"  role="listitem">Articles</button>
+      <button class="nav-link"        id="btn-feed"  onclick="goFeed()"  role="listitem">Articles<span class="tab-badge" id="nav-new" aria-hidden="true"></span></button>
       <button class="nav-link"        id="btn-pouls" onclick="goPouls()" role="listitem">Le pouls</button>
     </div>
     <div class="nav-search" role="search">
@@ -1365,7 +1467,7 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
     <div class="sec-rule"><h2 id="sec-pouls">Le pouls de la veille</h2></div>
     <p class="pouls-intro">L'activité de la veille en un coup d'œil : le volume d'articles publiés sur 14 jours et les médias les plus actifs sur 90 jours.</p>
     <div class="pulse-kpis">
-      <div class="kpi"><span class="kpi-n" id="kpi-14j">0</span><span class="kpi-l">articles · 14 j</span></div>
+      <div class="kpi"><span class="kpi-nrow"><span class="kpi-n" id="kpi-14j">0</span><span class="kpi-delta" id="kpi-14j-d" style="display:none"></span></span><span class="kpi-l">articles · 14 j</span></div>
       <div class="kpi"><span class="kpi-n" id="kpi-avg">0</span><span class="kpi-l">moyenne / jour</span></div>
       <div class="kpi hot"><span class="kpi-n" id="kpi-peak">0</span><span class="kpi-l">pic · <b id="kpi-peak-d">—</b></span></div>
       <div class="kpi"><span class="kpi-n" id="kpi-src">0</span><span class="kpi-l">sources actives</span></div>
@@ -1441,7 +1543,38 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
     <div class="feed-main">
       <div class="feed-toolbar">
         <span class="results-count" id="results-count" aria-live="polite"><b>—</b></span>
-        <button class="filter-clear" id="filter-clear" onclick="resetFiltres()" aria-label="Réinitialiser les filtres">✕ Effacer les filtres</button>
+        <div class="feed-controls">
+          <div class="seg" role="group" aria-label="Vues">
+            <button class="seg-btn active" id="vue-tous" onclick="setVue('aucune')">Tous</button>
+            <button class="seg-btn" id="vue-new" onclick="setVue('nouveautes')" aria-label="Nouveautés depuis votre dernière visite">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              Nouveautés <span class="seg-n" id="vue-new-n">0</span>
+            </button>
+            <button class="seg-btn" id="vue-fav" onclick="setVue('favoris')" aria-label="Mes favoris">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+              Favoris <span class="seg-n" id="vue-fav-n">0</span>
+            </button>
+          </div>
+          <label class="ctrl"><span class="ctrl-l">Période</span>
+            <select class="ctrl-sel" id="sel-periode" onchange="setPeriode(this.value)" aria-label="Filtrer par période">
+              <option value="tout">Tout</option>
+              <option value="7">7 jours</option>
+              <option value="30">30 jours</option>
+            </select>
+          </label>
+          <label class="ctrl"><span class="ctrl-l">Tri</span>
+            <select class="ctrl-sel" id="sel-tri" onchange="setTri(this.value)" aria-label="Trier les articles">
+              <option value="recent">Plus récent</option>
+              <option value="ancien">Plus ancien</option>
+              <option value="source">Par source</option>
+            </select>
+          </label>
+          <button class="revue-open" onclick="ouvrirRevue()" aria-label="Ouvrir la revue de presse">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h8M8 9h2"/></svg>
+            Revue de presse
+          </button>
+          <button class="filter-clear" id="filter-clear" onclick="resetFiltres()" aria-label="Réinitialiser les filtres">✕</button>
+        </div>
       </div>
       <div id="art-grid" class="art-grid" role="list" aria-label="Articles"></div>
     </div>
@@ -1467,6 +1600,33 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 
 <div id="toast" role="status" aria-live="polite"></div>
 
+<!-- ══════════ MODALE REVUE DE PRESSE ══════════ -->
+<div class="revue-overlay" id="revue-overlay" role="dialog" aria-modal="true" aria-labelledby="revue-title" hidden>
+  <div class="revue-modal">
+    <header class="revue-head">
+      <div>
+        <h2 id="revue-title">Revue de presse</h2>
+        <p class="revue-sub" id="revue-sub"></p>
+      </div>
+      <button class="revue-close" onclick="fermerRevue()" aria-label="Fermer la revue de presse">✕</button>
+    </header>
+    <div class="revue-body" id="revue-body"></div>
+    <footer class="revue-foot">
+      <span class="revue-hint">Cliquez sur ★ sur un article pour l'ajouter.</span>
+      <div class="revue-actions">
+        <button class="rv-btn" onclick="copierRevue()" aria-label="Copier la revue de presse">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          Copier
+        </button>
+        <button class="rv-btn primary" onclick="imprimerRevue()" aria-label="Imprimer ou enregistrer en PDF">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+          Imprimer / PDF
+        </button>
+      </div>
+    </footer>
+  </div>
+</div>
+
 <!-- ══════════ SCRIPT ══════════ -->
 <script>
 const ARTICLES = {articles_json};
@@ -1476,6 +1636,17 @@ const LABELS   = {{chanteloup:'Chanteloup',gpseo:'GPSEO',yvelines:'Yvelines',sec
 const MOIS     = ['','janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
 
 let filtreActif = 'tous', searchQ = '';
+let periode = 'tout', tri = 'recent', vueSpec = 'aucune';
+
+/* ── Favoris + nouveautés (mémoire navigateur) ── */
+const FAV_KEY='vigie_favoris', SEEN_KEY='vigie_seen';
+let favoris = new Set();   try {{ favoris = new Set(JSON.parse(localStorage.getItem(FAV_KEY)||'[]')); }} catch(e) {{}}
+let seenPrev = new Set();  try {{ seenPrev = new Set(JSON.parse(localStorage.getItem(SEEN_KEY)||'[]')); }} catch(e) {{}}
+const premiereVisite = seenPrev.size===0;
+function saveFav() {{ try {{ localStorage.setItem(FAV_KEY, JSON.stringify([...favoris])); }} catch(e) {{}} }}
+function estFav(a) {{ return favoris.has(a.lien); }}
+function estNouveauVisite(a) {{ return !premiereVisite && !seenPrev.has(a.lien); }}
+const STAR_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>';
 
 /* ── Utils ── */
 function catEff(a) {{ return (a.sous_cat && a.sous_cat !== 'autre') ? a.sous_cat : a.categorie; }}
@@ -1566,8 +1737,10 @@ function clearSearch() {{
 /* ── Raccourcis clavier ── */
 document.addEventListener('keydown', e => {{
   if(e.key==='Escape') {{
+    const ov=document.getElementById('revue-overlay');
+    if(ov && !ov.hidden) {{ fermerRevue(); return; }}
     if(searchQ) {{ clearSearch(); return; }}
-    if(filtreActif!=='tous') {{ resetFiltres(); return; }}
+    if(filtreActif!=='tous' || vueSpec!=='aucune' || periode!=='tout' || tri!=='recent') {{ resetFiltres(); return; }}
   }}
   if(e.key==='/' && !['INPUT','TEXTAREA'].includes(e.target.tagName)) {{
     e.preventDefault(); document.getElementById('search').focus();
@@ -1579,8 +1752,10 @@ document.addEventListener('keydown', e => {{
 function renderCard(art, idx) {{
   const cat=catEff(art), col=COULEURS[cat]||'#94A3B8', label=LABELS[cat]||cat;
   const isNew=art.date===TODAY, delay=Math.min(idx*30,400), tagBg=col+'14';
+  const fav=estFav(art), nv=estNouveauVisite(art);
   return `
-<article class="card" style="animation-delay:${{delay}}ms" role="listitem">
+<article class="card${{nv?' is-new-visit':''}}" style="animation-delay:${{delay}}ms" role="listitem">
+  <button class="fav-btn${{fav?' on':''}}" data-lien="${{encodeURIComponent(art.lien)}}" aria-pressed="${{fav}}" aria-label="${{fav?'Retirer de la revue de presse':'Ajouter à la revue de presse'}}">${{STAR_SVG}}</button>
   <a class="card-thumb-link" href="${{art.lien}}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${{thumbHTML(art, true)}}</a>
   <div class="card-body">
     <div class="card-byline">
@@ -1621,37 +1796,45 @@ function groupHeader(label) {{
 /* ── Filtrer + afficher ── */
 function filtrer() {{
   const grid = document.getElementById('art-grid');
-  let vis = ARTICLES
-    .filter(a=>{{
-      if(filtreActif!=='tous'){{if(catEff(a)!==filtreActif&&a.categorie!==filtreActif)return false;}}
-      if(searchQ){{if(!(a.titre+' '+a.resume+' '+a.source).toLowerCase().includes(searchQ))return false;}}
-      return true;
-    }})
-    .sort((a,b)=>b.date_iso.localeCompare(a.date_iso));
+  const lim = periode==='7' ? 7 : (periode==='30' ? 30 : null);
+  const baseT = new Date(TODAY+'T23:59:59');
+  let vis = ARTICLES.filter(a=>{{
+    if(vueSpec==='favoris'    && !estFav(a))           return false;
+    if(vueSpec==='nouveautes' && !estNouveauVisite(a)) return false;
+    if(filtreActif!=='tous'){{ if(catEff(a)!==filtreActif && a.categorie!==filtreActif) return false; }}
+    if(lim!==null){{ const d=(baseT-new Date(a.date+'T00:00:00'))/86400000; if(d>lim) return false; }}
+    if(searchQ){{ if(!(a.titre+' '+a.resume+' '+a.source).toLowerCase().includes(searchQ)) return false; }}
+    return true;
+  }});
 
-  // Compteur résultats
+  if(tri==='ancien')      vis.sort((a,b)=>a.date_iso.localeCompare(b.date_iso));
+  else if(tri==='source') vis.sort((a,b)=> a.source.localeCompare(b.source,'fr') || b.date_iso.localeCompare(a.date_iso));
+  else                    vis.sort((a,b)=>b.date_iso.localeCompare(a.date_iso));
+
   const cnt = document.getElementById('results-count');
   if(cnt) cnt.innerHTML = `<b>${{vis.length}}</b> résultat${{vis.length!==1?'s':''}}`;
 
-  // Bouton effacer
+  const actif = filtreActif!=='tous' || searchQ.length>0 || periode!=='tout' || tri!=='recent' || vueSpec!=='aucune';
   const clearBtn = document.getElementById('filter-clear');
-  if(clearBtn) clearBtn.classList.toggle('visible', filtreActif!=='tous' || searchQ.length>0);
+  if(clearBtn) clearBtn.classList.toggle('visible', actif);
 
   if(vis.length===0) {{
+    let t='Aucun article trouvé', s='Essayez un autre terme ou une autre catégorie';
+    if(vueSpec==='favoris') {{ t='Aucun favori pour le moment'; s='Cliquez sur l\\'étoile ★ d\\'un article pour le retrouver ici et l\\'ajouter à votre revue de presse.'; }}
+    else if(vueSpec==='nouveautes') {{ t='Aucune nouveauté'; s = premiereVisite ? 'Revenez bientôt : les articles parus depuis votre dernière visite apparaîtront ici.' : 'Vous êtes à jour — rien de nouveau depuis votre dernière visite.'; }}
     grid.innerHTML=`<div class="empty-state" role="status">
       <div class="empty-line"></div>
-      <div class="empty-title">Aucun article trouvé</div>
-      <div class="empty-sub">Essayez un autre terme ou une autre catégorie</div>
-      <button class="empty-reset" onclick="resetFiltres()">Réinitialiser les filtres</button>
+      <div class="empty-title">${{t}}</div>
+      <div class="empty-sub">${{s}}</div>
+      <button class="empty-reset" onclick="resetFiltres()">Réinitialiser</button>
     </div>`;
     return;
   }}
 
-  // Grouper par date
+  const grouper = (tri!=='source');
   let html='', lastGroup='';
   vis.forEach((a,i)=>{{
-    const g=dateGroup(a.date);
-    if(g!==lastGroup){{ html+=groupHeader(g); lastGroup=g; }}
+    if(grouper){{ const g=dateGroup(a.date); if(g!==lastGroup){{ html+=groupHeader(g); lastGroup=g; }} }}
     html+=renderCard(a,i);
   }});
   grid.innerHTML=html;
@@ -1663,15 +1846,96 @@ function setFiltre(cat,btn) {{
   btn.classList.add('active');
   filtrer();
 }}
-function resetFiltres() {{
-  filtreActif='tous';
-  searchQ='';
-  document.getElementById('search').value='';
-  document.getElementById('search-clear').classList.remove('visible');
-  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
-  document.getElementById('f-tous')?.classList.add('active');
+function setPeriode(v) {{ periode=v; filtrer(); }}
+function setTri(v) {{ tri=v; filtrer(); }}
+function setVue(v) {{
+  vueSpec=v;
+  document.querySelectorAll('.seg-btn').forEach(b=>b.classList.remove('active'));
+  const id = v==='favoris' ? 'vue-fav' : (v==='nouveautes' ? 'vue-new' : 'vue-tous');
+  document.getElementById(id)?.classList.add('active');
   filtrer();
 }}
+function resetFiltres() {{
+  filtreActif='tous'; searchQ=''; periode='tout'; tri='recent'; vueSpec='aucune';
+  document.getElementById('search').value='';
+  document.getElementById('search-clear').classList.remove('visible');
+  const sp=document.getElementById('sel-periode'); if(sp) sp.value='tout';
+  const st=document.getElementById('sel-tri'); if(st) st.value='recent';
+  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('f-tous')?.classList.add('active');
+  document.querySelectorAll('.seg-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('vue-tous')?.classList.add('active');
+  filtrer();
+}}
+
+/* ── Favoris : bascule + compteurs ── */
+function toggleFav(lien, btn) {{
+  const on = !favoris.has(lien);
+  if(on) favoris.add(lien); else favoris.delete(lien);
+  saveFav();
+  if(btn) {{ btn.classList.toggle('on', on); btn.setAttribute('aria-pressed', on); btn.setAttribute('aria-label', on?'Retirer de la revue de presse':'Ajouter à la revue de presse'); }}
+  majFavCompteur();
+  if(vueSpec==='favoris') filtrer();
+  showToast(on?'★ Ajouté à la revue de presse':'Retiré de la revue de presse', 1800);
+}}
+function majFavCompteur() {{ const el=document.getElementById('vue-fav-n'); if(el) el.textContent=favoris.size; }}
+function majNouveautes() {{
+  const n = ARTICLES.filter(estNouveauVisite).length;
+  const el=document.getElementById('vue-new-n'); if(el) el.textContent=n;
+  const nb=document.getElementById('nav-new');
+  if(nb) {{ nb.textContent=n; nb.classList.toggle('show', n>0); nb.setAttribute('aria-hidden', n>0?'false':'true'); }}
+}}
+
+/* ── Revue de presse (basée sur les favoris) ── */
+function favArticles() {{ return ARTICLES.filter(estFav).sort((a,b)=>b.date_iso.localeCompare(a.date_iso)); }}
+function construireRevue() {{
+  const list=favArticles();
+  const sub=document.getElementById('revue-sub');
+  const body=document.getElementById('revue-body');
+  if(sub) sub.textContent = list.length ? (list.length+' article'+(list.length>1?'s':'')+' · '+new Date().toLocaleDateString('fr-FR',{{day:'numeric',month:'long',year:'numeric'}})) : '';
+  if(!body) return;
+  if(list.length===0) {{
+    body.innerHTML=`<div class="revue-empty">
+      <div class="revue-empty-t">Votre revue de presse est vide</div>
+      <div class="revue-empty-s">Parcourez les articles et cliquez sur l\\'étoile ★ en haut à droite d\\'une carte pour les rassembler ici, prêts à imprimer ou copier.</div>
+    </div>`;
+    return;
+  }}
+  body.innerHTML = list.map(a=>`<article class="revue-item">
+    <div class="revue-meta">${{esc(a.source)}} · ${{fmtD(a.date)}}${{(LABELS[catEff(a)]?' · '+LABELS[catEff(a)]:'')}}</div>
+    <h3 class="revue-it-title"><a href="${{a.lien}}" target="_blank" rel="noopener">${{esc(a.titre)}}</a></h3>
+    ${{a.resume?`<p class="revue-it-ex">${{esc(a.resume)}}</p>`:''}}
+    <button class="revue-del" data-lien="${{encodeURIComponent(a.lien)}}" aria-label="Retirer cet article">Retirer</button>
+  </article>`).join('');
+}}
+function ouvrirRevue() {{
+  construireRevue();
+  const ov=document.getElementById('revue-overlay');
+  ov.hidden=false; document.body.style.overflow='hidden';
+  requestAnimationFrame(()=>ov.classList.add('open'));
+  document.getElementById('revue-overlay').querySelector('.revue-close')?.focus();
+}}
+function fermerRevue() {{
+  const ov=document.getElementById('revue-overlay');
+  ov.classList.remove('open'); document.body.style.overflow='';
+  setTimeout(()=>{{ ov.hidden=true; }}, 200);
+}}
+function copierRevue() {{
+  const list=favArticles();
+  if(!list.length) {{ showToast('Aucun article dans la revue'); return; }}
+  const d=new Date().toLocaleDateString('fr-FR',{{day:'numeric',month:'long',year:'numeric'}});
+  let txt='REVUE DE PRESSE — La Vigie — '+d+'\\n'+'='.repeat(42)+'\\n\\n';
+  list.forEach((a,i)=>{{ txt+=(i+1)+'. '+a.titre+'\\n   '+a.source+' · '+fmtD(a.date)+'\\n   '+a.lien+'\\n'+(a.resume?'   '+a.resume+'\\n':'')+'\\n'; }});
+  if(navigator.clipboard && navigator.clipboard.writeText) {{
+    navigator.clipboard.writeText(txt).then(()=>showToast('Revue copiée dans le presse-papiers'), ()=>showToast('Copie impossible'));
+  }} else {{ showToast('Copie non supportée par ce navigateur'); }}
+}}
+function imprimerRevue() {{
+  if(!favArticles().length) {{ showToast('Aucun article à imprimer'); return; }}
+  document.body.classList.add('print-revue');
+  window.print();
+}}
+window.addEventListener('afterprint', ()=>document.body.classList.remove('print-revue'));
 
 /* ── Carte featured ── */
 /* ── Vignette image (ou placeholder dégradé) ── */
@@ -1806,6 +2070,20 @@ function renderTrend() {{
   const ea=document.getElementById('kpi-avg'); if(ea) ea.textContent=fmt(avg);
   countUp('kpi-peak', peak.count);
   const ep=document.getElementById('kpi-peak-d'); if(ep) ep.textContent = peak.count ? (peak.dom+'/'+peak.m) : '—';
+
+  // Évolution vs 14 jours précédents
+  let prevSum=0;
+  ARTICLES.forEach(a=>{{ const dd=Math.round((base - new Date(a.date+'T00:00:00'))/86400000); if(dd>=14 && dd<=27) prevSum++; }});
+  const ed=document.getElementById('kpi-14j-d');
+  if(ed) {{
+    const diff=sum-prevSum;
+    if(sum>0 || prevSum>0) {{
+      ed.style.display='';
+      ed.className='kpi-delta '+(diff>0?'up':(diff<0?'down':'flat'));
+      ed.textContent=(diff>0?'↑ +'+diff:(diff<0?'↓ '+Math.abs(diff):'= stable'));
+      ed.title='Quinzaine précédente : '+prevSum+' article'+(prevSum>1?'s':'');
+    }} else {{ ed.style.display='none'; }}
+  }}
 
   plot.setAttribute('aria-label', sum+' articles sur 14 jours, pic de '+peak.count+' le '+peak.dom+'/'+peak.m+', moyenne '+fmt(avg)+' par jour');
   const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1959,10 +2237,32 @@ function initHome() {{
 /* ── Keyboard nav logo ── */
 document.querySelector('.nav-logo').addEventListener('keydown',e=>{{if(e.key==='Enter')goHome();}});
 
+/* ── Favoris : clic délégué sur la grille d'articles ── */
+document.getElementById('art-grid')?.addEventListener('click', e => {{
+  const b=e.target.closest('.fav-btn'); if(!b) return;
+  e.preventDefault(); e.stopPropagation();
+  toggleFav(decodeURIComponent(b.dataset.lien), b);
+}});
+/* ── Revue : retrait d'un article + fermeture au clic sur le fond ── */
+document.getElementById('revue-body')?.addEventListener('click', e => {{
+  const d=e.target.closest('.revue-del'); if(!d) return;
+  const lien=decodeURIComponent(d.dataset.lien);
+  favoris.delete(lien); saveFav(); majFavCompteur();
+  document.querySelectorAll('.fav-btn').forEach(b=>{{ if(decodeURIComponent(b.dataset.lien)===lien){{ b.classList.remove('on'); b.setAttribute('aria-pressed','false'); b.setAttribute('aria-label','Ajouter à la revue de presse'); }} }});
+  if(vueSpec==='favoris') filtrer();
+  construireRevue();
+}});
+document.getElementById('revue-overlay')?.addEventListener('click', e => {{
+  if(e.target.id==='revue-overlay') fermerRevue();
+}});
+
 /* ── Boot ── */
 initHome();
+majFavCompteur();
+majNouveautes();
 filtrer();
 initReveal();
+try {{ localStorage.setItem(SEEN_KEY, JSON.stringify(ARTICLES.map(a=>a.lien))); }} catch(e) {{}}
 setTimeout(()=>showToast('Site mis à jour · {date_maj}', 3000), 800);
 </script>
 {bg3d_script}
