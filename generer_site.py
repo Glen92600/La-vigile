@@ -859,6 +859,9 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .view {{ display:none; }}
 ::view-transition-old(root), ::view-transition-new(root) {{ animation-duration:.35s; }}
 .view.active {{ display:block; animation:viewIn .25s cubic-bezier(.4,0,.2,1) both; }}
+/* Footer toujours en bas, même quand le contenu est court (pages filtrées) */
+.view.active {{ min-height:calc(100dvh - 65px); display:flex; flex-direction:column; }}
+.view.active > .site-footer {{ margin-top:auto; }}
 @keyframes viewIn {{ from {{ opacity:0; transform:translateY(8px) scale(.995); }} to {{ opacity:1; transform:translateY(0) scale(1); }} }}
 
 /* ═══════════ HOME ═══════════ */
@@ -1978,14 +1981,14 @@ function renderFeat(art, size) {{
   // ── Petites cartes : image en haut + corps ──
   return `
 <article class="feat-card" role="listitem">
-  ${{thumbHTML(art, true)}}
+  <a class="card-thumb-link" href="${{art.lien}}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${{thumbHTML(art, true)}}</a>
   <div class="feat-body">
     <div class="feat-byline">
       <span class="feat-byline-dot" style="background:${{col}}"></span>
       <span style="color:${{col}}">${{esc(art.source)}}</span>
       ${{isNew?'&nbsp;<span style="background:var(--orange);color:#fff;font-size:.52rem;padding:.1rem .38rem;border-radius:3px">NOUVEAU</span>':''}}
     </div>
-    <h3 class="feat-title-sm">${{esc(art.titre)}}</h3>
+    <h3 class="feat-title-sm"><a class="card-title-link" href="${{art.lien}}" target="_blank" rel="noopener">${{esc(art.titre)}}</a></h3>
   </div>
   <div class="feat-footer">
     <span class="feat-date" title="${{fmtD(art.date)}}">${{relD(art.date_iso, art.date)}}</span>
