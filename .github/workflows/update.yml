@@ -27,6 +27,9 @@ jobs:
       - name: Installer les dépendances
         run: pip install -r requirements.txt
 
+      - name: Réparer d'éventuels conflits Git
+        run: python3 reparer_conflits.py
+
       - name: Lancer la veille
         run: python3 generer_site.py
 
