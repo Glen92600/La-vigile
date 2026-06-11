@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La Ville s’attaque aux dangers du protoxyde d’azote",
+    "lien": "https://lagazette-yvelines.fr/2026/06/11/la-ville-sattaque-aux-dangers-du-protoxyde-dazote/?utm_source=rss&utm_medium=rss&utm_campaign=la-ville-sattaque-aux-dangers-du-protoxyde-dazote",
+    "date": "2026-06-11",
+    "date_iso": "2026-06-11T12:00:28+00:00",
+    "resume": "Le vendredi 19 juin, la municipalité de Verneuil-sur-Seine organise une soirée d’échange sur les risques liés à l’usage détourné du protoxyde d’azote, de 18h à 21h à la salle Michel Rocard.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Le comité régional de la Fédération Française de Jeu Vidéo pose ses manettes à Verneuil-sur-Seine",
     "lien": "https://lagazette-yvelines.fr/2026/06/11/le-comite-regional-de-la-federation-francaise-de-jeu-video-pose-ses-manettes-a-verneuil-sur-seine/?utm_source=rss&utm_medium=rss&utm_campaign=le-comite-regional-de-la-federation-francaise-de-jeu-video-pose-ses-manettes-a-verneuil-sur-seine",
     "date": "2026-06-11",
@@ -971,6 +984,19 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-gazettecommunes",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "info.fr",
+    "titre": "Chanteloup-les-Vignes : voiture de police attaquée, talkie-walkie volé pour narguer les policiers",
+    "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGVRMW5uVF9zUVpQRXVIc3Q2Z2tTZEtSMDlxVzE3b3JCM012YWdHeVU1LUY1RkRISU9Vb1Fkd1I0TGFXY3M0Q1E0dDB4LVJ5Q09Ydkl4VkdfeWxXMEFDQWtGQ01nb3dOSHZxQnFZR2UtTUZfN2hsLWhkRUVRY3JFYWxxQ0hFYjRs?oc=5",
+    "date": "2026-05-31",
+    "date_iso": "2026-05-31T07:00:00+00:00",
+    "resume": "Chanteloup-les-Vignes : voiture de police attaquée, talkie-walkie volé pour narguer les policiers  info.fr",
+    "categorie": "chanteloup",
+    "sous_cat": "securite",
+    "source_id": "chanteloup-google2",
     "image": "",
     "img_checked": true
   },
