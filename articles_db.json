@@ -1,6 +1,32 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Sculptures en l’Île fait son retour pour une 28ème édition",
+    "lien": "https://lagazette-yvelines.fr/2026/06/11/sculptures-en-lile-fait-son-retour-pour-une-28eme-edition/?utm_source=rss&utm_medium=rss&utm_campaign=sculptures-en-lile-fait-son-retour-pour-une-28eme-edition",
+    "date": "2026-06-11",
+    "date_iso": "2026-06-11T09:00:02+00:00",
+    "resume": "Jusqu’au 28 septembre, la ville d’Andrésy accueille la nouvelle édition de son exposition d’art contemporain à ciel ouvert. Un parcours culturel gratuit sur l’île Nancy.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2025/06/1280-Andresy-sculptures-en-lile-2025-parc-hotel-ville.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "Dix ans après l’attentat de Magnanville, Bernard Cazeneuve évoque « des moments parmi les plus importants » de sa vie",
+    "lien": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOVVhTZDFFNXFnVVlUQWFDNHRvTDBFOWRMX1ZmM2NQODBMU195b0I4M0JQR2FZVE4yeFZ4YkJ0RjJlOWJONXZoeEVpU05wZGxtbTBaRDRhZllDdGJBcjF0Y3BCVG0zY0xXYXBtYzR6RVN1UGQ2UGZVVFRDOUowaUs4QTJ5M2gzdkRnN25FcG4wanFNUmJmYnVNRVBCX3BVTlNTUko3cEJnZXpvTl8yeG81UDJ3LXlqamJhZTJlU1JfZkhPaXNmblpZQ2tYM0JPRWx4TnV6eGVBMEYzOWlQci04TWV5THlMMXhQZ1B1cTBiODFwc2ZnMWJtUlhCaFA0d3c4X1Z2aElpX1lDVVZzXzc0a0tTTWhSVm9aVDN3?oc=5",
+    "date": "2026-06-11",
+    "date_iso": "2026-06-11T08:54:44+00:00",
+    "resume": "Dix ans après l’attentat de Magnanville, Bernard Cazeneuve évoque « des moments parmi les plus importants » de sa vie  Le Parisien",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Musiques sur Seine s’apprête à faire vibrer l’été",
     "lien": "https://lagazette-yvelines.fr/2026/06/11/musiques-sur-seine-sapprete-a-faire-vibrer-lete/?utm_source=rss&utm_medium=rss&utm_campaign=musiques-sur-seine-sapprete-a-faire-vibrer-lete",
     "date": "2026-06-11",
