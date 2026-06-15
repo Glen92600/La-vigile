@@ -367,6 +367,10 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
 .kw-chip:active { transform:translateY(-1px) scale(.97); }
 .kw-chip b { font-family:'DM Mono',monospace; font-size:.6rem; color:#C2410C; font-weight:600; }
 .kw-chip:hover b { color:#FBBF24; }
+.kw-chip-lieu { background:var(--navy); color:#fff; border-color:var(--navy); font-weight:600; }
+.kw-chip-lieu:hover { background:var(--navy); color:#fff; filter:brightness(1.12); }
+.kw-chip-lieu .kwi { display:inline-flex; }
+.kw-chip-lieu .kwi svg { width:14px; height:14px; fill:none; stroke:#fff; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; vertical-align:-2px; }
 
 .card-top { height:3px; flex-shrink:0; }
 .card-body { padding:1rem; flex:1; display:flex; flex-direction:column; gap:.5rem; }
@@ -618,7 +622,7 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
       </svg>
     </div>
-    <div class="nav-badge" aria-label="1 nouveaux articles aujourd'hui">+1 aujourd'hui</div>
+    <div class="nav-badge" aria-label="0 nouveaux articles aujourd'hui">+0 aujourd'hui</div>
   </div>
 </nav>
 
@@ -646,7 +650,10 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
 
   <section class="sec reveal" aria-labelledby="sec-sujets" id="sujets-section">
     <div class="sec-rule"><h2 id="sec-sujets">Sujets du moment</h2></div>
-    <div id="keywords" class="kw-row" role="list" aria-label="Sujets fréquents"></div>
+    <div class="kw-row" role="list" aria-label="Sujets fréquents">
+      <button class="kw-chip kw-chip-lieu" role="listitem" onclick="goFeedFiltre('chanteloup')"><span class="kwi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>Chanteloup</button>
+      <span id="keywords" style="display:contents"></span>
+    </div>
   </section>
 
   <section class="sec reveal" aria-labelledby="sec-aune" style="padding-top:0">
@@ -696,7 +703,7 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
         <span class="footer-link">·</span>
         <span class="footer-link">27 médias · Mémoire 90 jours</span>
       </div>
-      <span class="footer-date">Mis à jour : Lundi 15 juin 2026 à 09:01</span>
+      <span class="footer-date">Mis à jour : Lundi 15 juin 2026 à 09:40</span>
     </div>
   </footer>
 </div>
@@ -753,7 +760,7 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
     <div class="footer-inner">
       <span class="footer-logo">La Vigie</span>
       <div class="footer-links"><span class="footer-link">27 médias surveillés · 90 jours de mémoire</span></div>
-      <span class="footer-date">Mis à jour : Lundi 15 juin 2026 à 09:01</span>
+      <span class="footer-date">Mis à jour : Lundi 15 juin 2026 à 09:40</span>
     </div>
   </footer>
 </div>
@@ -826,7 +833,7 @@ body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:
       <div class="footer-links">
         <span class="footer-link">27 médias surveillés · 90 jours de mémoire</span>
       </div>
-      <span class="footer-date">Mis à jour : Lundi 15 juin 2026 à 09:01</span>
+      <span class="footer-date">Mis à jour : Lundi 15 juin 2026 à 09:40</span>
     </div>
   </footer>
 </div>
@@ -1400,8 +1407,7 @@ function renderKeywords() {
     });
   });
   const top=Object.entries(cnt).filter(([w,c])=>c>=2).sort((a,b)=>b[1]-a[1]).slice(0,10);
-  const sec=document.getElementById('sujets-section');
-  if(top.length===0) { if(sec) sec.style.display='none'; return; }
+  // Le bouton « Chanteloup » reste toujours affiché ; on ne remplit ici que les mots-clés tendance.
   el.innerHTML=top.map(([w,c])=>`<button class="kw-chip" role="listitem" onclick="searchKw('${w}')">${capit(w)} <b>${c}</b></button>`).join('');
 }
 function searchKw(w) {
@@ -1503,7 +1509,7 @@ majNouveautes();
 filtrer();
 initReveal();
 try { localStorage.setItem(SEEN_KEY, JSON.stringify(ARTICLES.map(a=>a.lien))); } catch(e) {}
-setTimeout(()=>showToast('Site mis à jour · Lundi 15 juin 2026 à 09:01', 3000), 800);
+setTimeout(()=>showToast('Site mis à jour · Lundi 15 juin 2026 à 09:40', 3000), 800);
 </script>
 <script type="module">
 (async () => {

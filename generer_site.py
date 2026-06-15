@@ -761,6 +761,7 @@ def generer_html(articles, stats, nb_nouveaux):
     ICON_SANTE      = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.5-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.5 4.04 3 5.5l7 7Z"/></svg>'
     ICON_CADREDEVIE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>'
     ICON_GPSEO      = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-6-3-6 3v14l6-3 6 3 6-3V2z"/><path d="M9 2v14M15 5v14"/></svg>'
+    ICON_LIEU       = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>'
 
     html = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -1131,6 +1132,10 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 .kw-chip:active {{ transform:translateY(-1px) scale(.97); }}
 .kw-chip b {{ font-family:'DM Mono',monospace; font-size:.6rem; color:#C2410C; font-weight:600; }}
 .kw-chip:hover b {{ color:#FBBF24; }}
+.kw-chip-lieu {{ background:var(--navy); color:#fff; border-color:var(--navy); font-weight:600; }}
+.kw-chip-lieu:hover {{ background:var(--navy); color:#fff; filter:brightness(1.12); }}
+.kw-chip-lieu .kwi {{ display:inline-flex; }}
+.kw-chip-lieu .kwi svg {{ width:14px; height:14px; fill:none; stroke:#fff; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; vertical-align:-2px; }}
 
 .card-top {{ height:3px; flex-shrink:0; }}
 .card-body {{ padding:1rem; flex:1; display:flex; flex-direction:column; gap:.5rem; }}
@@ -1410,7 +1415,10 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
 
   <section class="sec reveal" aria-labelledby="sec-sujets" id="sujets-section">
     <div class="sec-rule"><h2 id="sec-sujets">Sujets du moment</h2></div>
-    <div id="keywords" class="kw-row" role="list" aria-label="Sujets fréquents"></div>
+    <div class="kw-row" role="list" aria-label="Sujets fréquents">
+      <button class="kw-chip kw-chip-lieu" role="listitem" onclick="goFeedFiltre('chanteloup')"><span class="kwi">{ICON_LIEU}</span>Chanteloup</button>
+      <span id="keywords" style="display:contents"></span>
+    </div>
   </section>
 
   <section class="sec reveal" aria-labelledby="sec-aune" style="padding-top:0">
@@ -2164,8 +2172,7 @@ function renderKeywords() {{
     }});
   }});
   const top=Object.entries(cnt).filter(([w,c])=>c>=2).sort((a,b)=>b[1]-a[1]).slice(0,10);
-  const sec=document.getElementById('sujets-section');
-  if(top.length===0) {{ if(sec) sec.style.display='none'; return; }}
+  // Le bouton « Chanteloup » reste toujours affiché ; on ne remplit ici que les mots-clés tendance.
   el.innerHTML=top.map(([w,c])=>`<button class="kw-chip" role="listitem" onclick="searchKw('${{w}}')">${{capit(w)}} <b>${{c}}</b></button>`).join('');
 }}
 function searchKw(w) {{
