@@ -1400,7 +1400,7 @@ body::after {{ content:''; position:fixed; inset:0; pointer-events:none; z-index
     <div class="hero-inner">
       <p class="hero-eyebrow" style="display:flex;align-items:center;gap:.5rem"><span class="live-dot" aria-hidden="true"></span> Veille active · {date_hero}</p>
       <h1 class="hero-title" id="hero-h1">La Vigie<br><em>de Chanteloup</em></h1>
-      <p class="hero-intro">Toute la presse qui parle de Chanteloup-les-Vignes et de son territoire, réunie et actualisée en continu, du média local au titre national.</p>
+      <p class="hero-intro">Toute la presse de Chanteloup-les-Vignes et des territoires alentours, réunie et actualisée en continu, du média local au national.</p>
       <p class="hero-sub">Ville de Chanteloup-les-Vignes &nbsp;·&nbsp; {nb_sources} médias &nbsp;·&nbsp; 90 jours</p>
       <div class="hero-divider" aria-hidden="true"></div>
       <div class="hero-stats" role="list" aria-label="Statistiques">
