@@ -1,6 +1,58 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Une boîte à idées sur le site internet de la Ville",
+    "lien": "https://lagazette-yvelines.fr/2026/06/16/une-boite-a-idees-sur-le-site-internet-de-la-ville/?utm_source=rss&utm_medium=rss&utm_campaign=une-boite-a-idees-sur-le-site-internet-de-la-ville",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T15:00:15+00:00",
+    "resume": "La mairie d’Orgeval a mis en ligne la semaine dernière une boîte à idées numérique la semaine dernière. Cela faisait partie des promesses de campagne.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Un nouveau préfet des Yvelines ferme pour « maintenir l’ordre et la sécurité»",
+    "lien": "https://lagazette-yvelines.fr/2026/06/16/prefet-yvelines-brice-blondel/?utm_source=rss&utm_medium=rss&utm_campaign=prefet-yvelines-brice-blondel",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T14:50:40+00:00",
+    "resume": "Brice Blondel a été officiellement intronisé le 15 juin en tant que nouveau préfet des Yvelines. L’ancien directeur du cabinet d’Emmanuel Macron promet de la fermeté envers les narcotrafiquants mais aussi envers les personnes qui utiliseraient leur téléphone au volant.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/Yvelines-Le-nouveau-Prefet-est-la-Une-scaled.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "tv78",
+    "titre": "Le Relais Val de Seine s’agrandit à Chanteloup-les-Vignes",
+    "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TOUZTcTBQME5vVWd2cUdWNTlhdXNidy1aSm41eUZtUzVTMzhVaHNGbklwVk1UWTAtV0lqbGxuS3FnRVlkWmdCcXhZN0E4b2hHa25PbjFlZFpSOU9Mbm9nSEM2eU9PaHRJT1FsbEtGbVFXdzZYbGtKMG5QRDZ0cEU?oc=5",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T14:49:38+00:00",
+    "resume": "Le Relais Val de Seine s’agrandit à Chanteloup-les-Vignes  tv78",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "tv78",
+    "titre": "RER C et alertes trafic : WhatsApp devient le nouveau canal d’information des voyageurs dans les Yvelines",
+    "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTFo3Nnp5RzhuenBJR0dwc2hfMHpjTFpfR2JtTVlkVkRXaTh3VVF3X0Zja3lTWno2U3hjZmtqZEhtdkVkMlg4WXdnak9yMHRUV0RuOTkxRi1CLVVvU1ZPZ0hsUFpSdmRwdG5WdnZLRkZGSFNCOVQ1SUlPMng3dDBFeWIzOTUxek5QbWt3TWh2WV90cG9EOC1aRF9YRVJTUkNoclJzY3liVnBfa3ZOMHNTdGFoM0dCUjRRNnFKcg?oc=5",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T14:09:04+00:00",
+    "resume": "RER C et alertes trafic : WhatsApp devient le nouveau canal d’information des voyageurs dans les Yvelines  tv78",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "La restauration de la Clairière des Eaux honorée par la Fondation du patrimoine",
     "lien": "https://lagazette-yvelines.fr/2026/06/16/la-restauration-de-la-clairiere-des-eaux-honoree-par-la-fondation-du-patrimoine/?utm_source=rss&utm_medium=rss&utm_campaign=la-restauration-de-la-clairiere-des-eaux-honoree-par-la-fondation-du-patrimoine",
     "date": "2026-06-16",
