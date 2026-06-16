@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Un incendie ravage un logement collectif",
+    "lien": "https://lagazette-yvelines.fr/2026/06/16/un-incendie-ravage-un-logement-collectif/?utm_source=rss&utm_medium=rss&utm_campaign=un-incendie-ravage-un-logement-collectif",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T10:00:12+00:00",
+    "resume": "Un incendie s’est déclaré le 10 juin dans un logement collectif au Val-Fourré, à Mantes-la-Jolie. Si les dégâts matériels étaient nombreux, aucune victime n’était à déplorer.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2018/07/1280-web-Sapeurs-pompiers-accident-secours-a-personne-sdis78.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Un agriculteur sauve sept faons",
     "lien": "https://lagazette-yvelines.fr/2026/06/16/un-agriculteur-sauve-sept-faons/?utm_source=rss&utm_medium=rss&utm_campaign=un-agriculteur-sauve-sept-faons",
     "date": "2026-06-16",
