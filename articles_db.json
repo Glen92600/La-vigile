@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Il s’en prend à une femme handicapée",
+    "lien": "https://lagazette-yvelines.fr/2026/06/16/il-sen-prend-a-une-femme-handicapee/?utm_source=rss&utm_medium=rss&utm_campaign=il-sen-prend-a-une-femme-handicapee",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T08:00:44+00:00",
+    "resume": "Le 9 juin, un homme de 24 ans s’en est pris à une jeune femme présentant un handicap mental sur les bords de Seine, au niveau de Mantes-la-Jolie. Après lui avoir volé son enceinte Bluetooth, il a tenté de l’agresser sexuellement. Son procès avait lieu deux jours plus tard.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2022/01/1280-web-2876-2020-03-04-Versailles-Tribunal.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Le professeur de sport forçait ses élèves à coucher avec lui",
     "lien": "https://lagazette-yvelines.fr/2026/06/16/le-professeur-de-sport-forcait-ses-eleves-a-coucher-avec-lui/?utm_source=rss&utm_medium=rss&utm_campaign=le-professeur-de-sport-forcait-ses-eleves-a-coucher-avec-lui",
     "date": "2026-06-16",
@@ -10,6 +23,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2021/02/1280-web-01581.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "10 ans après, le souvenir intact de l’attentat de Magnanville",
+    "lien": "https://lagazette-yvelines.fr/2026/06/16/10-ans-apres-le-souvenir-intact-de-lattentat-de-magnanville/?utm_source=rss&utm_medium=rss&utm_campaign=10-ans-apres-le-souvenir-intact-de-lattentat-de-magnanville",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T07:00:27+00:00",
+    "resume": "Le 13 juin dernier, cela faisait 10 ans que Jean-Baptiste Salvaing et Jessica Schneider étaient assassinés chez eux par Larossi Abballa à leur domicile de Magnanville. Une cérémonie en honneur des deux fonctionnaires de police avait lieu à Mantes-la-Jolie.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/1280-Magnanville-10-ans-Attentat-Legende-1.jpg",
     "img_checked": true
   },
   {
