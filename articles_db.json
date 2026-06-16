@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Un agriculteur sauve sept faons",
+    "lien": "https://lagazette-yvelines.fr/2026/06/16/un-agriculteur-sauve-sept-faons/?utm_source=rss&utm_medium=rss&utm_campaign=un-agriculteur-sauve-sept-faons",
+    "date": "2026-06-16",
+    "date_iso": "2026-06-16T09:00:50+00:00",
+    "resume": "Avant la fauche de son champ, un agriculteur de Sailly a utilisé des drones thermiques dans le but d’éviter de tuer des animaux présents malencontreusement. Cela lui a permis de sauver sept faons le 5 juin.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/FD-Sailly-Credit-Photo-Commune-de-Sailly-78440.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Il s’en prend à une femme handicapée",
     "lien": "https://lagazette-yvelines.fr/2026/06/16/il-sen-prend-a-une-femme-handicapee/?utm_source=rss&utm_medium=rss&utm_campaign=il-sen-prend-a-une-femme-handicapee",
     "date": "2026-06-16",
