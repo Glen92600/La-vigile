@@ -1,6 +1,32 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La Fête de la Ville s’installe au parc Champeau",
+    "lien": "https://lagazette-yvelines.fr/2026/06/18/la-fete-de-la-ville-sinstalle-au-parc-champeau/?utm_source=rss&utm_medium=rss&utm_campaign=la-fete-de-la-ville-sinstalle-au-parc-champeau",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T07:00:28+00:00",
+    "resume": "Le traditionnel rendez-vous estival de Chanteloup-les-Vignes revient ce samedi 20 juin dès 14h au parc Champeau. Cette année, l’événement familial innove en prolongeant les réjouissances jusqu’à 22h30.",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazette",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/ParcChampeau.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "tv78",
+    "titre": "Yvelines : bientôt plus besoin de ticket ni de Navigo pour certains trajets en transports",
+    "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVGVyYTJJTWRPOVRjQ3Q5QnNnX2xwcFpyWVJKZU9MMGFra2dTUnAxa1U5a1d6aExzWWVLaGpjaVZMVWQ3WEdpMnloaDlUQmM5ZVNNMUoxSTJpUG9rd0xETzVuODB4TUpKTEFSQzUxQmhYTkpMTVZLMTdQWVQyTDVfZWFubHZ4b2ZBellEVzgzNk9wRVlROER4Smg4WnpPWE4xa2YxdVVuZ3A?oc=5",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T06:52:34+00:00",
+    "resume": "Yvelines : bientôt plus besoin de ticket ni de Navigo pour certains trajets en transports  tv78",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Poissy, Mantes-la-Jolie, Les Mureaux : quel programme pour la fête de la musique ?",
     "lien": "https://lagazette-yvelines.fr/2026/06/18/poissy-mantes-la-jolie-les-mureaux-quel-programme-pour-la-fete-de-la-musique/?utm_source=rss&utm_medium=rss&utm_campaign=poissy-mantes-la-jolie-les-mureaux-quel-programme-pour-la-fete-de-la-musique",
     "date": "2026-06-18",
