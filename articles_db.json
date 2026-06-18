@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Le rock fait son show au Conservatoire",
+    "lien": "https://lagazette-yvelines.fr/2026/06/18/le-rock-fait-son-show-au-conservatoire/?utm_source=rss&utm_medium=rss&utm_campaign=le-rock-fait-son-show-au-conservatoire",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T09:00:02+00:00",
+    "resume": "Let there be rock ! Le mercredi 24 juin à 15h45, le Conservatoire Quincy Jones de Mantes-la-Jolie vous invite à un voyage musical mémorable à travers le temps. À travers dix tableaux thématiques, les enseignants de l’établissement feront revivre la formidable épopée du rock. De sa naissance révoltée au milieu du siècle dernier jusqu’aux fusions audacieuses [&#8230;]",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Les guinguettes des bords de Seine reviennent trois vendredis cet été",
     "lien": "https://lagazette-yvelines.fr/2026/06/18/les-guinguettes-des-bords-de-seine-reviennent-trois-vendredis-cet-ete/?utm_source=rss&utm_medium=rss&utm_campaign=les-guinguettes-des-bords-de-seine-reviennent-trois-vendredis-cet-ete",
     "date": "2026-06-18",
@@ -1310,6 +1323,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "InfosYvelines",
+    "titre": "Paris-Nice 2026 dans les Yvelines : tout ce qu'il faut savoir sur les deux étapes yvelinoises",
+    "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSW9jVzZWLXFiWEhmU25rMTJZZjltQXVkaGZwdHFycVZsVzdQazhTRDJ2MERNeURyYURIV05jNjFoakxyNjBKRWhJTDNod1ozQThWbThPYXhfR19BSDZzU2lQRDNwZWpyeUFNWXp1c09zcHFmR2Z0T0p0dkxUNmROclZBVGxHdHZOaDNhZEpjMVNXVlY3V2pKellweDBpZHpPeE5rd1lldVBUWE80OXJOaHNELW5BNzVJNVJ4UkduVlQ3U25yTkI0?oc=5",
+    "date": "2026-06-03",
+    "date_iso": "2026-06-03T07:00:00+00:00",
+    "resume": "Paris-Nice 2026 dans les Yvelines : tout ce qu'il faut savoir sur les deux étapes yvelinoises  InfosYvelines",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
+    "image": "",
     "img_checked": true
   },
   {
