@@ -1,6 +1,58 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Les écoliers vernolitains ont passé leur diplôme de vélo",
+    "lien": "https://lagazette-yvelines.fr/2026/06/18/les-ecoliers-vernolitains-ont-passe-leur-diplome-de-velo/?utm_source=rss&utm_medium=rss&utm_campaign=les-ecoliers-vernolitains-ont-passe-leur-diplome-de-velo",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T16:00:48+00:00",
+    "resume": "Les élèves des écoles primaires de Vernouillet ont participé la semaine dernière à l’opération « Savoir Rouler à Vélo », dispositif national certifiant destiné à apprendre aux enfants à circuler en sécurité sur deux roues.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/Diplomevelo.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "La piscine Bècheville sera fermée pendant le mois de juillet",
+    "lien": "https://lagazette-yvelines.fr/2026/06/18/la-piscine-becheville-sera-fermee-pendant-le-mois-de-juillet/?utm_source=rss&utm_medium=rss&utm_campaign=la-piscine-becheville-sera-fermee-pendant-le-mois-de-juillet",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T15:30:49+00:00",
+    "resume": "La piscine communautaire de Bècheville, aux Mureaux, sera fermée du 6 juillet au 2 août 2026. Une décision que la communauté urbaine GPSEO justifie par une faible fréquentation estivale et des besoins de maintenance, mais qui suscite l’incompréhension des habitants.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2021/05/1280-web-2015-03-22-Les-Mureaux-Piscine-de-Bécheville.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "Actu.fr",
+    "titre": "Alerte à la bombe dans un collège des Yvelines : 18 enfants évacués ont pris un coup de chaud",
+    "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaE9BVXdFTUF5SFdNbUF0MGxYUDBvOGlvRDhpaW50cDRJOXlMWmJxb09va2pfTm1TVi1sUFpzTHgwSm16STZNVWJSVzNZWWRXLV9IbEthemp5bURfcDY2Q0JqNHNobHB5cktEYldBN3V1TWVPWTQ5VFkxa3dEV3VnUHFsMXl6T0NqMk4yMm5UbjN2UXBBclI0R253ZzFNQ3doOFpldTd0Q09Pd2tFM3FPaGt0VzVrV1NoWHI4cERHMWFmYmRibXVKaWlZNXZzRVU0SGEyYUI3U0poTlM2RUVlVEl3d0NqODdRQ3NUck1yMmF1ZmdYd2c?oc=5",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T15:24:17+00:00",
+    "resume": "Alerte à la bombe dans un collège des Yvelines : 18 enfants évacués ont pris un coup de chaud  Actu.fr",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "info.fr",
+    "titre": "Yvelines : vigilance jaune orage dès 16h, soyez prudents sur les routes",
+    "lien": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41MFlfSTVVYUhoZkwzcWZRZ3p4Q1hGUEFrX2prZU81emRqYUJ3ZG5sdWZLMDVPTkkxQzZuSDlxbzhBX2VVWmE5cGppZms4aUdHNTR5SUctX25abUxSdXFRUmlvNHIybWxna3c?oc=5",
+    "date": "2026-06-18",
+    "date_iso": "2026-06-18T15:05:26+00:00",
+    "resume": "Yvelines : vigilance jaune orage dès 16h, soyez prudents sur les routes  info.fr",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "La fête communale s’étire sur quatre jours",
     "lien": "https://lagazette-yvelines.fr/2026/06/18/la-fete-communale-setire-sur-quatre-jours/?utm_source=rss&utm_medium=rss&utm_campaign=la-fete-communale-setire-sur-quatre-jours",
     "date": "2026-06-18",
