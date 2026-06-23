@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Une moto volée sur une péniche",
+    "lien": "https://lagazette-yvelines.fr/2026/06/23/une-moto-volee-sur-une-peniche/?utm_source=rss&utm_medium=rss&utm_campaign=une-moto-volee-sur-une-peniche",
+    "date": "2026-06-23",
+    "date_iso": "2026-06-23T10:00:37+00:00",
+    "resume": "À Andresy, deux individus ont volé une moto installée sur une péniche dans la nuit du 14 au 15 juin. Plusieurs fois, ils ont failli faire tomber le véhicule à l’eau.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2019/10/1280-Illustration-FD-S40-Vol-motos-enquête-police.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Un sexagénaire arrêté après le viol d’une fillette de 5 ans",
     "lien": "https://lagazette-yvelines.fr/2026/06/23/un-sexagenaire-arrete-apres-le-viol-dune-fillette-de-5-ans/?utm_source=rss&utm_medium=rss&utm_campaign=un-sexagenaire-arrete-apres-le-viol-dune-fillette-de-5-ans",
     "date": "2026-06-23",
