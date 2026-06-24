@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La rue du Général-de-Gaulle devient piétonne le vendredi soir",
+    "lien": "https://lagazette-yvelines.fr/2026/06/24/la-rue-du-general-de-gaulle-devient-pietonne-le-vendredi-soir/?utm_source=rss&utm_medium=rss&utm_campaign=la-rue-du-general-de-gaulle-devient-pietonne-le-vendredi-soir",
+    "date": "2026-06-24",
+    "date_iso": "2026-06-24T13:00:04+00:00",
+    "resume": "Pour dynamiser ses commerces et offrir plus de confort aux promeneurs, la municipalité étend son dispositif de piétonnisation dans le centre-ville.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Quand l’appel du 18 Juin se fait sous le regard du général",
     "lien": "https://lagazette-yvelines.fr/2026/06/24/quand-lappel-du-18-juin-se-fait-sous-le-regard-du-general/?utm_source=rss&utm_medium=rss&utm_campaign=quand-lappel-du-18-juin-se-fait-sous-le-regard-du-general",
     "date": "2026-06-24",
