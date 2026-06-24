@@ -1,6 +1,32 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Le VAC Athlé organise ses Olympiades",
+    "lien": "https://lagazette-yvelines.fr/2026/06/24/le-vac-athle-organise-ses-olympiades/?utm_source=rss&utm_medium=rss&utm_campaign=le-vac-athle-organise-ses-olympiades",
+    "date": "2026-06-24",
+    "date_iso": "2026-06-24T07:00:08+00:00",
+    "resume": "Pour clôturer sa saison en beauté, le club d’athlétisme vernolien organise ses traditionnelles Olympiades le samedi 27 juin au Stade Régis de Verneuil-sur-Seine.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "info.fr",
+    "titre": "Yvelines : le préfet Blondel en visite à la direction de la police nationale",
+    "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YeXphcXFfM0lwY0F6OWpTenR5aFVKOFNJUzZfSDhNaUdsLU9HTk5QdExsck8zRGk3cHdaQ09UMzBmejdCLWVIY0xSUFZNWTdydVRMTzk3NDg5a2h3TmhZcUdLQ1RrME1SdDdTSnhOLWNFZHpDUThGMWtIalB4Y1k?oc=5",
+    "date": "2026-06-24",
+    "date_iso": "2026-06-24T06:09:08+00:00",
+    "resume": "Yvelines : le préfet Blondel en visite à la direction de la police nationale  info.fr",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Coupe des Yvelines : Les Mureaux battus d’un cheveu en finale",
     "lien": "https://lagazette-yvelines.fr/2026/06/24/coupe-des-yvelines-les-mureaux-battus-dun-cheveu-en-finale/?utm_source=rss&utm_medium=rss&utm_campaign=coupe-des-yvelines-les-mureaux-battus-dun-cheveu-en-finale",
     "date": "2026-06-24",
