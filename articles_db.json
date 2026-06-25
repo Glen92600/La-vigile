@@ -2311,31 +2311,5 @@
     "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Dans ce collège, la classe orchestre participe à la réussite éducative",
-    "lien": "https://lagazette-yvelines.fr/2026/05/15/dans-ce-college-la-classe-orchestre-participe-a-la-reussite-educative/?utm_source=rss&utm_medium=rss&utm_campaign=dans-ce-college-la-classe-orchestre-participe-a-la-reussite-educative",
-    "date": "2026-05-15",
-    "date_iso": "2026-05-15T13:00:18+00:00",
-    "resume": "Une option musique a été ouverte au collège Magellan de Chanteloup-les-Vignes depuis 3 ans, avec un bilan plus que positif : tous les élèves engagés ont décroché leur brevet et les sanctions disciplinaires ont baissé de 43%.",
-    "categorie": "chanteloup",
-    "sous_cat": "education",
-    "source_id": "chanteloup-gazette",
-    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/05/1280-Chanteloup-les-Vignes-Classe-orchestre-Une.jpg",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Jazz en vignes : une nouvelle édition dédiée aux frères Gershwin",
-    "lien": "https://lagazette-yvelines.fr/2026/05/15/jazz-en-vignes-une-nouvelle-edition-dediee-aux-freres-gershwin/?utm_source=rss&utm_medium=rss&utm_campaign=jazz-en-vignes-une-nouvelle-edition-dediee-aux-freres-gershwin",
-    "date": "2026-05-15",
-    "date_iso": "2026-05-15T06:00:24+00:00",
-    "resume": "Entre concerts et jam session, la 8ème édition du festival de jazz prendra ses quartiers dans la salle de spectacle chantelouvaise les vendredi 29 et samedi 30 mai.",
-    "categorie": "chanteloup",
-    "sous_cat": "education",
-    "source_id": "chanteloup-gazette",
-    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/05/capture-decran-2022-12-23-a-11.19.12.png",
-    "img_checked": true
   }
 ]
