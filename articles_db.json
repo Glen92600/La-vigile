@@ -1,6 +1,32 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Le cinéma mobile revient en ville cet été",
+    "lien": "https://lagazette-yvelines.fr/2026/06/25/le-cinema-mobile-revient-en-ville-cet-ete/?utm_source=rss&utm_medium=rss&utm_campaign=le-cinema-mobile-revient-en-ville-cet-ete",
+    "date": "2026-06-25",
+    "date_iso": "2026-06-25T07:00:38+00:00",
+    "resume": "Le CinéMo, camion itinérant proposant des projections aux quatre coins de la France, sera de passage à Mantes-la-Ville du 30 juin au 4 juillet.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2025/09/1280-MLV-CineMo-vue-exterieure.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "InfosYvelines",
+    "titre": "Panne géante dans le nord des Yvelines : Chanteloup, Conflans et Poissy sans électricité 5 heures",
+    "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekhfRnNHLTQ4Z3hxdng4UFlGR2VDcklWSXRZempkY0Z6MlotTXZSZHo3bHJfZjMzdWxmbkpjRmhDdkJaU0xXZk9kc3lPTUxzNnc3R284T3hwcUtzV2VQNU5sQ2ExLVp5T2tnSlJyTVAzWnlkU2FOdS1ZV05yOWtzQjdYeGZ1Y0gtbklIdDJVTnpEWHluUnQ3QUw0U0lucExhOWo2bG9oX2s?oc=5",
+    "date": "2026-06-25",
+    "date_iso": "2026-06-25T06:12:28+00:00",
+    "resume": "Panne géante dans le nord des Yvelines : Chanteloup, Conflans et Poissy sans électricité 5 heures  InfosYvelines",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "75 séances, 27 dates… Le cinéma en plein air (et gratuit) revient cet été",
     "lien": "https://lagazette-yvelines.fr/2026/06/25/75-seances-27-dates-le-cinema-en-plein-air-et-gratuit-revient-cet-ete/?utm_source=rss&utm_medium=rss&utm_campaign=75-seances-27-dates-le-cinema-en-plein-air-et-gratuit-revient-cet-ete",
     "date": "2026-06-25",
