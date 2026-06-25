@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Les quais de Seine se transforment en piste de danse pour tout l’été",
+    "lien": "https://lagazette-yvelines.fr/2026/06/25/les-quais-de-seine-se-transforment-en-piste-de-danse-pour-tout-lete/?utm_source=rss&utm_medium=rss&utm_campaign=les-quais-de-seine-se-transforment-en-piste-de-danse-pour-tout-lete",
+    "date": "2026-06-25",
+    "date_iso": "2026-06-25T10:00:33+00:00",
+    "resume": "C’est devenu l’un des rendez-vous de l’été à Conflans-Sainte-Honorine. Chaque année depuis plusieurs saisons, les quais de Seine s’animent le soir au rythme des danses proposées par les associations locales. Cette année, deux associations se partagent le programme du 16 juin au 30 août. L’association SBK investit la place Fouillère les mardis, jeudis et dimanches [&#8230;]",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "L’aérodrome des Mureaux-Verneuil en fête les 27 et 28 juin",
     "lien": "https://lagazette-yvelines.fr/2026/06/25/laerodrome-des-mureaux-verneuil-en-fete-les-27-et-28-juin/?utm_source=rss&utm_medium=rss&utm_campaign=laerodrome-des-mureaux-verneuil-en-fete-les-27-et-28-juin",
     "date": "2026-06-25",
@@ -1047,6 +1060,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "InfosYvelines",
+    "titre": "Trail de l'Hautil : les inscriptions sont ouvertes pour la 4ème édition le 14 juin",
+    "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkVfRGNfMDZCclA5dTk1YW5sb3FjdnEtOG9vUDBDY0Q5bXZvN1p5V0lfT21hc2VQTG85VW1aY1FabUFmOGpKQWQxbUdjSUlrdmV5RDIwZ0RVbFl3ZnVtWkF5SzdzUkdjV082R2k3MVNZT0xCVVhkVU1xSzdMWEJhWDhrNHc3Tms2bW8zenZTbkNMOXNZWGdreWktT19qVnZDRUtDN1k3THJubUc4SDZrSy10SE5CNy1N?oc=5",
+    "date": "2026-06-14",
+    "date_iso": "2026-06-14T07:00:00+00:00",
+    "resume": "Trail de l'Hautil : les inscriptions sont ouvertes pour la 4ème édition le 14 juin  InfosYvelines",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
   },
