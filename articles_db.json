@@ -247,6 +247,18 @@
     "img_checked": true
   },
   {
+    "source": "Mantes-Actu",
+    "titre": "Canicule : la communauté urbaine GPS&O élargit les horaires de plusieurs piscines du territoire",
+    "lien": "https://www.mantes-actu.net/canicule-la-communaute-urbaine-gpso-elargit-les-horaires-de-plusieurs-piscines-du-territoire/",
+    "date": "2026-06-23",
+    "date_iso": "2026-06-23T14:57:26+00:00",
+    "resume": "Canicule : GPS&#038;O élargit les horaires de plusieurs piscines du territoire",
+    "categorie": "gpseo",
+    "sous_cat": "autre",
+    "source_id": "gpseo-mantes",
+    "image": "https://www.mantes-actu.net/wp-content/uploads/2026/06/gps-0_piscine-12_0-150x150.jpg"
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Des nouveaux villages d’enfants bientôt sur notre territoire ?",
     "lien": "https://lagazette-yvelines.fr/2026/06/23/des-nouveaux-villages-denfants-bientot-sur-notre-territoire/?utm_source=rss&utm_medium=rss&utm_campaign=des-nouveaux-villages-denfants-bientot-sur-notre-territoire",
@@ -2309,6 +2321,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "info.fr",
+    "titre": "Kool Day Festival à Gargenville : 15e édition ce week-end de Pentecôte 2026",
+    "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPemlYQkhMbnB3Z1lmZ0dfek1IbXBrM1g0TzVRRWNKR3JMMFM3d09TdjRpbHkySTFjREJxcDVpLXRrVE1aUTZvelV5RU1qMDRtT3F0YTAxWk4tbV9VNFpsYUhORFpicUNZWW9QUjI5RHY0eTZWMy05UVo1Yk84NXdnN2RB?oc=5",
+    "date": "2026-05-23",
+    "date_iso": "2026-05-23T07:00:00+00:00",
+    "resume": "Kool Day Festival à Gargenville : 15e édition ce week-end de Pentecôte 2026  info.fr",
+    "categorie": "gpseo",
+    "sous_cat": "autre",
+    "source_id": "gpseo-google",
     "image": "",
     "img_checked": true
   },

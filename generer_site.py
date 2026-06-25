@@ -139,6 +139,10 @@ def vhash(s):
         h = ((h * 33) + ord(ch)) & 0xFFFFFFFF
     return format(h, "x")
 
+# Mots-clés qui identifient un article sur la communauté urbaine GPSEO.
+# Sert à filtrer les médias généralistes pour ne garder que l'actu de l'agglo.
+GPSEO_KW = ["gpseo", "gps&o", "grand paris seine et oise", "communauté urbaine"]
+
 # ── Sources RSS étendues ───────────────────────────────────────────────────────
 SOURCES = [
     # ── Chanteloup direct ──
@@ -232,11 +236,56 @@ SOURCES = [
         "nom": "Google Actualités – GPSEO",
         "url": "https://news.google.com/rss/search?q=GPSEO+%22Grand+Paris+Seine+et+Oise%22&hl=fr&gl=FR&ceid=FR:fr",
         "categorie": "gpseo",
+        "filtre": False,   # requête déjà ciblée GPSEO : on prend toute l'actu de l'agglo
+    },
+    # Médias locaux : on récupère aussi leurs articles qui parlent de l'agglo GPSEO
+    {
+        "id": "gpseo-mantes",
+        "nom": "Mantes-Actu",
+        "url": "https://www.mantes-actu.net/feed/",
+        "categorie": "gpseo",
         "filtre": True,
-        "mot_cle_liste": ["transport","bus","mobilité","logement","hlm","rénovation","emploi",
-                          "culture","sport","loisirs","environnement","subvention","projet","budget",
-                          "intercommunalité","travaux","habitat","social","jeunesse","éducation",
-                          "collège","piscine","médiathèque","équipement","tarif","aide"],
+        "mot_cle_liste": GPSEO_KW,
+    },
+    {
+        "id": "gpseo-infos78",
+        "nom": "InfosYvelines",
+        "url": "https://www.infosyvelines.fr/rss",
+        "categorie": "gpseo",
+        "filtre": True,
+        "mot_cle_liste": GPSEO_KW,
+    },
+    {
+        "id": "gpseo-parisien",
+        "nom": "Le Parisien – Yvelines",
+        "url": "https://feeds.leparisien.fr/leparisien/rss/yvelines-78",
+        "categorie": "gpseo",
+        "filtre": True,
+        "mot_cle_liste": GPSEO_KW,
+    },
+    {
+        "id": "gpseo-gazette78",
+        "nom": "La Gazette en Yvelines",
+        "url": "https://lagazette-yvelines.fr/feed/",
+        "categorie": "gpseo",
+        "filtre": True,
+        "mot_cle_liste": GPSEO_KW,
+    },
+    {
+        "id": "gpseo-france3",
+        "nom": "France 3 Paris IDF",
+        "url": "https://france3-regions.francetvinfo.fr/paris-ile-de-france/rss",
+        "categorie": "gpseo",
+        "filtre": True,
+        "mot_cle_liste": GPSEO_KW,
+    },
+    {
+        "id": "gpseo-actu17",
+        "nom": "Actu17",
+        "url": "https://actu17.fr/feed/",
+        "categorie": "gpseo",
+        "filtre": True,
+        "mot_cle_liste": GPSEO_KW,
     },
     # ── Yvelines département ──
     {
