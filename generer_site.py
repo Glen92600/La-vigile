@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Générateur de site web — Veille Chanteloup-les-Vignes
-Collecte les RSS, maintient une base d'articles (40 jours),
+Collecte les RSS, maintient une base d'articles (30 jours),
 génère site/index.html automatiquement chaque matin.
 """
 
@@ -119,7 +119,7 @@ DB_PATH     = os.path.join(BASE, "articles_db.json")
 REJETS_PATH = os.path.join(BASE, "liens_rejetes.json")  # cache : liens vérifiés hors-sujet
 SITE_DIR    = os.path.join(BASE, "site")
 HTML_PATH   = os.path.join(SITE_DIR, "index.html")
-RETENTION   = 40   # jours conservés en base
+RETENTION   = 30   # jours conservés en base
 # Nb max de vérifications « corps d'article » par exécution (réglable via env pour
 # un backfill ponctuel). Google limite vite la résolution des liens → on reste bas.
 CORPS_BUDGET = int(os.environ.get("VIGIE_CORPS_BUDGET", "8"))
