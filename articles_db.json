@@ -2466,31 +2466,5 @@
     "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "GPSEO consacre le mois de juin à la rénovation et aux économies d’énergie",
-    "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlg1cTh3bEpVMUVnUHRVUThJZDRRT2c1YTlGMkxKTlhBSVlydEk1TlZmQnpiQXVzbVg3NkFkY191SjQ3T3ZhUV8xOWVnOUR4U2p5OU5aZTJCWUhJS3N0N0U4QVhKYXg2Tm5pMjdVZV9Sd25Ma25Kc2NpMGNwcXd1R2xvdzdrYnpNbDk0anJzYWRRbS1qNld5RkdySFNCeTB1akdkZFpfRjhOQkFRV21lSDdGM2k?oc=5",
-    "date": "2026-05-26",
-    "date_iso": "2026-05-26T13:00:05+00:00",
-    "resume": "GPSEO consacre le mois de juin à la rénovation et aux économies d’énergie  La Gazette en Yvelines",
-    "categorie": "gpseo",
-    "sous_cat": "autre",
-    "source_id": "gpseo-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Parisien",
-    "titre": "Détecteurs de pression, caméras intelligentes, portes blindées… À Élancourt sécurité maximale autour de l’étonnante usine d’encres infalsifiables",
-    "lien": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPMXhpRGFTSEtNa2hxaWIxZFc0TFE5aEx0V1NBVnBrZEN6VVZYYnJpcjZyallDVmFkREFuUVhrbTd6MUs3aXI5cFVKMWtlaGRRYjZlaklLTUZSc19uQkV1N1FaaFdKTTdBS3p0cTFjaTJ6S1ozZXRhZGNuV2dkYXdLanlJSHlzXzFxSktGTGdReGdyRDV4MlRVN2w4SUwwRE5KeWFkNnRiM29yMlNTYTk0a0RpZTlzYzAzc0JCbTYySm5EeVk5aE1kbnhfRE9kT0VwTXRSUEVQNFItc1NzVkoxeGdiclFaMG9JVHB4bXBwbXhnbXlpdmNJSGJSdlNnRFBvRTVxLU1ITUdlVHBRdmxkMXlaTnUxUWswVzB5X0k3MXpCaGJVeUtsVHViWV9qaGxub2RMeWMwaEQzTTV0azVpaUZB?oc=5",
-    "date": "2026-05-26",
-    "date_iso": "2026-05-26T06:00:01+00:00",
-    "resume": "Détecteurs de pression, caméras intelligentes, portes blindées… À Élancourt sécurité maximale autour de l’étonnante usine d’encres infalsifiables  Le Parisien",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
   }
 ]
