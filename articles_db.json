@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La mairie de quartier du Val-Fourré fermée à cause d’un incendie",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/la-mairie-de-quartier-du-val-fourre-fermee-a-cause-dun-incendie/?utm_source=rss&utm_medium=rss&utm_campaign=la-mairie-de-quartier-du-val-fourre-fermee-a-cause-dun-incendie",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T10:00:07+00:00",
+    "resume": "La salle des serveurs de la mairie de quartier du Val Fourré a pris feu le 23 juin. Si le feu a été rapidement circonscrit, il impactera le fonctionnement de ce bâtiment.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/FD-Incendit-Mairie-de-quartier-VF-Credit-Photo-Ville-de-Mantes-la-Jolie.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "La clinique du Montgardé évacuée à cause d’un départ de feu",
     "lien": "https://lagazette-yvelines.fr/2026/06/30/la-clinique-du-montgarde-evacuee-a-cause-dun-depart-de-feu/?utm_source=rss&utm_medium=rss&utm_campaign=la-clinique-du-montgarde-evacuee-a-cause-dun-depart-de-feu",
     "date": "2026-06-30",
