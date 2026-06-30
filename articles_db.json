@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La clinique du Montgardé évacuée à cause d’un départ de feu",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/la-clinique-du-montgarde-evacuee-a-cause-dun-depart-de-feu/?utm_source=rss&utm_medium=rss&utm_campaign=la-clinique-du-montgarde-evacuee-a-cause-dun-depart-de-feu",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T09:00:40+00:00",
+    "resume": "Une armoire électrique a pris feu au deuxième étage de la clinique du Montgardé à Aubergenville. La propagation des fumées a forcé cinq personnes à être admises aux urgences de l’établissement.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2022/01/1280-web-2022-01-03-Aubergenville-Clinique-Mongarde-avec-panneau.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Une nonagénaire écrasée par un poids lourds",
     "lien": "https://lagazette-yvelines.fr/2026/06/30/une-nonagenaire-ecrasee-par-un-poids-lourds/?utm_source=rss&utm_medium=rss&utm_campaign=une-nonagenaire-ecrasee-par-un-poids-lourds",
     "date": "2026-06-30",
