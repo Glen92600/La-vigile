@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Une nonagénaire écrasée par un poids lourds",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/une-nonagenaire-ecrasee-par-un-poids-lourds/?utm_source=rss&utm_medium=rss&utm_campaign=une-nonagenaire-ecrasee-par-un-poids-lourds",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T08:00:37+00:00",
+    "resume": "Une retraitée de 90 ans s’est faite renverser par un camion toupie le 24 juin au niveau du boulevard Robespierre à Poissy.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2018/10/1280-web-illustration-faits-divers-sapeurs-pompiers-sdis-78-intervention-numero-urgences.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "L’école Guy-de-Maupassant touchée par un incendie",
     "lien": "https://lagazette-yvelines.fr/2026/06/30/lecole-guy-de-maupassant-touchee-par-un-incendie/?utm_source=rss&utm_medium=rss&utm_campaign=lecole-guy-de-maupassant-touchee-par-un-incendie",
     "date": "2026-06-30",
