@@ -1,6 +1,32 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "L’école Guy-de-Maupassant touchée par un incendie",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/lecole-guy-de-maupassant-touchee-par-un-incendie/?utm_source=rss&utm_medium=rss&utm_campaign=lecole-guy-de-maupassant-touchee-par-un-incendie",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T07:00:17+00:00",
+    "resume": "Les pompiers ont dû se déplacer à l’école Guy-de-Maupassant dans la nuit du 26 au 27 juin car l’établissement scolaire était en train de brûler. Les origines du sinistre ne sont pas encore connues.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/FD-Mantes-la-Ville-Credit-Photo-Capture-decran-video-Mantes-Actu.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Face à la crise, la nouvelle page des librairies indépendantes",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/face-a-la-crise-la-nouvelle-page-des-librairies-independantes/?utm_source=rss&utm_medium=rss&utm_campaign=face-a-la-crise-la-nouvelle-page-des-librairies-independantes",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T06:00:29+00:00",
+    "resume": "Perte d’intérêt pour la lecture, charges en hausse perpétuelle… Alors que l’industrie du livre rencontre l’une des crises les plus importantes de son histoire, les libraires sont dans l’obligation de se réinventer pour continuer à attirer et fidéliser leur lectorat. Dans le nord des Yvelines, les idées ne manquent pas.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/1280-limay-nouvelle-reserve-librairie-devanture.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Ligne J : suite à des chutes d’arbres, pas de train entre Les Mureaux et Poissy jusqu’au 6 juillet",
     "lien": "https://lagazette-yvelines.fr/2026/06/29/ligne-j-suite-a-des-chutes-darbres-pas-de-train-entre-les-mureaux-et-poissy-jusquau-6-juillet/?utm_source=rss&utm_medium=rss&utm_campaign=ligne-j-suite-a-des-chutes-darbres-pas-de-train-entre-les-mureaux-et-poissy-jusquau-6-juillet",
     "date": "2026-06-29",
