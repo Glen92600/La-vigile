@@ -1,6 +1,32 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La pataugeoire ouvre en avance pour le plus grand bonheur des enfants",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/la-pataugeoire-ouvre-en-avance-pour-le-plus-grand-bonheur-des-enfants/?utm_source=rss&utm_medium=rss&utm_campaign=la-pataugeoire-ouvre-en-avance-pour-le-plus-grand-bonheur-des-enfants",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T16:00:18+00:00",
+    "resume": "Prévue initialement le 4 juillet, l’ouverture de la pataugeoire de Conflans-Sainte-Honorine a finalement été avancée au mercredi 17 juin, en réponse à la canicule qui a frappé le territoire. Un lancement anticipé qui a été un franc succès, à voir le nombre d’enfants qui s’en donnaient à coeur joie la semaine dernière. Tous les jours [&#8230;]",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/1280-Pataugeoire-Conflans.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "7 nouveaux commerçants en deux ans, comment cette commune des Yvelines redynamise son centre-ville",
+    "lien": "https://lagazette-yvelines.fr/2026/06/30/7-nouveaux-commercants-en-deux-ans-comment-cette-commune-des-yvelines-redynamise-son-centre-ville/?utm_source=rss&utm_medium=rss&utm_campaign=7-nouveaux-commercants-en-deux-ans-comment-cette-commune-des-yvelines-redynamise-son-centre-ville",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T15:30:33+00:00",
+    "resume": "Chanteloup-les-Vignes fait tout pour revitaliser son centre-ville, notamment en préemptant des bâtiments vides. Ainsi, elle s’assure de la diversité de son offre locale dans le but de recréer du lien entre les habitants. Reportage dans les plusieurs commerces.",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazette",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/1280-Chanteloup-les-Vignes-Revitalisation-centre-ville-Article.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Port d’Achères : la Route du Barrage fermée à partir du 1er juillet",
     "lien": "https://lagazette-yvelines.fr/2026/06/30/port-dacheres-la-route-du-barrage-fermee-a-partir-du-1er-juillet/?utm_source=rss&utm_medium=rss&utm_campaign=port-dacheres-la-route-du-barrage-fermee-a-partir-du-1er-juillet",
     "date": "2026-06-30",
@@ -35,6 +61,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Revolution Permanente",
+    "titre": "Yvelines : des dizaines de milliers d'habitants privés d'électricité en pleine canicule",
+    "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeHZUWlFnQkREempwOHlYTFJxV2lJSVYyX0tsSEVsWWMyd1lnSFdBQzlxVGlqYU5oakZuTG9KVklNNWgzUjc0VE5JUHl5LUZsd0RSQTFHZWtPLUhSb2FhU19VcmlReEtIa0xWNnlKNlZlSmhZcFFXcUo2U3pIelNlTU9TZTVMTDNZckdfc2ZUbGozbFNna2F0R0d4aUVfMmVFdDk0ZV9PWmN2cGhWRFJaQWM3Y0ZzeFNFeEdVVl9vNFYyeFNUWmfSAcYBQVVfeXFMTnh2VFpRZ0JERHpqcDh5WExScVdpSUlWMl9LbEhFbFljMndZZ0hXQUM5cVRpamFOaGpGbkxvSlZJTTVoM1I3NFROSVB5eS1GbHdEUkExR2VrTy1IUm9hYVNfVXJpUXhLSGtMVjZ5SjZWZUpoWXBRV3FKNlN6SHpTZU1PU2U1TEwzWXJHX3NmVGxqM2xTZ2thdEdHeGlFXzJlRXQ5NGVfT1pjdnBoVkRSWkFjN2NGc3hTRXhHVVZfbzRWMnhTVFpn?oc=5",
+    "date": "2026-06-30",
+    "date_iso": "2026-06-30T13:13:42+00:00",
+    "resume": "Yvelines : des dizaines de milliers d'habitants privés d'électricité en pleine canicule  Revolution Permanente",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
   },
