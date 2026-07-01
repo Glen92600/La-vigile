@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La Ville rallume les lumières la nuit",
+    "lien": "https://lagazette-yvelines.fr/2026/07/01/la-ville-rallume-les-lumieres-la-nuit/?utm_source=rss&utm_medium=rss&utm_campaign=la-ville-rallume-les-lumieres-la-nuit",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T14:00:49+00:00",
+    "resume": "Comme promis lors de la campagne municipale, la municipalité d’Issou a décidé de laisser les lampadaires allumés durant la nuit. L’annonce a été faite le 23 juin.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/07/P8-Issou-Credit-Photo-Ville-dIssou.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Les conseils municipaux deviennent des podcasts",
     "lien": "https://lagazette-yvelines.fr/2026/07/01/les-conseils-municipaux-deviennent-des-podcasts/?utm_source=rss&utm_medium=rss&utm_campaign=les-conseils-municipaux-deviennent-des-podcasts",
     "date": "2026-07-01",
