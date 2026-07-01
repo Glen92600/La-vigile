@@ -1,6 +1,44 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La place du Temple fermée à la circulation jusqu’au 20 juillet",
+    "lien": "https://lagazette-yvelines.fr/2026/07/01/la-place-du-temple-fermee-a-la-circulation-jusquau-20-juillet/?utm_source=rss&utm_medium=rss&utm_campaign=la-place-du-temple-fermee-a-la-circulation-jusquau-20-juillet",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T16:00:44+00:00",
+    "resume": "Dans le cadre de la requalification du centre-ville de Limay, le carrefour du Temple est fermé à la circulation en deux phases jusqu’au 20 juillet. Les cheminements piétons restent accessibles tout au long du chantier.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/LimayTemple.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "Mantes-Actu",
+    "titre": "SNCF – Perturbations sur la ligne J : la présidente de GPS&O Cécile Zammit‑Popescu demande des solutions renforcées",
+    "lien": "https://www.mantes-actu.net/sncf-perturbations-sur-la-ligne-j-la-presidente-de-gpso-cecile-zammit-popescu-demande-des-solutions-renforcees/",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T15:38:34+00:00",
+    "resume": "SNCF - Perturbations sur la ligne J : la présidente de GPS&#038;O Cécile Zammit‑Popescu demande des solutions renforcées",
+    "categorie": "gpseo",
+    "sous_cat": "autre",
+    "source_id": "gpseo-mantes",
+    "image": "https://www.mantes-actu.net/wp-content/uploads/2026/07/ChatGPT-Image-1-juil.-2026-a-17_37_20-150x150.png"
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Un projet de centrale solaire à l’étude dans l’Écoquartier Seine",
+    "lien": "https://lagazette-yvelines.fr/2026/07/01/un-projet-de-centrale-solaire-a-letude-dans-lecoquartier-seine/?utm_source=rss&utm_medium=rss&utm_campaign=un-projet-de-centrale-solaire-a-letude-dans-lecoquartier-seine",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T15:30:15+00:00",
+    "resume": "Le Département des Yvelines vient de signer un protocole de partenariat avec la société CCE Parc Solaire pour étudier la faisabilité d’une centrale photovoltaïque sur le territoire mantais. Un projet estimé à 50 millions d’euros, sur une durée d’exploitation de vingt ans.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2022/10/1280-web-gargenville-panneaux-solaires.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Les Cleaners reprennent du service le 5 juillet",
     "lien": "https://lagazette-yvelines.fr/2026/07/01/les-cleaners-reprennent-du-service-le-5-juillet/?utm_source=rss&utm_medium=rss&utm_campaign=les-cleaners-reprennent-du-service-le-5-juillet",
     "date": "2026-07-01",
