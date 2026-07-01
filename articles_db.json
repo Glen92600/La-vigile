@@ -1,6 +1,45 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Le FC Achères lance ses stages de football pour l’été",
+    "lien": "https://lagazette-yvelines.fr/2026/07/01/le-fc-acheres-lance-ses-stages-de-football-pour-lete/?utm_source=rss&utm_medium=rss&utm_campaign=le-fc-acheres-lance-ses-stages-de-football-pour-lete",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T09:00:32+00:00",
+    "resume": "À l’approche des grandes vacances, le Football Club d’Achères ouvre les inscriptions pour son traditionnel stage de l’école de foot. Du 6 au 10 juillet, au stade Bertrand Devallan, les éducateurs accueilleront les jeunes passionnés sur le terrain Bertrand-Devallan pour une semaine intensive et ludique.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/06/StageFoot.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "InfosYvelines",
+    "titre": "Éoliennes Yvelines : 960 emplois soutenus par 5 turbines à Allainville-aux-Bois",
+    "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUnNiWUhqSENBR2lHNFlDMzVFQkNiWm85aGpGdXRPbExZRjFOaDJZdjhjdlpyZVB3cmwxaGJJVDBHcXhaQjd1a0FkRGtRaFQ4UktfNjMxb2pfc3BMcFZQajZ4Yl9XemlKZGpyR0Y2Y1ZUbFlTVlpTZ3VQX2pBWldkaGppcDBDbmhqaWN5RWRVRQ?oc=5",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T08:09:07+00:00",
+    "resume": "Éoliennes Yvelines : 960 emplois soutenus par 5 turbines à Allainville-aux-Bois  InfosYvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Mantes-la-Jolie accueille le Championnat de France de Canoë-Kayak et Paracanoë du 8 au 12 juillet",
+    "lien": "https://lagazette-yvelines.fr/2026/07/01/mantes-la-jolie-accueille-le-championnat-de-france-de-canoe-kayak-et-paracanoe-du-8-au-12-juillet/?utm_source=rss&utm_medium=rss&utm_campaign=mantes-la-jolie-accueille-le-championnat-de-france-de-canoe-kayak-et-paracanoe-du-8-au-12-juillet",
+    "date": "2026-07-01",
+    "date_iso": "2026-07-01T08:00:35+00:00",
+    "resume": "Le Stade Nautique International Didier Simond de Mantes-la-Jolie sera le centre névralgique du canoë-kayak français la semaine prochaine. Plus de 1 200 athlètes venus de 15 régions et des DOM-TOM s’affrontent sur cinq jours dans trois compétitions nationales.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2017/07/1280-MLJ-canoe-kayak-archive.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Le sport en fête au parc du Prieuré",
     "lien": "https://lagazette-yvelines.fr/2026/07/01/le-sport-en-fete-au-parc-du-prieure/?utm_source=rss&utm_medium=rss&utm_campaign=le-sport-en-fete-au-parc-du-prieure",
     "date": "2026-07-01",
