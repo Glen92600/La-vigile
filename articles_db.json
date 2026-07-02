@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La Ville « se ligue » contre le cancer",
+    "lien": "https://lagazette-yvelines.fr/2026/07/02/la-ville-se-ligue-contre-le-cancer/?utm_source=rss&utm_medium=rss&utm_campaign=la-ville-se-ligue-contre-le-cancer",
+    "date": "2026-07-02",
+    "date_iso": "2026-07-02T15:00:18+00:00",
+    "resume": "La municipalité vient d’obtenir le label « Ma ville se ligue », délivré par la Ligue contre le cancer. Une convention a été signée pour déployer des actions concrètes de prévention, de dépistage et d’accompagnement.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2025/06/1280-Mairie-les-Mureaux-hotel-de-ville.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "La Maison Espoir de femmes, lieu de refuge pour personnes victimes de violences conjugales",
     "lien": "https://lagazette-yvelines.fr/2026/07/02/la-maison-espoir-de-femmes-lieu-de-refuge-pour-personnes-victimes-de-violences-conjugales/?utm_source=rss&utm_medium=rss&utm_campaign=la-maison-espoir-de-femmes-lieu-de-refuge-pour-personnes-victimes-de-violences-conjugales",
     "date": "2026-07-02",
@@ -101,6 +114,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://lagazette-yvelines.fr/wp-content/uploads/2023/08/305390916_616299579833063_1941831915870416330_n.jpeg",
+    "img_checked": true
+  },
+  {
+    "source": "info.fr",
+    "titre": "Chanteloup-les-Vignes : le capitaine Mickaël Coffinier prend la direction du centre de secours",
+    "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2VkMnFuME1hY256ci1yT2hPRGNiMjladnZ1YWkzaXBJWTJCdWZDQXZxTXRkcjNXZVdncUJNbkdxU1RLVU41UWNjRU9rX2lZc0lGUnFhXzFBTVRORE1Pd0RnVllwejlYYldpdnJLdDNDZlRzV3ZZd1NQRXNfMWhrcnVVTkVQNzhSU24wZkI5RVRzRTk3aUE?oc=5",
+    "date": "2026-07-02",
+    "date_iso": "2026-07-02T06:52:25+00:00",
+    "resume": "Chanteloup-les-Vignes : le capitaine Mickaël Coffinier prend la direction du centre de secours  info.fr",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-arenou",
+    "image": "",
     "img_checked": true
   },
   {
