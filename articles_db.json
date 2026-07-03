@@ -1,5 +1,18 @@
 [
   {
+    "source": "Les services de l'État dans les Yvelines",
+    "titre": "Canicule, coupures d'électricité, orages : aides et accompagnements",
+    "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0ZLSHZTcVZPSDVQUlBOLTllc2o1QkdSSW11dXQyVjZuQlFtOHZqUFdmVUdhaU1GNWRRczBCbXRFSU5vTXA5eEd3NzFBLS1TUVk5QVdnb2hZSUs0UGtzeDZrYnM4TFNKQTcwQldWcV9UNGpZN0JtV2hMUmx6bktOcXZuQW50VEY1MFFDcGxNTGlabWk4YkE5dlVqd0hfNlNHdjdkaUFn?oc=5",
+    "date": "2026-07-03",
+    "date_iso": "2026-07-03T19:02:51+00:00",
+    "resume": "Canicule, coupures d'électricité, orages : aides et accompagnements  Les services de l'État dans les Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "Mantes-Actu",
     "titre": "Canicule – Panne électrique majeure dans les Yvelines :  la commune de Chanteloup-les-Vignes a été fortement impactée",
     "lien": "https://www.mantes-actu.net/canicule-panne-electrique-majeure-dans-les-yvelines-la-commune-de-chanteloup-les-vignes-a-ete-fortement-impactee/",
@@ -21,6 +34,19 @@
     "categorie": "chanteloup",
     "sous_cat": "politique",
     "source_id": "presse-europe1",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Les services de l'État dans les Yvelines",
+    "titre": "Sécheresse - La zone Seine placée en alerte, le reste des zones toujours en vigilance",
+    "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSnRwMlNBQTNFSGRBc3pHM2tZdzFLejVlb2NNLUJZZUtvdjhzbm04aWg1akVOTGd2Znpjd3lid2NMZmdVMGxIRldweDZhbWN6c2pSZ3B3V2ZiUHJuTExZZXlSQXdGVWVJODhaU29JLXRFWS1JOUhiSUMwZ2VjWHBqYzJDWloyTGVGeHR3MUNLa3NlVThsZVpoemZyZE9sNWpNaTNZbEg1ZmtSUU15cUt0NURQX3ZfTGhOZWZXSm9TaXc3TTlGVVpmeDVwNXRxRk9ObFlQeG03YW15YTNVTnc?oc=5",
+    "date": "2026-07-02",
+    "date_iso": "2026-07-02T16:45:00+00:00",
+    "resume": "Sécheresse - La zone Seine placée en alerte, le reste des zones toujours en vigilance  Les services de l'État dans les Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
   },
