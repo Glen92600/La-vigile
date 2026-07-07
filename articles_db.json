@@ -1,5 +1,31 @@
 [
   {
+    "source": "La Gazette en Yvelines",
+    "titre": "La Gazette en Yvelines fait une pause... avant de revenir sous une nouvelle forme",
+    "lien": "https://lagazette-yvelines.fr/2026/07/07/la-gazette-en-yvelines-fait-une-pause-avant-de-revenir-sous-une-nouvelle-forme/",
+    "date": "2026-07-07",
+    "date_iso": "2026-07-07T16:23:23+00:00",
+    "resume": "Après des années à couvrir l'actualité de la Vallée de Seine, La Gazette en Yvelines tourne une page de son histoire. Vous l'aurez constaté, le journal dans son format papier a déjà disparu de vos communes et lieux de passage habituels. C'était la première étape d'un changement plus profond. Notre site internet a également cessé [&#8230;]",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://lagazette-yvelines.fr/wp-content/uploads/2026/07/1280-web-distributeur-gazette-2.jpg",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette des Communes",
+    "titre": "Narcotrafic : Actualité de la fonction publique territoriale et des collectivités locales",
+    "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSk93UnNUU0JNQ2tMbXJ5STNVcThYYkFZZ1c3cVlSLXAtQi14SWt1NUZmejlCakpEaFdvYkhVYkJuZ1l5a2x4YThUSjFSR21DZEVKZ05RSFF3cGhjb1VGeTNTWVBqV3FxTGhJMDV2U3FMQ1UxMGZBSmZ0bVNkRUg0UzNSVkJTWGxFX09kcDJRRURncmw0WkFWM19XNXRHdUU4NmUza0VxRG41Zi1OdjVwUE53?oc=5",
+    "date": "2026-07-07",
+    "date_iso": "2026-07-07T13:33:20+00:00",
+    "resume": "Narcotrafic : Actualité de la fonction publique territoriale et des collectivités locales  La Gazette des Communes",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazettecommunes",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette des Communes",
     "titre": "Renouvellement urbain : Actualité de la fonction publique territoriale et des collectivités locales",
     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOem5fcHlkZ05HdVlkNGhqX3VDR3ByVjh5X25sY212aHIxUXkyMnd1Z2pLaEFYZ1hSaHB4UFBsRFVfZUJHbEJfVy1YZHVLdWM1aEVLb3VOSHRDeERqOVlkMFdyMjVic1FBQmpDWFhfLVNPZlBlS2NLb1dBWjJkc3luRmVvZlhsM2s?oc=5",
@@ -787,6 +813,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette des Communes",
+    "titre": "Olivier Schneid , Spécialiste énergie",
+    "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VWnRfT29xeHZSQTRZM19qcWdDTnJudkV3R2RDckRPQmk4aWZ3UnNhbFcwQmhNODBWN0dUcVYwdVZ2Y09LOU1meS1VTUxISzRWVUZoN1JBeGtfU2o3TE9UMHJUaEJZUmVwYWlXYVkyOTRCUi14?oc=5",
+    "date": "2026-06-29",
+    "date_iso": "2026-06-29T07:00:00+00:00",
+    "resume": "Olivier Schneid , Spécialiste énergie  La Gazette des Communes",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazettecommunes",
     "image": "",
     "img_checked": true
   },
