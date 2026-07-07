@@ -1,5 +1,18 @@
 [
   {
+    "source": "La Gazette des Communes",
+    "titre": "Renouvellement urbain : Actualité de la fonction publique territoriale et des collectivités locales",
+    "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOem5fcHlkZ05HdVlkNGhqX3VDR3ByVjh5X25sY212aHIxUXkyMnd1Z2pLaEFYZ1hSaHB4UFBsRFVfZUJHbEJfVy1YZHVLdWM1aEVLb3VOSHRDeERqOVlkMFdyMjVic1FBQmpDWFhfLVNPZlBlS2NLb1dBWjJkc3luRmVvZlhsM2s?oc=5",
+    "date": "2026-07-07",
+    "date_iso": "2026-07-07T13:14:55+00:00",
+    "resume": "Renouvellement urbain : Actualité de la fonction publique territoriale et des collectivités locales  La Gazette des Communes",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazettecommunes",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "tv78",
     "titre": "Marie-Pierre Vedrenne en déplacement au péage de Saint-Arnoult-en-Yvelines pour la sécurité routière",
     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaU9aMkNmTWY0Y252THpLQnM0Vy1CMC1tdzZPSFhGZDhjeElRM0lwVUZIVmdoOGE4akJKSFVnV0toWkM0QTlzS2N4SnZoM3JFajNzSEhNbVZCMW9mM0V5dWlkTFlQcTRzRzFfV3M0clVlRHEzMmJBWUh4YnRzYnl0a0pXS01PVWpzV09QM0JtTmstY1R3NUNKeGNiSHBSSjA0ZkRkUENPT2ZfZ1VVUGF6bHVmZV8xS2tIRGc?oc=5",
@@ -48,6 +61,19 @@
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette des Communes",
+    "titre": "Canicule, coupure de courant, tempête : retour sur une semaine de mobilisation des agents publics dans les Yvelines",
+    "lien": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcU0zY2hnOFFmQkYyWWxrVVJkZHdRVUpvQl9FV1ZJX1FBTXoxMktmM1IyM3d0U0hoMVBKNHMtcGxDckY2QUhZUW9VbDY1RHpDZ0tkbjhzREY5LVppb0N0MnBLM2hDZFlJdVQ0aHhuUXhSV25LM2gwWHdGbHBacGtmWmw5TWJEWHZhUklIeGVFV2IxYXRxSjM0Wld3ZTllcmctN3Jtc0UwekZDdldIUTB5eWZSTER4d1BIVmRwdlBsaTRqRWVnTG5kRFZTcFlxVVgzQl9aMVo2aWVvaEVLaE5iQ3FXcS1NZnktRE5kbjdDZG1HVFBWSXNQRXd3?oc=5",
+    "date": "2026-07-03",
+    "date_iso": "2026-07-03T11:49:41+00:00",
+    "resume": "Canicule, coupure de courant, tempête : retour sur une semaine de mobilisation des agents publics dans les Yvelines  La Gazette des Communes",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazettecommunes",
     "image": "",
     "img_checked": true
   },
