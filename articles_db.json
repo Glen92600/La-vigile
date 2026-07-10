@@ -1,5 +1,18 @@
 [
   {
+    "source": "Actu.fr",
+    "titre": "Vidéo « Des personnes âgées ont cru mourir » : à Chanteloup-les-Vignes, des habitants sous le choc après une nuit de terreur",
+    "lien": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPY0dic21QSTF2WjdydV9Db0gtbWJHZTE3ZXdLekNaeGZLdFlfdm9pTWhLMmNWLVFWbFhUNjhyN242RjBoZUlVTzQ3QUlrVVhmQ0t2VzZwSFI2RXhlR3ZOc0JxV244V0J0amtwdHRkY2dodVpsRzdBYnhrd2I4OVE3SXRwdnc2TVdhaG8wRjVNenloWlVZYTY4MVluMVNDZ3B4M3Z1aVM5dzZPQzZnekU1QnVJVUpvNDZ6RlVUWHIxMWtlNE5SM1dubFlJR2FHRTBxV0dULVRMQk9TZzNiUXI0NkVLTDY3S2owTTdZSW0tZkJXbDJSTmFMY2JsN05tdU1BTWJjdUpwV2Y0UHRVTnMxVQ?oc=5",
+    "date": "2026-07-10",
+    "date_iso": "2026-07-10T08:16:01+00:00",
+    "resume": "Vidéo « Des personnes âgées ont cru mourir » : à Chanteloup-les-Vignes, des habitants sous le choc après une nuit de terreur  Actu.fr",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "Le Figaro Etudiant",
     "titre": "\"Je m'étais convaincu que Polytechnique n'était pas pour moi\" : Abdallah, 26 ans, est passé de Chanteloup-les-Vignes à Harvard et au MIT",
     "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zdGVnN2QtRGxnUWlFN2JwSTRUeW1yWFhkTFNqaUNYMXdFLS1LMlVSUklaemtDM2kwSWVGTDNGX3dWZmYyaGpWZXJUSnpwSzFZOGl6SURIYXZNUnktcFhiQ2ZWSGN0dGJSU0d3MjREdzBjdTJYTG5naTJZWUg?oc=5",
@@ -2293,6 +2306,19 @@
     "categorie": "chanteloup",
     "sous_cat": "autre",
     "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "13 Comme Une",
+    "titre": "Trail de l’Hautil 2026",
+    "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1acXk1WmdBTkZIc1ltd0xqdVF4YkhXNmo4MW9xOXpIYW1XYUVvdzAzMHBqMlRnUnFNM2xZb3hjdE9fV3lReWthNDYzWUVJOUxLeXVackdHNFVxVHFsVHQxbFEzdHRQdw?oc=5",
+    "date": "2026-06-14",
+    "date_iso": "2026-06-14T07:00:00+00:00",
+    "resume": "Trail de l’Hautil 2026  13 Comme Une",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google2",
     "image": "",
     "img_checked": true
   },
