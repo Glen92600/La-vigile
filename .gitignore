@@ -20,3 +20,10 @@ skills-lock.json
 veille_auto.py
 generate_veille_pdf.py
 .articles_deja_vus.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
