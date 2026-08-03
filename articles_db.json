@@ -608,56 +608,5 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "Les services de l'État dans les Yvelines",
-    "titre": "Canicule, coupures d'électricité, orages : aides et accompagnements",
-    "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0ZLSHZTcVZPSDVQUlBOLTllc2o1QkdSSW11dXQyVjZuQlFtOHZqUFdmVUdhaU1GNWRRczBCbXRFSU5vTXA5eEd3NzFBLS1TUVk5QVdnb2hZSUs0UGtzeDZrYnM4TFNKQTcwQldWcV9UNGpZN0JtV2hMUmx6bktOcXZuQW50VEY1MFFDcGxNTGlabWk4YkE5dlVqd0hfNlNHdjdkaUFn?oc=5",
-    "date": "2026-07-03",
-    "date_iso": "2026-07-03T19:02:51+00:00",
-    "resume": "Canicule, coupures d'électricité, orages : aides et accompagnements  Les services de l'État dans les Yvelines",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette des Communes",
-    "titre": "Canicule, coupure de courant, tempête : retour sur une semaine de mobilisation des agents publics dans les Yvelines",
-    "lien": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcU0zY2hnOFFmQkYyWWxrVVJkZHdRVUpvQl9FV1ZJX1FBTXoxMktmM1IyM3d0U0hoMVBKNHMtcGxDckY2QUhZUW9VbDY1RHpDZ0tkbjhzREY5LVppb0N0MnBLM2hDZFlJdVQ0aHhuUXhSV25LM2gwWHdGbHBacGtmWmw5TWJEWHZhUklIeGVFV2IxYXRxSjM0Wld3ZTllcmctN3Jtc0UwekZDdldIUTB5eWZSTER4d1BIVmRwdlBsaTRqRWVnTG5kRFZTcFlxVVgzQl9aMVo2aWVvaEVLaE5iQ3FXcS1NZnktRE5kbjdDZG1HVFBWSXNQRXd3?oc=5",
-    "date": "2026-07-03",
-    "date_iso": "2026-07-03T11:49:41+00:00",
-    "resume": "Canicule, coupure de courant, tempête : retour sur une semaine de mobilisation des agents publics dans les Yvelines  La Gazette des Communes",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-gazettecommunes",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Mantes-Actu",
-    "titre": "Canicule – Panne électrique majeure dans les Yvelines :  la commune de Chanteloup-les-Vignes a été fortement impactée",
-    "lien": "https://www.mantes-actu.net/canicule-panne-electrique-majeure-dans-les-yvelines-la-commune-de-chanteloup-les-vignes-a-ete-fortement-impactee/",
-    "date": "2026-07-03",
-    "date_iso": "2026-07-03T10:27:50+00:00",
-    "resume": "Canicule - Panne électrique majeure dans les Yvelines :  la commune de Chanteloup-les-Vignes a été fortement impactée",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-mantes",
-    "image": "https://www.mantes-actu.net/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-30-at-23.08.05-150x150.jpeg"
-  },
-  {
-    "source": "Europe 1",
-    "titre": "Bonjour Monsieur le Maire à Chanteloup-les-Vignes",
-    "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVkyQ2dRZW5UQ01hWnNoSFNPczNXRUZ1blJmdWJMNzBPbDNZdGlERHRzNTl3SlBaNmRHT1NoYk1PelVvOXFwZ01YcUhaWThDN0s1aFdKVFFNZWZHZ0ZDQ292cUw1NUhFSDdUeFFBVEV5dUtBQVBaUVB0ZXhISW5teHAycV9oX1ZBYV9NR0Z3UUV2a3BNaThWeVdUX0VINWpDam1hLVROa2JMWVBva05WdA?oc=5",
-    "date": "2026-07-03",
-    "date_iso": "2026-07-03T03:01:01+00:00",
-    "resume": "Bonjour Monsieur le Maire à Chanteloup-les-Vignes  Europe 1",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "presse-europe1",
-    "image": "",
-    "img_checked": true
   }
 ]
