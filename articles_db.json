@@ -698,31 +698,5 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "CNews",
-    "titre": "14-Juillet : tirs de mortiers, véhicules incendiés, policiers attaqués... Une nuit sous tension à Paris et en Île-de-France",
-    "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSC1WRDBSbTA5NzlnU3o1N2VILU1VYzRFaGd6SUNmLTRjWTV5dC1Xa0s1REx0bkdwVWJrYkdQbU9KbHJoMjdhMmctMXFSbnYyQ3lZZmFQd0UwUHN0NjhHRGxsUk84V09iSVZfV1JqdERiMjRiRlBMc2JzZXpLT2NVUVpWVGNMdGZmd1hsRHR6ai00ZXNqdWlnN3Jidms4WkxxcUdFUHVmem84VUpQZjRvaFF0eFItQzAtLW1N0gHAAUFVX3lxTE5wZ1p6UzJyUTA5S244Y1pqdE9hNE1FWTdiVEhUV3JFRm9Ld3M0ZkdIY0pYX3U1dUI0SEp0ZGVuVzhNZk9YTkR1QmVUb0I1UU1BaTBMaWJUNFhJc21OOUFOWklxOW5MNTRGZ2FDWjIxdHJSZ2E1MTJtTDVrekRaMFpHU2tra0ZaNUdQdzNIWFI5MmJpbXZWVkZkbC1lZXllM05rMTZzN09EZVpfVFJ3U0doaDJYMkZHdG9tQWo3ejZFTA?oc=5",
-    "date": "2026-07-14",
-    "date_iso": "2026-07-14T10:41:55+00:00",
-    "resume": "14-Juillet : tirs de mortiers, véhicules incendiés, policiers attaqués... Une nuit sous tension à Paris et en Île-de-France  CNews",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Le Monde.fr",
-    "titre": "Météo Chanteloup-les-Vignes (78570) gratuite : Prévisions météo aujourd'hui en direct",
-    "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE94RndhcHQ5QmY0RXlSaFo3NU91aTVDYUxQdTdsY2JCTUY1ZXI0UU1oVjNNZ3dlUXhVbHFUNlQtQnhoVGpUNGU0bUtOQUs0dEEzZjBpU2d3U2pCM0JKSjVnTGhOUFdYaEE5dXVUb2xUVEtFdw?oc=5",
-    "date": "2026-07-14",
-    "date_iso": "2026-07-14T07:39:29+00:00",
-    "resume": "Météo Chanteloup-les-Vignes (78570) gratuite : Prévisions météo aujourd'hui en direct  Le Monde.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-lemonde",
-    "image": "",
-    "img_checked": true
   }
 ]
