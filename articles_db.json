@@ -1,5 +1,29 @@
 [
   {
+    "source": "La Gazette en Yvelines",
+    "titre": "La Gazette en Yvelines devient Temps Réel 78",
+    "lien": "https://tr78.fr/2026/09/03/la-gazette-en-yvelines-devient-temps-reel-78/",
+    "date": "2026-09-03",
+    "date_iso": "2026-09-03T15:00:22+00:00",
+    "resume": "Après 14 ans à couvrir l'actualité du Nord des Yvelines, La Gazette en Yvelines devient Temps Réel 78. Un nouveau média, une nouvelle ambition, et une promesse : vous informer au moment où ça se passe.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/09/illustration-article-lancement-tr78-v3.png"
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Nouvelle salle de spectacle, nouveau self… Ce lycée yvelinois va se transformer en campus",
+    "lien": "https://tr78.fr/2026/09/02/nouvelle-salle-de-spectacle-nouveau-self-ce-lycee-yvelinois-va-se-transformer-en-campus-carrieres-sur-seine/",
+    "date": "2026-09-02",
+    "date_iso": "2026-09-02T16:59:27+00:00",
+    "resume": "En travaux depuis la fin de l’année 2022, le lycée les Pierres Vives de Carrières-sur-Seine a vu lors de cette rentrée 2026 sa salle de spectacle Barbara ainsi que son nouveau restaurant être inaugurés. En attendant d’autres extensions qui vont lui permettre d’augmenter sa capacité de 1 400 à presque 2 000 élèves.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/09/DSC09958-scaled.jpg"
+  },
+  {
     "source": "Ouest-France",
     "titre": "Environnement, social, intelligence… Pourquoi un data center géant inquiète ce collectif dans les Yvelines",
     "lien": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOdnJadmRKOTRaYkhRTllTMEJfNi1MOTBncTF1c1Y4dTBXV0VJT3BIbEotNGRHS1lIQzNkeklzT2Mxa3d3bndvZEJZNmR4dzI5bWRJWENUal9HM085aEZfYTMwZHFZaXVZS2g2OFZQN2dCWk92SnFaVmV0VFZzbzZLWklLbzlFQnZnOGxOS01uWk1MdTdVanljMjRtZUZVZVU5WEFCUE0yLWFNZDhScmdKdE1jb0EwMlpuY1lBNkFoa2lrczFObEY5Tnd5NThiei1KWkZfQkJmeDdNOUsxUE14SFJpcXpPWGI2aUM4N200V1V4UmF0bk5RajUxY3dubG5EdUFMdFFIYzFUUlYyclhYWG80Yk5oS293cVY1QWs1MW9KZw?oc=5",
@@ -11,6 +35,18 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Ligne J : pas de train en soirée entre Paris et Mantes-la-Jolie jusqu'au vendredi 4 septembre",
+    "lien": "https://tr78.fr/2026/09/01/ligne-j-pas-de-train-en-soiree-entre-paris-et-mantes-la-jolie-jusquau-vendredi-4-septembre/",
+    "date": "2026-09-01",
+    "date_iso": "2026-09-01T06:10:51+00:00",
+    "resume": "Depuis le mardi 1er et jusqu'au vendredi 4 septembre, la circulation de la ligne J est perturbée entre les gares de Mantes-la-Jolie et Paris-Saint-Lazare. La raison ?  Des travaux de modernisation des infrastructures ferroviaires.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2025/12/1280-illustration-train-ligne-J-direction-mantes-gare-poissy-nuit.jpg"
   },
   {
     "source": "ipd-mdw.lagazettedescommunes.com",
