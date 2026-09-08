@@ -1,5 +1,17 @@
 [
   {
+    "source": "La Gazette en Yvelines",
+    "titre": "Campus PSG, Maison Jean Monnet, Cour d'appel de Versailles... Que faire dans les Yvelines pour les Journées du Patrimoine ?",
+    "lien": "https://tr78.fr/2026/09/08/campus-psg-maison-jean-monnet-cour-dappel-de-versailles-que-faire-dans-les-yvelines-pour-les-journees-du-patrimoine/",
+    "date": "2026-09-08",
+    "date_iso": "2026-09-08T11:01:29+00:00",
+    "resume": "Le patrimoine yvelinois ouvre ses portes aux habitants le week-end des 19 et 20 septembre : découvrez notre sélection des meilleurs sorties dans le département à l'occasion des Journées Européennes du Patrimoine.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/09/JEPYvelines-e1788861829900.png"
+  },
+  {
     "source": "Le Parisien",
     "titre": "Climatiseurs, brasseurs d’air, cours oasis... Dans les Yvelines, ces écoles et collèges armés contre la canicule",
     "lien": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOQjFSZE5ZZEpCd25WaklyLXJOYmw0X0NmSG9LekdHdWF0bHFjM0wtVGFJbEJwa0FGTkJocVo3MVNmRmJFd0EzX09yVHRtSy1KR3I4OTNQeEFqeTZOWW9NOWo4OGxDOUVmem5rVWpxZlhaTWN6cXZ2dDJyU3JqWnFpV1Jaa0RJc0ZyREsxU3Q1Vk56bExlNWhDVW5aNm9ycEdRTHc2VzZVdmxOMWJTOFp4QkFZemlsRk1rZFFCVDF6QmxjbU9MTy1PQUF2R0xUOEE3MVAzMGhJM181Q1BQUXk1aUVIS0VqYVNRbHRvMmx4NmI4dy1aeXZEb0JKSmdEUlo5TmFJbw?oc=5",
@@ -11,6 +23,18 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "NM2 : Le Poissy Basket chute pour son entrée en lice",
+    "lien": "https://tr78.fr/2026/09/07/nm2-le-poissy-basket-chute-pour-son-entree-en-lice/",
+    "date": "2026-09-07",
+    "date_iso": "2026-09-07T17:01:31+00:00",
+    "resume": "Pour sa première rencontre en Nationale 2 après la relégation de l'année passée, le Poissy Basket a été battu à domicile par le Rueil Athletic Club (81-95), le samedi 5 septembre au complexe sportif Marcel Cerdan.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/09/798104813_18340510822281110_4801516200067008859_n-scaled-e1788774900259.jpg"
   },
   {
     "source": "Le Parisien",
