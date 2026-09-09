@@ -1,11 +1,36 @@
 [
   {
+    "source": "La Gazette en Yvelines",
+    "titre": "Accusé de harcèlement moral, le maire de Triel-sur-Seine sous le coup d'une peine d'inéligibilité avec sursis",
+    "lien": "https://tr78.fr/2026/09/09/accuse-de-harcelement-moral-le-maire-de-triel-sur-seine-sous-le-coup-dune-peine-dineligibilite-avec-sursis/",
+    "date": "2026-09-09",
+    "date_iso": "2026-09-09T11:01:17+00:00",
+    "resume": "Cédric Aoun comparaissait devant le tribunal de Versailles le 4 septembre. L’élu sans étiquette devait répondre du chef d’accusation de harcèlement moral sur son ancienne compagne et collaboratrice.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/03/1280-Triel-Cedric-aoun-CM.jpg"
+  },
+  {
     "source": "Actu.fr",
     "titre": "Trappes : des tirs entendus, la police envoie des renforts",
     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0pxOUZzTGlUMFVpbUlyOTNVT3dIdlJ1b2NuRU4wSWdKX0F5elVQdWlqTnNGaURrYnZoMjFJMVhHX3hEb1Y2LWNJWVJnakJVNDlTR1NRSXdscEdJOFhHVDJXLTl2Um0xUTZGVnhyZWVJcWJTUUZuMF9ONDNjNElDaEFMS0ZkY2hIdFpTU1hSTkRVV29hQ3NFWE5Lb0RtalhKNkUxWmg3ODNFZ3pPTjNtLW1TSQ?oc=5",
     "date": "2026-09-09",
     "date_iso": "2026-09-09T08:16:02+00:00",
     "resume": "Trappes : des tirs entendus, la police envoie des renforts  Actu.fr",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Sortir à Paris",
+    "titre": "Le Château de Dampierre en Yvelines, la transformation du domaine et son programme 2026",
+    "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQcHdaTkljUU1uTGFYTWNmOXpyX2VPQ3VGa1JQMGR3R3JSMzhZSi02MmJHZGdMeUpJMlF6TWNKVVhMNkRBQmVicU5oT2J4amhnWXBsRTJsSzgzaHcwaV85NzNPaEVPY3dtcVFtQVp3U0o4WkF3X2VGaUVWa3ZMeDcxbktQdzdzN281S2FTbGhYYWgwRXBoYWNwVHpxYjdLaXRtcXdTWDNfOWlnSURjZ2VFVmRIMEdobXVVZnQ4Y2pQMUJZVzd2UXlScmVOekZxLVN5cl9XZEVGR0dBNkd0aXlBNDJkeEFtN1NOOFN4T2xkWlBKdnZqbkE?oc=5",
+    "date": "2026-09-09",
+    "date_iso": "2026-09-09T06:52:11+00:00",
+    "resume": "Le Château de Dampierre en Yvelines, la transformation du domaine et son programme 2026  Sortir à Paris",
     "categorie": "yvelines",
     "sous_cat": "autre",
     "source_id": "yvelines-google",
