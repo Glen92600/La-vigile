@@ -756,57 +756,5 @@
     "source_id": "presse-ouestfrance",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "Les services de l'État dans les Yvelines",
-    "titre": "Les Yvelines placées en vigilance orange - risque de feux de forêt les mardi 11 et mercredi 12 août",
-    "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLVR4SHUzS0Nkd2NtSmlNMm8yUWVXWm1WajVVVjZ1dmZsZzZwaFB5NDlpX2p2dVg5M2I5N2NKWWh5M3RDTlhhSWFYNG9yMEFIQnNaeHl3cDVfUVkzTFdEWHJlNEFZSmExdlNLakJVRDZUOVktb1BCcVdxMlYtSGVrdEhEOVd3QUhpRUU1UXFpd2FlbDRJWDJVQ0RWY3c3cGtMUGRKbS1lQ3NMbDhzTTZLMHBnVUdBNjVMbFNpSFV3TDhleDZXOGp5Sm9LdGVleGxadTZN?oc=5",
-    "date": "2026-08-10",
-    "date_iso": "2026-08-10T17:28:39+00:00",
-    "resume": "Les Yvelines placées en vigilance orange - risque de feux de forêt les mardi 11 et mercredi 12 août  Les services de l'État dans les Yvelines",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Orange Actualités",
-    "titre": "Catherine Arenou : \"La fracture territoriale, elle se creuse encore\"",
-    "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbmRneVBZRXJJSk15dGttRW05OGwzZ3BYRHRTSDFRZ3pFcTNmSnlvWXc4dlUyVXJZc2RkT3ZneXFpb3dFV0JySWlxY21yQV9PZHZDZWZGbVFRR191Z0ZoVHEzdUdSMWxhQVdMR1lyR0pxRk1tdWw1OG5wbXVIbUFuam1jOGtoZEZINzByNFFsbWNjX01lSjl1amE2OS1WQTg2T0Z4dVdTUnd4WWxqSHBRa2pkOGg5QmszYkNOR21QOFQwM1dia0Rn?oc=5",
-    "date": "2026-08-10",
-    "date_iso": "2026-08-10T11:55:06+00:00",
-    "resume": "Catherine Arenou : \"La fracture territoriale, elle se creuse encore\"  Orange Actualités",
-    "categorie": "chanteloup",
-    "sous_cat": "politique",
-    "source_id": "chanteloup-arenou",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "Chanteloup les Vignes US - RAMBOUILLET YVELINES en direct",
-    "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMXg0eXYzaHM1dnhMeTV3UFBkU3Z3clIwUXVuaTY5cXFZYWpFZFFLbzRCOTB4QWxrR2hOVkt6czJLZVBnTG0tT3ZLbWdINU12b3U1YUFlenI1d01XaGZCbm53OTVjUzAxenFCaGtpRjhVbU9xNGt0aUY4c19vWGFSMkhfMkFncEp0bkJOdHk2d1YwQnRKdFdKSFF4QVFYS2Y2YTZoQkpnSXBFa01DMEQzQ2hmbjBhUQ?oc=5",
-    "date": "2026-08-10",
-    "date_iso": "2026-08-10T05:50:31+00:00",
-    "resume": "Chanteloup les Vignes US - RAMBOUILLET YVELINES en direct  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Actu.fr",
-    "titre": "« Le retour de la gendarmerie à ses fondamentaux » : en patrouille dans les Yvelines avec des vigies de l’environnement",
-    "lien": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOb1k1UHdUZmhtNk0xSDdfeDRkdFFsRXNjbXVUVmpsYjNsSVc0M00yX254TENuYUNmYlVoVENrNVQ4dVpHUjVqdFg4TTJyRXFObFdUYTZnUFNvMmczVFRQMEtOSEYxQVRkaVZ2QjNuOHA0UFZqcnFnT0pmYVFvMi1jbE1RV2FMWEZjZFEyWUE4VDA0TzRxTGNHOWpMZzlJYm15cldQWFBudWozcFJVX0FNOWZMbzZYUXBJbzdOQjFWSFdDQTlGbTNSTXcyOW1NZEpoZ3Jfc1BSZEFIcldycDNDOW5jdU5GWFF1NG92QVlzeldxQmtjeXhldFN6R2N5NWZhS2NqNA?oc=5",
-    "date": "2026-08-10",
-    "date_iso": "2026-08-10T05:16:02+00:00",
-    "resume": "« Le retour de la gendarmerie à ses fondamentaux » : en patrouille dans les Yvelines avec des vigies de l’environnement  Actu.fr",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
   }
 ]
