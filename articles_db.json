@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "On connaît la date de l’arrivée du RER E à Mantes-la-Jolie",
+    "lien": "https://tr78.fr/2026/09/14/on-connait-la-date-de-larrivee-du-rer-e-a-mantes-la-jolie/",
+    "date": "2026-09-14",
+    "date_iso": "2026-09-14T10:01:25+00:00",
+    "resume": "Après des années de travaux et d'attente, la date est enfin gravée dans le marbre : le 28 février 2027, le RER E prolongera sa route jusqu'à Mantes-la-Jolie. À 172 jours de l'échéance, le chantier entre dans sa dernière ligne droite.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/01/RER_NG_Trains_SNCF_Network_France.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Un nouveau partenariat fort pour l’IUT de Mantes-en-Yvelines",
     "lien": "https://tr78.fr/2026/09/14/un-nouveau-partenariat-fort-pour-liut-de-mantes-en-yvelines/",
     "date": "2026-09-14",
