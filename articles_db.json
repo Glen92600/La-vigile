@@ -1,5 +1,18 @@
 [
   {
+    "source": "Ouest-France",
+    "titre": "« La fraude reste marginale » à la Caf dans les Yvelines en 2025",
+    "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZm9Ud1FtZ0NST2I1STR5WE9XZGVvQlQ1dURLa3pqX1FWSVVtZG5uVDVmVm56dGE1a0pjbG4yM0d4R3V6ZHlodjFiVUZqWHZRTUlELWFKT3VONnZ1Z200ZVlBOHZIOTdIMTQwSUJMbmtlNFY5X2ZNM0F6YlhUbWltczVKcjRUaUtSbTJ3eS1vS29LQllleHJmd2Y2YmZ4MXJWcEN2NTJmSlNyZTYtZTBacC1WZmtfREM2LTdJdXBTSHFVMmpBanpCNVI4MEVxRmdPMWRXNnNGNHFmclVDb2R6bjd3?oc=5",
+    "date": "2026-09-16",
+    "date_iso": "2026-09-16T15:07:26+00:00",
+    "resume": "« La fraude reste marginale » à la Caf dans les Yvelines en 2025  Ouest-France",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "InfosYvelines",
     "titre": "Poissy : la police municipale enfin présente au rond-point de l'Europe",
     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM196dnlBdUcwMUR6alpTLV9KcDRSWVphY0xmSGRtd1AtMkFETWY2el9ZdXNDX1R2TlNqQ0pxUUtoMmc2enZFNFUzSlJEODVpdzg5RjUyZkd5a01CWGMxVVNkVTR5RlJlLTd2c1JzS3BIOGVzUk9JSDA1TGlTZFVOaDBhR2xldFNBVWViMm5UTU5oejc5NE5RR3NaTQ?oc=5",
@@ -60,6 +73,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/09/CAF-78-Un-an-juste-droit-2026-scaled.jpeg"
+  },
+  {
+    "source": "Actu.fr",
+    "titre": "Plus de 50 000 allocataires contrôlés par la Caf des Yvelines en 2025 : quel est le nombre de fraudeurs ?",
+    "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNXBOQzRZWUoybktnTFEwa3Q4bTduV1Z4ZE9sSk5jYnBYYWpMdlNCZ0hxTUFhQlVqN0J1MExTbk5nQlNxaGRYS0pGa2c2REotN004NVl6MmNmdlZ6dmVWb0l6dmxwMVFnamdiX2xZZENFeUxyVF9HOGZRcVIzM3dXN1NoSUpXd3hkMWx3bGVJdl9ENHIwVFFhQW1EYXV4ajF3NGM3OUtBTksybE1nRWhlRVBLSk13ZUllWjV2ZnBBSHlfUkZrQkRfRGJmMWpQQUcxeDd0Y1FB?oc=5",
+    "date": "2026-09-15",
+    "date_iso": "2026-09-15T13:16:01+00:00",
+    "resume": "Plus de 50 000 allocataires contrôlés par la Caf des Yvelines en 2025 : quel est le nombre de fraudeurs ?  Actu.fr",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "Le Parisien",
