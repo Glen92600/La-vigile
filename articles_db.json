@@ -1413,31 +1413,5 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "MyPetition.org",
-    "titre": "Aidez-moi à faire avancer ce combat : Un ascenseur pour la gare de Chanteloup-les-Vignes",
-    "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb1FmY0pVU1hLd3FJazZfRi05N2x3STlMVWxVd283Y3czSGwyVTNZX01tV0NURGtFZnh5czNnZ0pDZHZwYlpvRmZfTXI5bkhYb3NIQkVuUDRQMjFscXlFSm5oSnJROGw3d2lMRWFBeTlIbEtBb2lTVEU1LWtLZ3hvWi1hWXpkZFY3WGc?oc=5",
-    "date": "2026-08-27",
-    "date_iso": "2026-08-27T20:04:15+00:00",
-    "resume": "Aidez-moi à faire avancer ce combat : Un ascenseur pour la gare de Chanteloup-les-Vignes  MyPetition.org",
-    "categorie": "chanteloup",
-    "sous_cat": "sante",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Radio Intensité",
-    "titre": "RAMBOUILLET (78) - Théâtre : Théâtre mode d'emploi",
-    "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xNjU4NnRPOERhRk5wZFBqS1JVcGd5S0ZJOXU4cm03RVNhV2NyeFZuX0xWMXRzVTU5Rl92dGlpWHFJX0NiS3A4OWsxX092aUlCS1hyalhyTzUzSWNOQnFBYXI2Ul90YlJhMzRfYUZ6RGtMYUJQTGFDOEZR?oc=5",
-    "date": "2026-08-27",
-    "date_iso": "2026-08-27T16:06:00+00:00",
-    "resume": "RAMBOUILLET (78) - Théâtre : Théâtre mode d'emploi  Radio Intensité",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
   }
 ]
