@@ -1,6 +1,31 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Poubelles brûlées, portail incendié… Des blocages de lycées dégénèrent dans les Yvelines",
+    "lien": "https://tr78.fr/2026/09/29/poubelles-brulees-portail-incendie-des-blocages-de-lycees-degenerent-dans-les-yvelines/",
+    "date": "2026-09-29",
+    "date_iso": "2026-09-29T15:44:21+00:00",
+    "resume": "Ce mardi 29 septembre, le mouvement national de blocage des lycées a provoqué des incidents dans plusieurs villes des Yvelines. Des débordements ont eu lieu à Mantes-la-Jolie, tandis que des feux de poubelles ont endommagé le portail du lycée Condorcet de Limay. Du côté de Poissy, des échaufourés et tirs de mortiers ont émaillé la matinée.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2024/03/1280-MLJ-lycee-rostand-menace-terroriste.jpg"
+  },
+  {
+    "source": "lagazettedescommunes.com",
+    "titre": "Communes populaires : des marges de manœuvre financières réduites",
+    "lien": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQm9KbjNGTklIc3Z5YnBwWW1XRTJZcnlhUDU4M1hYR01ZYVVMWERyUDNDS2ZsR25wTklZRnVaZS0yRXFLNWVvYXR5M1lVdGFzYzg5c1Z2Z2hhTF9EcUwxSy1IUEdGUDFQbzdjNEJtRGFlbGRxLV9UY09yNUZBZlBDeGV1RnlQbkg0UE5IMWhuaWxqNjNPTXJXTXgxREE3R09HWjVHbUNXWkNieGZCSFZZaXBlcXhDYzJYYWtWeFlNV2JzWDhsbmtNRHl1XzZITTdSQ2JiTEp3R252T0Vacm5uWXZxRTRTSktUOXUxa1VPcGhKVEtMejdTTlR6U0ttbmMwLXFvM0xEbVQ?oc=5",
+    "date": "2026-09-29",
+    "date_iso": "2026-09-29T15:14:12+00:00",
+    "resume": "Communes populaires : des marges de manœuvre financières réduites  lagazettedescommunes.com",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-gazettecommunes",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Le tribunal valide l'élection de Raphaël Prats à Conflans-Sainte-Honorine",
     "lien": "https://tr78.fr/2026/09/29/le-tribunal-valide-lelection-de-raphael-prats-a-conflans-sainte-honorine/",
     "date": "2026-09-29",
