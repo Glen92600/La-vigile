@@ -1560,56 +1560,5 @@
     "source_id": "chanteloup-google2",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Un nouvel espace de stockage pour le Relais Val de Seine de Chanteloup-les-Vignes",
-    "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMERmY2k1QjFHTUNPcWRRWU5WTkd6WWVudGs4SkRqNjR4R1lnMXlCLWVLSmhHT2ppT3E4VGRvLWE1WFVzV0VkMzNHUE1WRFZMajJiWWc1QTVna01fT1duVnZ1b1FYTmd0aWJSei1yUXFrakIyX0lONUlXR2hqZFFiTjRlT0NPWUVTUXdwRU1faHoyTDh0aVI0SW9iZWRVVE0tVWVWOXRfNHFhM0xzcFY5Q0w5Q0ljTzEyQ0ZPOGNxZXo?oc=5",
-    "date": "2026-09-01",
-    "date_iso": "2026-09-01T14:22:42+00:00",
-    "resume": "Un nouvel espace de stockage pour le Relais Val de Seine de Chanteloup-les-Vignes  La Gazette en Yvelines",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Sortir à Paris",
-    "titre": "Que faire dans les Yvelines pour la Fête de la Science 2026 ? Le programme dans le 78",
-    "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSlNfeHdBaVFZMXZOYmRxQ19Lb3NOemxwajE5a3M1OWkzYjgxa2UwYXZQYnQyR1Y4dndJRzkxN01adjY2SnJ3b05EVDBaUjhmVVE2aDFLRjR2VFFENmlmV1IyU2ZMYnlwU2ZqR2lWdlE4enpaQ0ZhWUM5Z3RqVHpZMjdjYjBrVS1GUUVxLUp5dWRYR2daVnNVSENhZVBIQWtpR0Y0VlRuUmJhMWJiMkdPcXJqcnVxVnI0N2JDWW80b3NobGdDUEhaUGVvTE5kd3lMY0JCaFRpb0I?oc=5",
-    "date": "2026-09-01",
-    "date_iso": "2026-09-01T07:00:00+00:00",
-    "resume": "Que faire dans les Yvelines pour la Fête de la Science 2026 ? Le programme dans le 78  Sortir à Paris",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "tr78.fr",
-    "titre": "7 nouveaux commerçants en deux ans, comment cette commune des Yvelines redynamise son centre-ville",
-    "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTUotUEdrVnpOdXJ0Yy10cXBqQ3h6TGx0ZEZXTkIyYmN5bHROOTN2R3k5Wkc2UFR0RzkzdkJfcXVsUmhNTTVFVmlLbndwd0xSZVR0bTBXU1ItOXdPQUEwVEJMQmE5T0xla2RNaU5UekJmelpqU3FGaHdJd3EwQWJCdnVXT01RM2lTazY0MjBLMFFBcEZ4WHBOdU9zNFdMVDE0M1FFQXduUHhRNUJDNkwxNW0zRUI3U1Q1SVRmWkloRjZRVlk?oc=5",
-    "date": "2026-09-01",
-    "date_iso": "2026-09-01T07:00:00+00:00",
-    "resume": "7 nouveaux commerçants en deux ans, comment cette commune des Yvelines redynamise son centre-ville  tr78.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Ligne J : pas de train en soirée entre Paris et Mantes-la-Jolie jusqu'au vendredi 4 septembre",
-    "lien": "https://tr78.fr/2026/09/01/ligne-j-pas-de-train-en-soiree-entre-paris-et-mantes-la-jolie-jusquau-vendredi-4-septembre/",
-    "date": "2026-09-01",
-    "date_iso": "2026-09-01T06:10:51+00:00",
-    "resume": "Depuis le mardi 1er et jusqu'au vendredi 4 septembre, la circulation de la ligne J est perturbée entre les gares de Mantes-la-Jolie et Paris-Saint-Lazare. La raison ?  Des travaux de modernisation des infrastructures ferroviaires.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2025/12/1280-illustration-train-ligne-J-direction-mantes-gare-poissy-nuit.jpg"
   }
 ]
