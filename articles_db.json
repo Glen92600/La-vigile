@@ -62,6 +62,19 @@
     "img_checked": true
   },
   {
+    "source": "Ouest-France",
+    "titre": "F.C. À L'ANCIENNE - CHANTELOUP LES V. US en direct",
+    "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSUpZeFJDZzQ4aE1KUUYxVHRvak9Zc2RFNXBzb2lkZUNBd25zaGI5b0c1MWhRS0h5ZF9tdnVURzNpbHJhZjFHNEVmSWoyLXZ6NDJIOEh4U3BZVVNxTkJXSEdUSUZBRWNjdC1xMUtCazdNUnpGVmxyQWo0RlFvWDNZM0d4WG1lZnV4c0ZjMlVva2t5ZFJlbDJmdHdlYWlrc2VPb2I0bWdoMG5aekFnXy00Wk9ST3dxZ2lCR2c?oc=5",
+    "date": "2026-10-01",
+    "date_iso": "2026-10-01T21:36:15+00:00",
+    "resume": "F.C. À L'ANCIENNE - CHANTELOUP LES V. US en direct  Ouest-France",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-ouestfrance",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Le sénateur des Yvelines Gérard Larcher réélu président du Sénat",
     "lien": "https://tr78.fr/2026/10/01/le-senateur-des-yvelines-gerard-larcher-reelu-president-du-senat/",
