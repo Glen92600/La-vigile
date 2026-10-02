@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Les salariés de l'usine Stellantis de Poissy au chômage technique pendant cinq jours",
+    "lien": "https://tr78.fr/2026/10/02/les-salaries-de-lusine-stellantis-a-poissy-de-nouveau-au-chomage-technique-cinq-jours/",
+    "date": "2026-10-02",
+    "date_iso": "2026-10-02T16:00:32+00:00",
+    "resume": "Dans un communiqué, le groupe Stellantis a annoncé l'arrêt temporaire de production de quatre usines fin octobre, dont celle de Poissy. Les salariés seront mis au chômage technique du 19 au 23 octobre.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2023/01/Stellantis.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "La communauté urbaine lance un programme pour aider les entreprises dans leur transition écologique",
     "lien": "https://tr78.fr/2026/10/02/la-communaute-urbaine-lance-un-programme-pour-aider-les-entreprises-dans-leur-transition-ecologique/",
     "date": "2026-10-02",
