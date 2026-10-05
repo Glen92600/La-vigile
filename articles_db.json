@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "80 personnes relogées et 26 blessés après un incendie dans un immeuble",
+    "lien": "https://tr78.fr/2026/10/05/80-personnes-relogees-et-26-blesses-apres-un-incendie-dans-un-immeuble/",
+    "date": "2026-10-05",
+    "date_iso": "2026-10-05T13:01:35+00:00",
+    "resume": "Un feu a ravagé deux appartements d'un immeuble de Carrières-sur-Seine le dimanche 4 octobre au soir. Douze personnes ont dû être transportées par les secours, 80 autres se sont retrouvées sans toit pour la nuit.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/10/IncendieCarrieres.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Malgré la fermeture, le collectif Sauvons la Poste de Gassicourt ne lâche rien",
     "lien": "https://tr78.fr/2026/10/05/malgre-la-fermeture-le-collectif-sauvons-la-poste-de-gassicourt-ne-lache-rien/",
     "date": "2026-10-05",
