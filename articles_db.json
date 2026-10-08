@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Coup de tonnerre à Poissy : le tribunal annule l'élection municipale",
+    "lien": "https://tr78.fr/2026/10/08/coup-de-tonnerre-a-poissy-le-tribunal-annule-lelection-municipale/",
+    "date": "2026-10-08",
+    "date_iso": "2026-10-08T12:14:16+00:00",
+    "resume": "Le Tribunal administratif de Versailles a donné raison à Mathieu Paranthoën, candidat divers gauche qui avait déposé un recours juste après l'élection pour des « manœuvres frauduleuses » d'un autre candidat, Maxime Legrand.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/03/1280-VDS-elections-municipales-2026-depouillement-premier-tour-e1791461723251.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Circulation, stationnement... Ce qu'il faut savoir avant l'Ironman Versailles de ce dimanche",
     "lien": "https://tr78.fr/2026/10/07/circulation-stationnement-ce-quil-faut-savoir-avant-lironman-versailles-de-ce-dimanche/",
     "date": "2026-10-07",
