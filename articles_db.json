@@ -1,5 +1,18 @@
 [
   {
+    "source": "Ouest-France",
+    "titre": "BONNIERES FRENEUSE - CHANTELOUP LES V. US 10-1",
+    "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRnlySTFmRVpxcGZHTWE3dDdUSFFPOFR2dXl6Ymg3WVNCWWhxVVU1a3BkXzJpblFqNzRUOGtVMktsUXJFYVZmMnRWMlVWcWZVYjVPS0w0ZmlsVG4yWENBX3UxY1Fidk85ZVQ0eFp1eDlVWjZSM3lkdUp4QU11eHVzcjJHM3FSV1V2R1hjcEF1MTZTQUhjMm1RX0E3Yjd3Y3pxM1UzcDQyT3BKWld4OFh3dDhPNl92cG5ZZC01X2NLLV94QQ?oc=5",
+    "date": "2026-10-11",
+    "date_iso": "2026-10-11T19:23:32+00:00",
+    "resume": "BONNIERES FRENEUSE - CHANTELOUP LES V. US 10-1  Ouest-France",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-ouestfrance",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Achères veut transformer son ancienne carrière en ferme solaire et invite ses habitants à investir",
     "lien": "https://tr78.fr/2026/10/11/acheres-veut-transformer-son-ancienne-carriere-en-ferme-solaire-et-invite-ses-habitants-a-investir/",
@@ -47,6 +60,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/10/extrait-de-la-piece-et-dieu-crea-le-sport.jpg"
+  },
+  {
+    "source": "Ouest-France",
+    "titre": "POISSY FC - CHANTELOUP LES V. US en direct",
+    "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYll5TS1xTXNfNDRFQ0ZnS01uZWQtVktsYk1PWkRleGNYc00yQTgxLW5SVEZ6cVZOUVdwbGd1XzRudXpoenNwblhKMzQxZkZWUXFBT2RuZVNmdUM2a2UyaGRWV2ZZeWVBTWNuUUhXQkEzNGRoQTVIX0RUQWRZQVJWR3BsNzgwN3BDM3UzOFVSRlB3cWVDbEJZRmtUd0hnZzlqd2doUHdRVDY1VzBjVHNCbVRXN1hGdl9oaHhMNHpsU2k?oc=5",
+    "date": "2026-10-10",
+    "date_iso": "2026-10-10T07:16:25+00:00",
+    "resume": "POISSY FC - CHANTELOUP LES V. US en direct  Ouest-France",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-ouestfrance",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "Ouest-France",
@@ -1680,79 +1706,5 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/09/IMG_0054-scaled-e1789209639123.jpg"
-  },
-  {
-    "source": "GPSEO",
-    "titre": "Inauguration de la passerelle du Vieux Pont entre Mantes-la-Jolie et Limay",
-    "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV2g3Q1I5YmFJeDhzS1RreUJnVUcwY0NMUGJldUVnV2hRZXItNy1sclBfdWZKZzVnTXo1M3pqU2k0cWloUjdBZ3BKRC01TlI1cjBNMEVvRVNOSWxsWm5qX1l6ckZ2aFlJRDhnQ1Z6QWdnUmdOSjFJN1h6UGoxS2JGWkZDTzN6Tm5fc1Y2eGFZd2VCVWFwOTY1NWpYdUs?oc=5",
-    "date": "2026-09-11",
-    "date_iso": "2026-09-11T18:49:52+00:00",
-    "resume": "Inauguration de la passerelle du Vieux Pont entre Mantes-la-Jolie et Limay  GPSEO",
-    "categorie": "gpseo",
-    "sous_cat": "autre",
-    "source_id": "gpseo-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Accusé de harcèlement moral, le maire de Triel-sur-Seine finalement relaxé",
-    "lien": "https://tr78.fr/2026/09/11/accuse-de-harcelement-moral-le-maire-de-triel-sur-seine-finalement-relaxe/",
-    "date": "2026-09-11",
-    "date_iso": "2026-09-11T16:00:53+00:00",
-    "resume": "Accusé de harcèlement moral sur son ancienne collaboratrice, Cédric Aoun a été relaxé par le tribunal judiciaire de Versailles le 11 septembre.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/09/1280-Cedric-Aoun-municipales-2020-triel.jpg"
-  },
-  {
-    "source": "Actu.fr",
-    "titre": "La future maison des associations du Perray-en-Yvelines adopte des normes environnementales ambitieuses",
-    "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQSXlUV1c2S3BwelR5MDFaaGQxODZIYk80Y3U4UjB1eWUzMk82RDVlWUhIWEZOdFRaU0Joc3dCN2hwTV84WVVnRjFrLWl1bUhnWXpScF8tV1k5bTg0QVZVRDBtU1cyNXZtMVRjaDNhT0VQS2d1Ykg1MXRSNHUtMmJPWTZ5T3YyQ01tamllZ0I2aFNwd2djbHlhYnlYRXAtNGVWUWZyRkZxc1kwaWpIQTZiVEJxUWp2YUg3NjRrc2tXTkJpb2RIbkdWU0lTYnA5bVd6bVdGckNiTlBJNGxsclRxSVJNeFVtUmEtcE9iQ3JISjNfeGdsSTQ0R3k4T1RhTHAyMFNQZm9n?oc=5",
-    "date": "2026-09-11",
-    "date_iso": "2026-09-11T14:16:02+00:00",
-    "resume": "La future maison des associations du Perray-en-Yvelines adopte des normes environnementales ambitieuses  Actu.fr",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Des minibus autonomes dans les Yvelines en 2028 ?",
-    "lien": "https://tr78.fr/2026/09/11/des-minibus-autonomes-dans-les-yvelines-en-2028/",
-    "date": "2026-09-11",
-    "date_iso": "2026-09-11T13:01:45+00:00",
-    "resume": "Île-de-France Mobilités lance le premier projet régional de transport collectif avec des véhicules autonomes. Versailles Grand Parc et Saint-Quentin-en-Yvelines figurent parmi les territoires pionniers, avec un premier déploiement prévu début 2028 et une généralisation à l'horizon 2030.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/09/2c03a44a-18e9-4e99-ac8f-d92d616b02ba_navette-charle-de-gaulle.jpg"
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Les pompiers des Yvelines honorés pour leur mobilisation contre les feux de forêt cet été",
-    "lien": "https://tr78.fr/2026/09/11/les-pompiers-des-yvelines-honores-pour-leur-mobilisation-contre-les-feux-de-foret-cet-ete/",
-    "date": "2026-09-11",
-    "date_iso": "2026-09-11T10:00:11+00:00",
-    "resume": "Cet été, des sapeurs-pompiers des Yvelines ont quitté leur département pour combattre les grands feux de forêt qui ont frappé la Gironde, les Landes, le Var et la forêt de Fontainebleau. Mercredi 9 septembre, ils ont été reçus à la Préfecture pour une cérémonie de remerciements en leur honneur.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/09/759479834_4288643814780229_6292174052688434099_n.jpg"
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Travaux à Poissy : des parents d'élèves lancent une pétition pour « protéger la scolarité des lycéens »",
-    "lien": "https://tr78.fr/2026/09/11/travaux-a-poissy-des-parents-deleves-lancent-une-petition-pour-proteger-la-scolarite-des-lyceens/",
-    "date": "2026-09-11",
-    "date_iso": "2026-09-11T06:30:55+00:00",
-    "resume": "Les travaux qui paralysent Poissy en cette rentrée ne font pas que gêner les automobilistes : ils perturbent aussi la scolarité des lycéens, selon des parents d’élèves. Une pétition adressée à la Mairie et aux autorités de transport a déjà recueilli plus de 600 signatures.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2023/11/1280-Travaux-tram-poissy-credits-ville.jpg"
   }
 ]
