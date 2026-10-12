@@ -1,5 +1,17 @@
 [
   {
+    "source": "La Gazette en Yvelines",
+    "titre": "Coupe de Paris IDF : quatre clubs yvelinois passent le cap du 2e tour",
+    "lien": "https://tr78.fr/2026/10/12/coupe-de-paris-idf-quatre-clubs-yvelinois-passent-le-cap-du-2e-tour/",
+    "date": "2026-10-12",
+    "date_iso": "2026-10-12T10:05:54+00:00",
+    "resume": "Quatre des six clubs des Yvelines engagés ce week-end ont validé leur billet pour le prochain tour de la Coupe de Paris IDF. Seule l’équipe 3 du FC Versailles a chuté face à Brétigny.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2025/05/1280-football-but-FCMantois.jpg"
+  },
+  {
     "source": "Actu.fr",
     "titre": "« Circulation, stationnement, sécurité routière » : les habitants de Houilles vont pouvoir proposer leurs idées",
     "lien": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUUZWdTZRSWZXZlV4VHZ0THRlV0s2dzZLSWxGbzF1cjI0S0dNRm9ZV3ZrMzhzcV80bFYxaFV0dFR0SG8yTUpKX29VWTM2T3duejJ4NXNPUlMxRUJYTXdza2tYOTRpQ2x3T2JERnlnbjlxLWJBYU1YMHEybUhFd0FGX3BubmxwbHZxMjAzWmJRekF0X1Y5Mm9FSWdWbXFTYlUzYVNxbnRqTTUtN2VmSFZPZG9sM3RRMHVTOGJHalk5RnR3SDI3V3hCeWNkTG9ZQlV4REFSZDlQZEJLWWdIZjRZUFhtNWRTMTdXWThDd05uNFNjZklh?oc=5",
@@ -23,6 +35,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/10/csm_20241123_Centre_Ville-Collegiale-Medievale_de_Mantes-Foire_aux_Oignons-007_d8c41efbc5.jpg"
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "« Une instruction qui n’a pas instruit » : l’oncle de Sefa, mort dans une collision avec la police à Élancourt, fait appel du non-lieu",
+    "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxObE5NUnFuOWtuYW9CcXVJMTBuaHJ2enhQeHNKNTZTbUlXNmtPLVhyVWYwN1g0R2p2WnJUVDhDOTJwaTNoSTRINU5fSHduSFNwcW01eFRfYVhmWnZuRnJMZnYtbmhyemFBWEJtcllsTldFdUluRk5LVEZoeGctVkV2dlZGYXhRQmxiYkxpZnJySWhFRy1WZjM2UTlOMldsMjFIQ0N1dG4tQmJrck5yZVJQd1lFWFF6SkVaZHEzdzYtRUZsMkkyYmlYczlzRFRTWHZWNFlSWUxPdkJJbko4c2RSTlVwMUtaNXN1WjJhT19ZaUdsRXJEcTZ1OGVmd1dFa0IxTjJGbm9iMmpMQW55M2R0b0ZYZWlQWFd0c2QzVg?oc=5",
+    "date": "2026-10-11",
+    "date_iso": "2026-10-11T22:46:34+00:00",
+    "resume": "« Une instruction qui n’a pas instruit » : l’oncle de Sefa, mort dans une collision avec la police à Élancourt, fait appel du non-lieu  Le Parisien",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "Ouest-France",
