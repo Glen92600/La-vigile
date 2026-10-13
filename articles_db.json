@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Cette tour en béton de 90 mètres sera démolie ce jeudi",
+    "lien": "https://tr78.fr/2026/10/13/cette-tour-en-beton-de-90-metres-sera-demolie-ce-jeudi/",
+    "date": "2026-10-13",
+    "date_iso": "2026-10-13T16:01:58+00:00",
+    "resume": "Heidelberg Materials procèdera ce 15 octobre à la démolition par foudroyage contrôlé de sa tour de préchauffage, à 11 h, sur le site industriel de Gargenville. Un périmètre de sécurité de 200 mètres sera installé et la navigation sur la Seine sera temporairement interrompue.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/10/gargenville051-scaled.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Une cérémonie en grande pompe pour la prise de commandement du capitaine Ksouri",
     "lien": "https://tr78.fr/2026/10/13/une-ceremonie-en-grande-pompe-pour-la-prise-de-commandement-du-capitaine-ksouri/",
     "date": "2026-10-13",
@@ -287,6 +299,32 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2022/06/1280-web-Meulan-CHIMM-entree-hopital.jpg"
+  },
+  {
+    "source": "Conseil départemental des Yvelines",
+    "titre": "Mobilités, routes et transports : le Département aux Universités des Mairies de l’Ouest Parisien",
+    "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeU5RbVlSUzZPalZIcmNWQzZ2dXEtb00zY1p0Y1NDYkFBYkdtZkU2MXYybXJkaVRMZjB5TzJVUll3WXk1VlV1Z1diWVBfNUFkRk5LSTlkYmt4SUYwTHFkQjhnWUlRdFVzQU5YaExuX3ZTS01WTzIzaXFvZU5ORENqOGVUdkJWdGZEN0JRb1ZzcVZOWWh6RzFHcWVmNF9OaDdXcGVKMEUwUjlPcGlqRWpNTDdRc2RIcnFzZzJ4Wi1tZ2NRTDVoeXoydWI5Z2pQQ0JPVHhWRElGMnlzUkFM?oc=5",
+    "date": "2026-10-09",
+    "date_iso": "2026-10-09T09:42:17+00:00",
+    "resume": "Mobilités, routes et transports : le Département aux Universités des Mairies de l’Ouest Parisien  Conseil départemental des Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Conseil départemental des Yvelines",
+    "titre": "À Coignières, le Département inaugure le nouveau collège La Mare aux Saules",
+    "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGo1UGF0WEc4RDdReVFPR2JSa2VZY1pvTktGeFRMVlctcDFmeHJ6OW1kR1VacERXVGRUWnhnN3Y5ZTJQSDBOU24wQkVLSXoyMXVJbVFSMHN1Z0tWWDdDUHZvTzJPeElCZFpIWUlWX3JuSEpzUlg4cVhtd2J5LWhzYlZKZmI0N1Q4T2ZjR1VpbWhCM1kxN0VhZVVfTVFILV9BM1lzajlOZ0RuYXpmbkEwOUJ2YUVnTXp6Q0FfUQ?oc=5",
+    "date": "2026-10-09",
+    "date_iso": "2026-10-09T08:31:10+00:00",
+    "resume": "À Coignières, le Département inaugure le nouveau collège La Mare aux Saules  Conseil départemental des Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "La Gazette en Yvelines",
