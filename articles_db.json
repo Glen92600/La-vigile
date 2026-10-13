@@ -1770,29 +1770,5 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Incendie dans un tunnel de l'A13 : une femme enceinte et son enfant périssent dans les flammes",
-    "lien": "https://tr78.fr/2026/09/12/incendie-dans-un-tunnel-de-la13-une-femme-enceinte-et-son-enfant-perissent-dans-les-flammes/",
-    "date": "2026-09-12",
-    "date_iso": "2026-09-12T20:42:39+00:00",
-    "resume": "Un accident s'est produit dans un tunnel de l'A13 au niveau de Mantes-la-Ville en fin d'après-midi le 12 septembre. Une voiture s'est embrasée et deux de ses occupants, une femme enceinte de 9 mois et un enfant de deux ans, ont péri.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2022/06/1280-Logo-pompiers-Yvelienes-Incendie.jpg"
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Le Vieux Pont de Limay devient une passerelle piétonne",
-    "lien": "https://tr78.fr/2026/09/12/le-vieux-pont-de-limay-devient-une-passerelle-pietonne/",
-    "date": "2026-09-12",
-    "date_iso": "2026-09-12T10:39:54+00:00",
-    "resume": "À l'occasion de l'inauguration de la passerelle piétonne et cyclable qui relie désormais Limay à Mantes-la-Jolie, le vendredi 11 septembre, élus, architectes et habitants ont célébré à la fois un exploit technique, un acte patrimonial et un symbole : celui d'un territoire qui construit des ponts plutôt que des murs.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/09/IMG_0054-scaled-e1789209639123.jpg"
   }
 ]
