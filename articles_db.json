@@ -1,5 +1,31 @@
 [
   {
+    "source": "InfosYvelines",
+    "titre": "Yvelines : un numéro pour signaler les problèmes de route",
+    "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iYU5VMjBKbnI5SW1FSk9QWkJjSHdoelNhNlg1TF9jTGN1QWUwWjc0QkFiakU5bTdxRkFpLW9mdS1ibzVHeVlzNXNIbXhvamhsY2pHcGJwclpCeVJBNkJlZ3hneTBucWlTU2dtanNRcDYzUVczTVBtUC0xN1I?oc=5",
+    "date": "2026-10-13",
+    "date_iso": "2026-10-13T10:46:05+00:00",
+    "resume": "Yvelines : un numéro pour signaler les problèmes de route  InfosYvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Conseil départemental des Yvelines",
+    "titre": "Allô Routes 78 : un nouveau service pour les usagers",
+    "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1ZNcXVDdm9iZ1hMMW1WaW43aUliU1dZM1ZPR2g4WkJXME9MZTBxeFRBSmlZNkY5YWRPV1JGcFNGa3JpZGRqd2lQUXU0eEtQNDlmSGJyeHJkdTd3QXhIUHdHa3dyV0QwdjlTejFaRHJkWndtQkVPVXdoNVdzeUJ3ZEFJVlAwZ3JlUFdHWHhFMUpTNEoyd2FwbEdIdURnVk9fWjF5aXVsOA?oc=5",
+    "date": "2026-10-13",
+    "date_iso": "2026-10-13T06:35:52+00:00",
+    "resume": "Allô Routes 78 : un nouveau service pour les usagers  Conseil départemental des Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Futur stade du PSG : le site de Poissy visité ce mardi, la décision approche",
     "lien": "https://tr78.fr/2026/10/13/futur-stade-du-psg-le-site-de-poissy-visite-ce-mardi-la-decision-approche/",
