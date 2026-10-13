@@ -1,5 +1,18 @@
 [
   {
+    "source": "Actu.fr",
+    "titre": "« Allô Routes 78 » : à quoi sert le nouveau numéro lancé pour les automobilistes des Yvelines ?",
+    "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaXExcjI0NW5DbGZLbFd3Ri1GNXdQMkFEOXFNYnJvaWFLOU4zVE12ZWZHOGN0UE5NblgyUlVHa05JU1pZNDZiaEVKanNrQXVmZlg4WHEwVU5SNEdmZG9tY1F0OXI3N1gzd1NBWWtaa3cxVlQxWFdXdkxidGdWLW5vSU5SM3NiRXVzWnZDYUJyWkl6TTgwVENiVkxHdlRmbzU0ZzdtdkpndnQtRkhzZ1pIQkdtb1o1RWpBZW1tUkJaRnpJUFU?oc=5",
+    "date": "2026-10-13",
+    "date_iso": "2026-10-13T17:16:02+00:00",
+    "resume": "« Allô Routes 78 » : à quoi sert le nouveau numéro lancé pour les automobilistes des Yvelines ?  Actu.fr",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Cette tour en béton de 90 mètres sera démolie ce jeudi",
     "lien": "https://tr78.fr/2026/10/13/cette-tour-en-beton-de-90-metres-sera-demolie-ce-jeudi/",
@@ -72,6 +85,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/10/ManifLycees-scaled.jpg"
+  },
+  {
+    "source": "Conseil départemental des Yvelines",
+    "titre": "Allô Routes 78",
+    "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95LU5nc1YwRTBXWFlOLVB6SnZIbk1JYVZ5VEpUdkhFLUNfNl96alpkMVYzNXY4RHBjS0c3d3cxRFRVMFNmM0VOb08takJoOG1WS21xZmxBYXlldFFoaGQ0?oc=5",
+    "date": "2026-10-12",
+    "date_iso": "2026-10-12T12:43:00+00:00",
+    "resume": "Allô Routes 78  Conseil départemental des Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "La Gazette en Yvelines",
