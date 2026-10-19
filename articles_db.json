@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Un minibus se renverse sur l’A13, sept blessés dont deux en urgence absolue",
+    "lien": "https://tr78.fr/2026/10/19/un-minibus-se-renverse-sur-la13-sept-blesses-dont-deux-en-urgence-absolue/",
+    "date": "2026-10-19",
+    "date_iso": "2026-10-19T12:01:47+00:00",
+    "resume": "Un minibus transportant onze personnes s’est renversé seul sur l’A13, dimanche 18 octobre au niveau de Blaru. Sept passagers sont blessés, dont deux en urgence absolue, et ont été conduits dans les hôpitaux de Mantes et de Beaujon.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2019/03/1280-voiture-pompiers-illustration-accident-Chanteloup.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "105 tonnes, 25 mètres : un transformateur géant pour alimenter 53 000 yvelinois en électricité",
     "lien": "https://tr78.fr/2026/10/19/105-tonnes-25-metres-un-transformateur-geant-pour-alimenter-53-000-yvelinois-en-electricite/",
     "date": "2026-10-19",
