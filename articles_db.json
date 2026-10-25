@@ -1672,56 +1672,5 @@
     "source_id": "chanteloup-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Y aura-t-il de nouvelles élections municipales à Poissy ?",
-    "lien": "https://tr78.fr/2026/09/24/y-aura-t-il-de-nouvelles-elections-municipales-a-poissy/",
-    "date": "2026-09-24",
-    "date_iso": "2026-09-24T16:30:14+00:00",
-    "resume": "Le tribunal administratif de Versailles étudiait le 24 septembre deux recours contre les élections municipales de mars dernier à Poissy. Dans l’un d’entre eux, le rapporteur public préconise une annulation du scrutin.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/09/Tribunal-Admnistratif-Versailles-scaled.jpeg"
-  },
-  {
-    "source": "Le Journal des Deux Rives",
-    "titre": "Projet Immobilier du Château du Faÿ",
-    "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS1NIUzFweFpGQnNBYlBtSUYzUWVEQUNqa0Q5ZVl0RjNwSDJIXzA0Rm9TZi1yZ09DZ3c2YkVBdVRGblh3aGJxQS1sd0FKQzJTS3lJbndRTWxpYjRMdy1SRmZaTU1NU1V4T3lRRDRWYlpLVVRnZXJqRDZobjhwZTRvZQ?oc=5",
-    "date": "2026-09-24",
-    "date_iso": "2026-09-24T07:00:00+00:00",
-    "resume": "Projet Immobilier du Château du Faÿ  Le Journal des Deux Rives",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Les services de l'État dans les Yvelines",
-    "titre": "Port du casque et équipement haute visibilité obligatoires pour les usagers d'EDPM sur la route",
-    "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV1lidmU4a2ZoUVRLVmVYV1V3STBDTlpxbldZVkxtTVZyWUktVTlreEhrNjNTdjZPQ192NWhpMHQxeDJiWGgyQV9fRHlqRmEtR1R6VjJ2LUJYTThYM09xckZJSm9yUDRtSWMyblB1RGZ1VkpNNkRtVEhPNUhLY2dPUkNMcUVCNG9OcU5TakhWY0lYM3pONFdYelg3WFpRamtmSl9Ia1h1dUlEOGhYUGl0V0g4WXgyR2JmRHRmUFJIYlh0S0ZqRGJoOVNQcWd1SUw0dzg5Ulo1YVRnR3NNS1l5dWJzbUowcUhGdE9CTnBLRQ?oc=5",
-    "date": "2026-09-24",
-    "date_iso": "2026-09-24T07:00:00+00:00",
-    "resume": "Port du casque et équipement haute visibilité obligatoires pour les usagers d'EDPM sur la route  Les services de l'État dans les Yvelines",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Actu.fr",
-    "titre": "Château reconverti en complexe hôtelier cinq étoiles : enquête publique pour trois villes des Yvelines",
-    "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONkRqNTFCWW9UUndpeXVrN1NEU2tqbG93NzdPWVludV9sUnl1Q3BpUUJwNG1mbW4tRWR2dDVUS3NfSGxOZ29oNjYwb2dBNmNlY1JfTThDU0JEUVN6MGtUaktBbGs3UktnMnNlY1ctejNVWXgxTVN1Ymd1Q3Flcmw3RFIzVWNWSEhud1d6eXprZ1ZOTkhFMTRQelRpcU1WazM5aWFkNFl3dFZBNUZQYTJMVm5uMGlZdWNqRy1JT2tFdlBGMmgyaHVCNmVPSDVadExNazBlbXNxcldPaUZPdjdNRXE4a0FPOE1ybHV1OXRMSGtwWW8?oc=5",
-    "date": "2026-09-24",
-    "date_iso": "2026-09-24T04:56:01+00:00",
-    "resume": "Château reconverti en complexe hôtelier cinq étoiles : enquête publique pour trois villes des Yvelines  Actu.fr",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
   }
 ]
