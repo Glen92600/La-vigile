@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Un parieur PMU remporte 154 764 € à Aubergenville",
+    "lien": "https://tr78.fr/2026/10/27/un-parieur-pmu-remporte-154-764-e-a-aubergenville/",
+    "date": "2026-10-27",
+    "date_iso": "2026-10-27T09:01:44+00:00",
+    "resume": "Un parieur a validé à Aubergenville un ticket de Quinté+ gagnant, dimanche 18 octobre, faisant de lui le deuxième « grand gagnant » PMU des Yvelines cette année.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/10/Enseigne-PMU-scaled.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "La réouverture de la piscine Aquabelle repoussé à septembre 2027",
     "lien": "https://tr78.fr/2026/10/26/la-reouverture-du-centre-aquatique-aquabelle-repousse-a-septembre-2027/",
     "date": "2026-10-26",
@@ -1493,6 +1505,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/09/825271453_1417528760356001_6059551375039707394_n.jpg"
+  },
+  {
+    "source": "Le Figaro",
+    "titre": "Résultats des élections municipales 2020 à Chanteloup-les-Vignes (78570) : tout ce qu’il faut savoir",
+    "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnl5RHc5S2VKT2NKcW4tWTN2R0k2NHRxb3BldlN6cTlOYm9wdngwM2hqS0NwTmxJU2xWeVE1NUZQdGhGd25WUWlQRDEtZDRUcVYxeEdiSmh6OVM3a01NX2JKLXFubFhmS1liWlFXcDk0NXJkcThJQkN6MURocHYyeU5mUkdpSTAxSUV0VTN5UFBzOU5FMWFtX2RIVzFEN0FndWc?oc=5",
+    "date": "2026-09-29",
+    "date_iso": "2026-09-29T07:00:00+00:00",
+    "resume": "Résultats des élections municipales 2020 à Chanteloup-les-Vignes (78570) : tout ce qu’il faut savoir  Le Figaro",
+    "categorie": "chanteloup",
+    "sous_cat": "politique",
+    "source_id": "presse-lefigaro",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "Actu.fr",
