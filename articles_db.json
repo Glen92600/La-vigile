@@ -1484,54 +1484,5 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2025/03/1280-police-vehicule-17-illustration.jpg"
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Depuis les Yvelines, le ministre de l'Éducation nationale répond aux lycéens",
-    "lien": "https://tr78.fr/2026/10/05/depuis-les-yvelines-le-ministre-de-leducation-nationale-repond-aux-lyceens/",
-    "date": "2026-10-05",
-    "date_iso": "2026-10-05T16:27:19+00:00",
-    "resume": "Après avoir rencontré de jeunes yvelinois au sein du lycée technologique de Villaroy de Guyancourt, le ministre de l'Éducation nationale, Édouard Geffray, a fait le point sur le mouvement lycéen et dévoilé la réponse du Gouvernement face aux revendications.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/IMG_0861-scaled.jpg"
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "80 personnes relogées et 26 blessés après un incendie dans un immeuble",
-    "lien": "https://tr78.fr/2026/10/05/80-personnes-relogees-et-26-blesses-apres-un-incendie-dans-un-immeuble/",
-    "date": "2026-10-05",
-    "date_iso": "2026-10-05T13:01:35+00:00",
-    "resume": "Un feu a ravagé deux appartements d'un immeuble de Carrières-sur-Seine le dimanche 4 octobre au soir. Douze personnes ont dû être transportées par les secours, 80 autres se sont retrouvées sans toit pour la nuit.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/IncendieCarrieres.jpg"
-  },
-  {
-    "source": "GPSEO",
-    "titre": "L'actualité du PLUi",
-    "lien": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyb0R2UGs4WGtoQ2hzdmdvd0Z0X2pidzBjV1REd01aMGxMS1FRTUN4cUphZ3UtbmxudGx1Rm4yeUQxUjNWR2RLWXJCM1o3eENUN1JBSV9n?oc=5",
-    "date": "2026-10-05",
-    "date_iso": "2026-10-05T07:00:00+00:00",
-    "resume": "L'actualité du PLUi  GPSEO",
-    "categorie": "gpseo",
-    "sous_cat": "autre",
-    "source_id": "gpseo-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Malgré la fermeture, le collectif Sauvons la Poste de Gassicourt ne lâche rien",
-    "lien": "https://tr78.fr/2026/10/05/malgre-la-fermeture-le-collectif-sauvons-la-poste-de-gassicourt-ne-lache-rien/",
-    "date": "2026-10-05",
-    "date_iso": "2026-10-05T06:01:52+00:00",
-    "resume": "Deux jours après la fermeture de la poste de Gassicourt, le samedi 3 octobre à Mantes-la-Jolie, les membres du collectif se sont rassemblés devant le rideau baissé pour dire qu'ils n'en resteraient pas là.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/IMG_0762-scaled.jpg"
   }
 ]
