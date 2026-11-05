@@ -1,6 +1,19 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Un camion mobile de La Poste pour venir en aide aux habitants",
+    "lien": "https://tr78.fr/2026/11/05/un-camion-mobile-de-la-poste-pour-venir-en-aide-aux-habitants/",
+    "date": "2026-11-05",
+    "date_iso": "2026-11-05T11:00:34+00:00",
+    "resume": "Avec la fermeture pour travaux de l'agence postale du centre-ville de Mantes-la-Jolie, les habitants ne disposaient plus que d'un seul bureau de poste. La Ville a annoncé le 4 novembre la présence d'un camion mobile rue Gambetta plusieurs jours du mois de novembre.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/08/2-Logo-TempsReel78-complet-light-1.png",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "C’est quoi « Le Vote Français », cette application plébiscitée par Karl Olive ?",
     "lien": "https://tr78.fr/2026/11/05/cest-quoi-le-vote-francais-cette-application-plebiscitee-par-karl-olive/",
     "date": "2026-11-05",
