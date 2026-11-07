@@ -135,6 +135,19 @@
     "image": "https://tr78.fr/wp-content/uploads/2026/11/GammVertMeulan.png"
   },
   {
+    "source": "InfosYvelines",
+    "titre": "Chanteloup-les-Vignes : que deviennent vos habits donnés ?",
+    "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFB6NkRiSzJQTks4M3pvWC1QT0VaN2FqREtvckNzdHE0cVF1dU45Q1A4MmlyeXZRSU4xLW5IMnEtUGo4LUR2Q1Fnb1FwODNDaktvT2c3T21WREhfYkRmbUF5N3RTeDl4S0tpX3ZnTHpnWlo4dldlMVdvT2RmZnFaVUlnR3hWbTY0TlhwRXRWbGM0VUlBYkNPRUFtcw?oc=5",
+    "date": "2026-11-04",
+    "date_iso": "2026-11-04T08:00:00+00:00",
+    "resume": "Chanteloup-les-Vignes : que deviennent vos habits donnés ?  InfosYvelines",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Trottinettes et vélos en libre-service : Achères consulte, Villennes prépare son déploiement",
     "lien": "https://tr78.fr/2026/11/04/trottinettes-et-velos-en-libre-service-acheres-consulte-villennes-prepare-son-deploiement/",
@@ -1472,79 +1485,5 @@
     "source_id": "chanteloup-gazettecommunes",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Circulation, stationnement... Ce qu'il faut savoir avant l'Ironman Versailles de ce dimanche",
-    "lien": "https://tr78.fr/2026/10/07/circulation-stationnement-ce-quil-faut-savoir-avant-lironman-versailles-de-ce-dimanche/",
-    "date": "2026-10-07",
-    "date_iso": "2026-10-07T16:01:13+00:00",
-    "resume": "Ce dimanche 11 octobre, 2 500 triathlètes prendront d'assaut Versailles et une dizaine de communes des Yvelines pour l'Ironman 70.3. Stationnement interdit depuis plusieurs jours, rues coupées dès 6h du matin, bus déviés toute la journée… Voici tout ce qu'il faut savoir pour anticiper.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/IMVE2026_homepage2.jpg.jpg"
-  },
-  {
-    "source": "Ouest-France",
-    "titre": "Chanteloup les Vignes US - Maisons-Laffitte Football Club 2-4",
-    "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSEtJck0waXV0dnZUakY1Ny00ZUhVa3BKbEE3QUI0UHJvMjM3QnpwcHR5ZmNQMF9oMHJfazBSMGtZWW9IQzNFVjlKZlJ4WnA1UDdNcW5xVy1VWWI1S0g3Rm9Dbk55QkxhV1pSdUstaTlqXzNFZU95NTRLcEh3ZlJxYzJHYTFPbnI4a0VzSjdOcTZ1N1RTd2Q3QWltOWVObUFibndHanczYWt1c1o5bkp6VGZ3U2F4bVpWUHc3NFJYN0czdXdNS25oOGp1b1QzS202SzFWVGNNbE91VnEwNXc?oc=5",
-    "date": "2026-10-07",
-    "date_iso": "2026-10-07T15:26:23+00:00",
-    "resume": "Chanteloup les Vignes US - Maisons-Laffitte Football Club 2-4  Ouest-France",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "presse-ouestfrance",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Hugues Aufray victime d'une tentative de cambriolage à son domicile des Yvelines",
-    "lien": "https://tr78.fr/2026/10/07/hugues-aufray-victime-dune-tentative-de-cambriolage-a-son-domicile-des-yvelines/",
-    "date": "2026-10-07",
-    "date_iso": "2026-10-07T14:01:26+00:00",
-    "resume": "Le chanteur de 97 ans a surpris deux individus qui s'étaient introduits à son domicile par une fenêtre ouverte, ce mercredi 7 octobre au matin.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/834013071_1649313046887142_1759989725954742060_n-e1791381261214.jpg"
-  },
-  {
-    "source": "MyPetition.org",
-    "titre": "Aidez-moi à faire avancer ce combat : Un ascenseur pour la gare de Chanteloup-les-Vignes",
-    "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb1FmY0pVU1hLd3FJazZfRi05N2x3STlMVWxVd283Y3czSGwyVTNZX01tV0NURGtFZnh5czNnZ0pDZHZwYlpvRmZfTXI5bkhYb3NIQkVuUDRQMjFscXlFSm5oSnJROGw3d2lMRWFBeTlIbEtBb2lTVEU1LWtLZ3hvWi1hWXpkZFY3WGc?oc=5",
-    "date": "2026-10-07",
-    "date_iso": "2026-10-07T12:15:57+00:00",
-    "resume": "Aidez-moi à faire avancer ce combat : Un ascenseur pour la gare de Chanteloup-les-Vignes  MyPetition.org",
-    "categorie": "chanteloup",
-    "sous_cat": "sante",
-    "source_id": "chanteloup-google2",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Yannick Noah donne son nom à la nouvelle halle de tennis-padel de Mantes-la-Jolie",
-    "lien": "https://tr78.fr/2026/10/07/yannick-noah-donne-son-nom-a-la-nouvelle-halle-de-tennis-padel-de-mantes-la-jolie/",
-    "date": "2026-10-07",
-    "date_iso": "2026-10-07T09:59:57+00:00",
-    "resume": "Inaugurée le mardi 6 octobre en présence de la légende du tennis français, la nouvelle halle de l'AS Mantaise, avec ses trois courts de tennis et deux pistes de padel, portera le nom de Yannick Noah.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/IMG_0881-scaled.jpg"
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Le maire et le Département concluent un accord pour laisser le pont de Triel-sur-Seine en double sens",
-    "lien": "https://tr78.fr/2026/10/07/le-maire-et-le-departement-concluent-un-accord-pour-laisser-le-pont-de-triel-sur-seine-en-double-sens/",
-    "date": "2026-10-07",
-    "date_iso": "2026-10-07T06:00:13+00:00",
-    "resume": "Cédric Aoun a annoncé le 5 octobre s'être entendu avec le Département pour garder le pont de Triel-sur-Seine à double sens malgré son état préoccupant.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/10/Pont_de-Triel.jpg"
   }
 ]
