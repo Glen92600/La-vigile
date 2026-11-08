@@ -1483,43 +1483,5 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "HelloAsso",
-    "titre": "Appartement Zéro Déchet - Chanteloup-les-Vignes - 5 au 23/11/2026",
-    "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNOXg3R1hlbzlLSG1yQlNCR3lsVzhLbTY0UUdlbDhkdWlGbGFQSFh4bEt6dEtOVy1xamZnZ0dWMHhKamhkVElkTGhzZ3A5SzlMVV9sVHJpWk1EZzVWdGRVcy1YSVVtbzhGcTlEREtVQWtESnFIODBncHIySGhzenFVTmRrYU1JSXdhNVpUNER0T2ZUVFdiYUl0bUhqYU9TRF9NaEVraFE2M25Sbm9OTXNKaElQSlQ0ZXYwenpMLUVJaDk5dnRSNUdlSUNkeDBYRjU5bkMzX0VMLTFGcTFiSHdwMmtPc1dFMGdMb1RoMQ?oc=5",
-    "date": "2026-10-08",
-    "date_iso": "2026-10-08T17:00:39+00:00",
-    "resume": "Appartement Zéro Déchet - Chanteloup-les-Vignes - 5 au 23/11/2026  HelloAsso",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Coup de tonnerre à Poissy : le tribunal annule l'élection municipale",
-    "lien": "https://tr78.fr/2026/10/08/coup-de-tonnerre-a-poissy-le-tribunal-annule-lelection-municipale/",
-    "date": "2026-10-08",
-    "date_iso": "2026-10-08T12:14:16+00:00",
-    "resume": "Le Tribunal administratif de Versailles a donné raison à Mathieu Paranthoën, candidat divers gauche qui avait déposé un recours juste après l'élection pour des « manœuvres frauduleuses » d'un autre candidat, Maxime Legrand.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2026/03/1280-VDS-elections-municipales-2026-depouillement-premier-tour-e1791461723251.jpg"
-  },
-  {
-    "source": "La Gazette des Communes",
-    "titre": "Kevin Lelong",
-    "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkNvRmdmcjl4Z2dXM3llRHQ2VkRtZ25jWm9RSzZfTFhudGVYSFRjelk2cEhDaGdPY0F3VkJGdVNKVF85cFhxeEtUeHQ3dUY0S2NOZXZRVnA0ZTEyUEFsMUZqMUFyR19QUjJKdC0tbGxOWW50ZmdvSFBCRy1ta3NfQmlxbWFkeGFwTUI2WVluYjVvVU9wSjJj?oc=5",
-    "date": "2026-10-08",
-    "date_iso": "2026-10-08T12:12:00+00:00",
-    "resume": "Kevin Lelong  La Gazette des Communes",
-    "categorie": "chanteloup",
-    "sous_cat": "autre",
-    "source_id": "chanteloup-gazettecommunes",
-    "image": "",
-    "img_checked": true
   }
 ]
