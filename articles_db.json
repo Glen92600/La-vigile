@@ -1,5 +1,30 @@
 [
   {
+    "source": "La Gazette en Yvelines",
+    "titre": "La circulation interdite au croisement des rues Alsace et Chanzy de Mantes-la-Jolie",
+    "lien": "https://tr78.fr/2026/11/09/une-nouvelle-coupure-deau-dans-le-centre-ville-de-mantes-la-jolie/",
+    "date": "2026-11-09",
+    "date_iso": "2026-11-09T17:01:24+00:00",
+    "resume": "À la suite d’une fuite d’eau survenue dans le secteur des rues d’Alsace et Chanzy de Mantes-la-Jolie, une intervention a dû être menée le 7 novembre. La circulation est toujours interdite aux voitures.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/02/1280-VEI-Mantes-la-Jolie-Trou-rue-dAlsace.jpg"
+  },
+  {
+    "source": "Presse Agence",
+    "titre": "Yvelines : un numéro unique pour le réseau routier, Allô Routes 78",
+    "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXNNdEpXQW1lUFM4N3huaHJBZEZBQk5LUGRFZHZIWUcwMGxtQlg4LVNSUkdRWFV5UExpa193TFBaTGl4eXRnY3NlN0JHT3JsOG5jM25HNkRjV3l5NjBQYzd3bFI0cTY3QS01RnJQZGphaDh4OEVoakRZNFJDUlhfbHF3R2tYajVkZUlzQXNYOERWYUVXQ1BweHl0bFFubW5sVUREREFJdXF6aV80Nk1WZTlWRG1Odw?oc=5",
+    "date": "2026-11-09",
+    "date_iso": "2026-11-09T17:00:00+00:00",
+    "resume": "Yvelines : un numéro unique pour le réseau routier, Allô Routes 78  Presse Agence",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "InfosYvelines",
     "titre": "Chanteloup-les-Vignes : heurts avec la police après un rodéo",
     "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS09QVzdMWC1lWkxYU28zN1A2S1lmU3lpejIzcE43Ymh0ekJSYVdRTDdnOEtWMDZEb3ZXVkVraG9vaU50dmVjU2pCaUN3Zjh1OGQyeFJ0QTJKMklEcFBtWUItZncyX0dIWk5HeEVGSXphSWM3WHE1VEZvbmplWGEwaVRzazh6N0wyelBxVDJ5WF8wSWNtVHNj?oc=5",
