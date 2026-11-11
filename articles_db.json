@@ -1,6 +1,18 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "La statue du Poilu du cimetière de la Tournelle fait peau neuve",
+    "lien": "https://tr78.fr/2026/11/11/la-statue-du-poilu-du-cimetiere-de-la-tournelle-fait-peau-neuve/",
+    "date": "2026-11-11",
+    "date_iso": "2026-11-11T11:01:27+00:00",
+    "resume": "Rongée par des micro-organismes et des croûtes noires, la statue du Poilu du monument aux morts de Poissy a été restaurée en août par la conservatrice-restauratrice Célia Santi. Le calvaire en contrebas fait maintenant l’objet d’études, avant de nouveaux travaux.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2026/11/StatuePoissy.jpeg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Chanteloup-les-Vignes : la BAC piège trois individus venus récupérer une voiture volée",
     "lien": "https://tr78.fr/2026/11/11/chanteloup-les-vignes-la-bac-piege-trois-individus-venus-recuperer-une-voiture-volee/",
     "date": "2026-11-11",
@@ -10,6 +22,19 @@
     "sous_cat": "securite",
     "source_id": "chanteloup-gazette",
     "image": "https://tr78.fr/wp-content/uploads/2025/03/1280-police-vehicule-17-illustration.jpg"
+  },
+  {
+    "source": "La Gazette en Yvelines",
+    "titre": "Un forum des métiers regroupant l'Armée de l'air, la police et les pompiers à Rosny-sur-Seine",
+    "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUzBrbzlNY0h2LUVWeC1QQ1RMV0hmV0xuQ1M2cUQ1LWpCZlIwXzFaSGNlQ1ZOTDctZlgzUUlmMDdYQmZwVFFtblZFRk03TDcxd2h6ZWJhbkhaWjU0Y1cxalRpMUYwYkpHTXVYSGlRQ0wxN1hfR2VQMldFZm01cTYxa3FMMWs3WTJoczhkVDFzdzhhX3pQdEk0bmlCcmVrSkRoaVdQYzhPbDV0WWszckhZeHBBUDFjSFot?oc=5",
+    "date": "2026-11-10",
+    "date_iso": "2026-11-10T16:24:56+00:00",
+    "resume": "Un forum des métiers regroupant l'Armée de l'air, la police et les pompiers à Rosny-sur-Seine  La Gazette en Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "laclepublique.fr",
