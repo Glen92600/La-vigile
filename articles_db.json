@@ -1,6 +1,31 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Une aide municipale pour les étudiants et apprentis mantais",
+    "lien": "https://tr78.fr/2026/11/12/une-aide-municipale-pour-les-etudiants-et-apprentis-mantais/",
+    "date": "2026-11-12",
+    "date_iso": "2026-11-12T11:01:02+00:00",
+    "resume": "La Ville de Mantes-la-Jolie renouvelle le dispositif Mantes + Étudiants, une bourse municipale pour les jeunes Mantais de 16 à 25 ans, boursiers ou apprentis. Les dossiers pour 2026-2027 sont à déposer du 16 novembre au 18 décembre.",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "gazette-yvelines",
+    "image": "https://tr78.fr/wp-content/uploads/2022/02/1280-web-Mantes-la-Jolie-MLJ-hotel-de-ville-mairie-2.jpg"
+  },
+  {
+    "source": "Le Parisien",
+    "titre": "Faux livreurs, séquestrations, menaces de tortures... La bande de Chanteloup-les-Vignes, soupçonnée de cryptorapts",
+    "lien": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOc2Fqb1F0aWdEaTJzZ2NTY3h6ZDNDV1JJSXRoR1BTM2FDN1c1ZWJneWJYeGRuNnVuWHhiUXJ5dWhFU2hhQTU0X0QtZ1JPV1lDRkVXSnh4Y1ZhQ19JOWRvcWxaN0pDWno3R1laWk5za1NTLTNWemhDZnl5bm9mTDREWXhhYXpocktJaU5taGdCQk9qcm1SOTRHQzR3SzdxWFhkUUxHTkFiZVNwaDBRUlM5SlBWRjkzWVAzVUphRk9WajMwY2RGMFRISnl1b0hydzBFQWx6QVBDUFhrNmIzM1hZSGkwajFSTjlmeUgzX3l0dTIxbWhaZWFpNFRoT0ZWRVlWamZDdVJ6VmtpVlg0c1NYMWJZZDRJTC1I?oc=5",
+    "date": "2026-11-12",
+    "date_iso": "2026-11-12T10:43:32+00:00",
+    "resume": "Faux livreurs, séquestrations, menaces de tortures... La bande de Chanteloup-les-Vignes, soupçonnée de cryptorapts  Le Parisien",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Après un an et demi de travaux, la gare de Poissy est prête pour l’arrivée du RER E",
     "lien": "https://tr78.fr/2026/11/12/apres-un-an-et-demi-de-travaux-la-gare-de-poissy-est-prete-pour-larrivee-du-rer-e/",
     "date": "2026-11-12",
