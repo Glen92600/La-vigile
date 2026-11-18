@@ -1,5 +1,31 @@
 [
   {
+    "source": "InfosYvelines",
+    "titre": "Mantes-la-Jolie : la rue de Lorraine fermée depuis le 18 novembre pour un chantier de 77 logements",
+    "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcDRQMlZ2SGpyYnZOV2FnTUthZktORHFsY0Vod0RLM0RGU01CWnNtSmliZU55dm1EMjZjbTJ3YjhsYVZZM1hEVG5oOG5RbEtGM2c0ek9nMmdWeC1La21rMUdqekNTQ2tqeHVqQzBuWTViUEF2c0o2YWYwMjF6N2NCY0JaaFZYeFB6Xzc3d3dsM0F5RFhfcnc?oc=5",
+    "date": "2026-11-18",
+    "date_iso": "2026-11-18T14:58:11+00:00",
+    "resume": "Mantes-la-Jolie : la rue de Lorraine fermée depuis le 18 novembre pour un chantier de 77 logements  InfosYvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "Conseil départemental des Yvelines",
+    "titre": "Viabilité hivernale : le Département des Yvelines mobilisé pour la sécurité de vos trajets",
+    "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSU5jRC1nbDVPdDZIZFY2SGVVVEdQSktlX2wydnAzRkd2RnNtaVlwejRWTElSVmpHLUtjeXU0MGhySzRPT2NGSloza1FCV3lnRmxERXZKTGxQRFZZc1VWbXcyNlhtVmxOM295M0JVbWdMdm9SQWVRT1k4cjREMmg0V0E4dk5yMF9VWURVX0VXNXluTlRuNzZSNmg5MjJRSDhfR3NTQnYzbnhScVUxc1FaUXdwRDVCSi14OERrUFhOZ2pvTkVVclkwX0R1dXFNX0ZCb1dMSlhwSWV1QQ?oc=5",
+    "date": "2026-11-18",
+    "date_iso": "2026-11-18T14:52:50+00:00",
+    "resume": "Viabilité hivernale : le Département des Yvelines mobilisé pour la sécurité de vos trajets  Conseil départemental des Yvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Avec Mantes Games, trois jours de jeux vidéo et d’e-sport aux gymnases Camus et Lacan",
     "lien": "https://tr78.fr/2026/11/18/avec-mantes-games-trois-jours-de-jeux-video-et-de-sport-aux-gymnases-camus-et-lacan/",
@@ -48,6 +74,19 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2026/11/csm_Laposte-nov2026_6e56b1bafe.jpg"
+  },
+  {
+    "source": "InfosYvelines",
+    "titre": "Rue Léon-Désoyer, encombrants, emploi : le récap du matin",
+    "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcG5EdzUyV2ktVEhxQ3FvNnRCM0JCbC1fMFVaYXdKQzU3SjJEOWV2ajVfelBqdjdWczQ1dmhfNG1iTGdzcTRCOTUtTlB3LU81OXNYT1ExNW9zY3hJdndHYzczLUpZUVA2Y0JCS3BhVzRpVFMyTExIR1VvbE4xT3MtdlVnR19LdnRvNzZz?oc=5",
+    "date": "2026-11-18",
+    "date_iso": "2026-11-18T08:51:18+00:00",
+    "resume": "Rue Léon-Désoyer, encombrants, emploi : le récap du matin  InfosYvelines",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
   },
   {
     "source": "La Gazette en Yvelines",
