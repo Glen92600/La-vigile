@@ -1053,6 +1053,19 @@
     "image": "https://tr78.fr/wp-content/uploads/2019/07/1280-web-Carrieres-sous-Poissy-hotel-de-ville-mairie.jpg"
   },
   {
+    "source": "Score'n'co",
+    "titre": "Chanteloup les Vignes US U13 Féminines - football",
+    "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOEs1THgzX096YUJlb01MQzBHZlpjNDNHVXhSVERIdXQxNGFhVWFOTFprZDRqYXg2aUYwdzVrM3IwYXRKbHp4UWhza0lfa2lqYXBPQ3Q2UGZaeDV1REc2RzZMNGdpbnMwV2N3X0RVZldFcXlfbXBHLV8wYVQyRUtGRVMtOA?oc=5",
+    "date": "2026-11-05",
+    "date_iso": "2026-11-05T01:20:23+00:00",
+    "resume": "Chanteloup les Vignes US U13 Féminines - football  Score'n'co",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "chanteloup-google2",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "Ouest-France",
     "titre": "BAILLY NOISY SFC - CHANTELOUP LES V. US 7-2",
     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM3JMOWtsMTVoX042b2hSNnduR3BBV3lzOXFkUWhlY2FvU0hxUGZRaFZDZmxpVEpCR0l4RGQwNE1UYzhwTmhTX2xFYkp2ckZsS3ptRlU1Wm4yYmNGV3YzVFhsUG5nNlJIdnZnODJ5dUF3cVI4WUxXYktfSUdSTlRRcFlITjduemdkSzNIQU5aQ0pGX05saEhrSmxzejhGRXFwZ2RZLXVVbnp1U0ZMbU0ybDRJMnMxRXFNSXc?oc=5",
@@ -1665,43 +1678,5 @@
     "sous_cat": "autre",
     "source_id": "gazette-yvelines",
     "image": "https://tr78.fr/wp-content/uploads/2018/01/1280-web-faits-divers-illustration-saisie-cigarettes-luky-strike-1.jpg"
-  },
-  {
-    "source": "Actu.fr",
-    "titre": "Affaissement du cimetière de Trappes : la direction des routes prend la défense des travaux de la RN10",
-    "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbjNtYXpuaEI0dG4yOEJDUGpFMldlNG5rd1hQOGhHZWlSX0U2bmIzYURDek5OdDZMa0IwYzBuUElpcGJMMVpKMUw5NjJocUN6eEh2aXkzWEFUendzeVlBZ0hSU2tUQ0gwY2tKRlFNRnFxV2Y2X1hoU3U3VE4zZmdDbFkwcnFaeVZmbFMyVXhoYjFweGUyS05FbG9FNWdxdlkwY1k4YTlhSUprVXZFa3BtUmJGOHpaS2VwaWRHTFlBU1VVY0psU3pxTHJJMUlaaXEyZVB1bTI2cTlhM3JfNmNncGg0eFBLaVVzY1Q1YzFEMA?oc=5",
-    "date": "2026-10-21",
-    "date_iso": "2026-10-21T10:15:23+00:00",
-    "resume": "Affaissement du cimetière de Trappes : la direction des routes prend la défense des travaux de la RN10  Actu.fr",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "Les services de l'État dans les Yvelines",
-    "titre": "Titres de séjour : nouvelles modalités de dépôt des demandes dans les Yvelines",
-    "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOENwVHNrcXpCSURyVnoyTEFXb3N4YTYyUTVhWVR6WVowcG9JT2V4UXctcFp2aHFCbGloMllmcHN5UC0yRTdTeER0VkFXWk16OUg0bUxBMVd2ckQwR1pHalExbVBNQ1hPNExtcnNETmYxU1dWaGduTDdwdU5Ld3JHcElCX3RZQ3dtMndZSUhRc01LNGFkcVZkWHR1SWdsb2RpLVctNGxrc2FJLTViZUNvR1JaNDR1ZUU?oc=5",
-    "date": "2026-10-21",
-    "date_iso": "2026-10-21T07:00:00+00:00",
-    "resume": "Titres de séjour : nouvelles modalités de dépôt des demandes dans les Yvelines  Les services de l'État dans les Yvelines",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Deux suspects en garde à vue après la découvert d’un cerf mort la tête sciée",
-    "lien": "https://tr78.fr/2026/10/21/deux-suspects-en-garde-a-vue-apres-la-decouvert-dun-cerf-mort-la-tete-sciee/",
-    "date": "2026-10-21",
-    "date_iso": "2026-10-21T06:01:29+00:00",
-    "resume": "Un cerf a été découvert mort le 19 septembre dernier dans un champ d’Hermeray, la tête sciée et emportée. Selon la gendarmerie des Yvelines, les suspects ont été identifiés, placés en garde à vue et convoqués en justice.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2017/09/1280-web-faits-divers-gendarmerie-nationale-insigne-e1792501205791.jpg"
   }
 ]
