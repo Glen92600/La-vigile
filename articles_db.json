@@ -955,6 +955,19 @@
     "image": "https://tr78.fr/wp-content/uploads/2026/11/DSC00490-scaled.jpg"
   },
   {
+    "source": "Ouest-France",
+    "titre": "VERNEUIL S/SEINE US - CHANTELOUP LES V. US 0-1",
+    "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdy1UTm9QaGhtTGFidHF2U1hFV0FfczY1MEp2T3lmeEM4Y1RrdjZNUEN0WEVzRWZKOVdGU0lRSDhnenU0Yl90Y2hzcERja3hPTjRxbElna3RzNGtLa043a1ZLeEV1N3JCSFhSZ2FUWVpmMjJ2TTNqX2xJUDEyc1Y0aTgtOW5tdE5HR3ByU3JZZ0lfYmdIM0FWTE4xQ3ZvYUVNdTNFRVVfV1c1dDdsMnlHS0xGYVpUaG95bkUxMQ?oc=5",
+    "date": "2026-11-08",
+    "date_iso": "2026-11-08T08:00:00+00:00",
+    "resume": "VERNEUIL S/SEINE US - CHANTELOUP LES V. US 0-1  Ouest-France",
+    "categorie": "chanteloup",
+    "sous_cat": "autre",
+    "source_id": "presse-ouestfrance",
+    "image": "",
+    "img_checked": true
+  },
+  {
     "source": "La Gazette en Yvelines",
     "titre": "Ligne J : quelques jours après leur reprise, des trains Paris-Conflans sont de nouveau retirés",
     "lien": "https://tr78.fr/2026/11/07/ligne-j-quelques-jours-apres-leur-reprise-des-trains-paris-conflans-sont-de-nouveau-retirees/",
@@ -1677,68 +1690,5 @@
     "source_id": "yvelines-google",
     "image": "",
     "img_checked": true
-  },
-  {
-    "source": "tv78",
-    "titre": "Tempête Austen : les Yvelines en vigilance orange, des perturbations attendues dans les transports",
-    "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWERLakJXSTdVcUlmTDFFTE5KeHZDTmRTQVpZbGdEV0hWdjV3dTZsdDV2ZERmdGlIYWpURXFZalNGc3FJNTAxS0xHNjNyWWVXWWpDUmZ4czd1U2JJYUdhU0Q4MS1qUllwLVRINVNxQ21TWWZ3SzVTU01vS0hmejZHY1ZMZ2Fpb01kUHk3bnE2WFZJN0FLclJpTjRybnpScHM4UGFxYjFwVktMVDVKd2JSc1E3TQ?oc=5",
-    "date": "2026-10-22",
-    "date_iso": "2026-10-22T22:32:15+00:00",
-    "resume": "Tempête Austen : les Yvelines en vigilance orange, des perturbations attendues dans les transports  tv78",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "ici (France Bleu)",
-    "titre": "Tempête Austen : toute l'Île-de-France concernée par une vigilance orange au vent, les transports fortement perturbés",
-    "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbHJqWF9odUpxMDludlpZSTlpRHhTdURscmxjQzlCT0dvZkNTYTVXZkt4OVV2SURBMGwycXVCT0p4RElReWNXOUFUS0FUTVd5alNWOE51SkpjelljMGRJUHFWOWVlbmY3Sk5oUkxfZHhabGxFOVpvUXRFU1ZCZDd6Vi1hYjZ5YXpJcjgwTDExaDNqRFJ6VmlMbHZ5V2x2R19PeWZoZzd4bGRMVm9yWUg2bm5JbTlGT1lGeWdCYXBoYjJUMGQ2WFZwcFdUd1MxeHZHZWk1OFF3SQ?oc=5",
-    "date": "2026-10-22",
-    "date_iso": "2026-10-22T16:09:48+00:00",
-    "resume": "Tempête Austen : toute l'Île-de-France concernée par une vigilance orange au vent, les transports fortement perturbés  ici.fr",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "yvelines-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Tour de France 2027 : chez les hommes comme chez les femmes, les Yvelines sont à l’honneur",
-    "lien": "https://tr78.fr/2026/10/22/tour-de-france-2027-chez-les-hommes-comme-chez-les-femmes-les-yvelines-sont-a-lhonneur/",
-    "date": "2026-10-22",
-    "date_iso": "2026-10-22T12:01:37+00:00",
-    "resume": "Les parcours des Tours de France 2027, masculin et féminin, ont été dévoilés ce jeudi 22 octobre. Le dimanche 25 juillet, la dernière étape des hommes partira de Saint-Quentin-en-Yvelines pour rejoindre les Champs-Élysées, et le mardi 3 août, la cinquième étape des femmes s’achèvera à Magnanville.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2020/09/1280-web-Mantes-la-Jolie-collegiale-ASO-Tour-de-France.jpg"
-  },
-  {
-    "source": "GPSEO",
-    "titre": "Le Plan Local d'Urbanisme intercommunal (PLUi)",
-    "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fNTA4cGRpUGJNZHozS0xmYjk0TGFMTFVrZXJORDd1QUNXa2Y0SVJPNEtIYVo4TDcxLU10WlRYMFktOE93REN4RXpXYkJVWjdWb2Rrc1BTT0FKa1kxem1hT3c0a1RCUXRwMFlLNE81amZ3MHJWSUpR?oc=5",
-    "date": "2026-10-22",
-    "date_iso": "2026-10-22T07:00:00+00:00",
-    "resume": "Le Plan Local d'Urbanisme intercommunal (PLUi)  GPSEO",
-    "categorie": "gpseo",
-    "sous_cat": "autre",
-    "source_id": "gpseo-google",
-    "image": "",
-    "img_checked": true
-  },
-  {
-    "source": "La Gazette en Yvelines",
-    "titre": "Des valises de cigarettes livrées dans des foyers : trois hommes interpellés dans les Yvelines",
-    "lien": "https://tr78.fr/2026/10/22/des-cartouches-de-cigarettes-livrees-en-valise-dans-des-foyers-trois-hommes-interpelles-dans-les-yvelines/",
-    "date": "2026-10-22",
-    "date_iso": "2026-10-22T06:01:10+00:00",
-    "resume": "Après plus d’un an d’enquête partie de Mantes-la-Jolie, la police a interpellé les 16 et 17 octobre trois hommes soupçonnés d’alimenter des foyers des Yvelines en cigarettes de contrebande. Selon des sources policières, le livreur a été arrêté à Élancourt avec 676 paquets de Marlboro dans sa voiture.",
-    "categorie": "yvelines",
-    "sous_cat": "autre",
-    "source_id": "gazette-yvelines",
-    "image": "https://tr78.fr/wp-content/uploads/2018/01/1280-web-faits-divers-illustration-saisie-cigarettes-luky-strike-1.jpg"
   }
 ]
