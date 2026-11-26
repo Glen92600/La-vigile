@@ -1,6 +1,31 @@
 [
   {
     "source": "La Gazette en Yvelines",
+    "titre": "Pourquoi cette rivière de Mantes-la-Ville a-t-elle viré au vert fluo ?",
+    "lien": "https://tr78.fr/2026/11/26/pourquoi-cette-riviere-de-mantes-la-ville-a-t-elle-vire-au-vert-fluo/",
+    "date": "2026-11-26",
+    "date_iso": "2026-11-26T13:01:02+00:00",
+    "resume": "Un produit a été déversé mercredi 25 novembre dans la Vaucouleurs, à Mantes-la-Ville, dans le secteur du Bas Domaine, colorant l'eau en vert fluo. Les pompiers et un agent de GPSEO sont intervenus, et la mairie assure que la situation est maîtrisée, sans danger pour la faune et la flore.",
+    "categorie": "gpseo",
+    "sous_cat": "autre",
+    "source_id": "gpseo-gazette78",
+    "image": "https://tr78.fr/wp-content/uploads/2026/11/VaucouleursVert-e1795687725337.jpeg"
+  },
+  {
+    "source": "tv78",
+    "titre": "Yvelines : ce chocolatier de Jouars-Pontchartrain récompensé pour son cacao transporté à la voile",
+    "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRkgwc1Z3MTNuOTV0OWFET1hUWThqTldHVkVPTFJ3bUMtam4yamxUWmZfRDlHTkh3NUNfa21vclpETVlHMUVydjB2c29kYlpPY3gzTHRBdHB2UEs0WG1QOVVXcEsyVEI1VmJ5SF9QczZGeTJKOVQxbDh4RC04ejh3ZzRHNGdyeWQ4S1pkb2dPMFNaVXo3cXMwenl2U1FUZ0JPNE54NVd5Z3gtaXRKdTNZN1owZw?oc=5",
+    "date": "2026-11-26",
+    "date_iso": "2026-11-26T12:17:38+00:00",
+    "resume": "Yvelines : ce chocolatier de Jouars-Pontchartrain récompensé pour son cacao transporté à la voile  tv78",
+    "categorie": "yvelines",
+    "sous_cat": "autre",
+    "source_id": "yvelines-google",
+    "image": "",
+    "img_checked": true
+  },
+  {
+    "source": "La Gazette en Yvelines",
     "titre": "Dans les Yvelines, les victimes de violences sexuelles peuvent désormais déposer des preuves à l’hôpital sans porter plainte",
     "lien": "https://tr78.fr/2026/11/26/dans-les-yvelines-les-victimes-de-violences-sexuelles-peuvent-desormais-deposer-des-preuves-a-lhopital-sans-porter-plainte/",
     "date": "2026-11-26",
